@@ -1,3 +1,4 @@
+3,Normal: Son of a...
 6,Level 10
 7,Level 20
 8,Level 30
@@ -140,7 +141,7 @@
 272,Torch Juggler
 273,On Metzen!
 275,Veteran Nanny
-277,Tis the Season
+277,'Tis the Season
 279,Simply Abominable
 281,First Aid skill
 283,The Masquerade
@@ -225,7 +226,7 @@
 426,Warglaives of Azzinoth
 428,Thunderfury, Blessed Blade of the Windseeker
 429,Sulfuras, Hand of Ragnaros
-430,Amani War Bear
+430,Red Amani War Bear
 431,Hand of A'dal
 432,Champion of the Naaru
 433,Grand Marshal
@@ -322,22 +323,22 @@
 559,Needy
 560,Deadliest Catch
 561,D.E.H.T.A's Little P.I.T.A.
-562,The Arachnid Quarter (Flex)
-563,The Arachnid Quarter (Flex Heroic)
-564,The Construct Quarter (Flex)
-565,The Construct Quarter (Flex Heroic)
-566,The Plague Quarter (Flex)
-567,The Plague Quarter (Flex Heroic)
-568,The Military Quarter (Flex)
-569,The Military Quarter (Flex Heroic)
-572,Sapphiron's Demise (Flex)
-573,Sapphiron's Demise (Flex Heroic)
-574,Kel'Thuzad's Defeat (Flex)
-575,Kel'Thuzad's Defeat (Flex Heroic)
-576,The Fall of Naxxramas (Flex)
-577,The Fall of Naxxramas (Flex Heroic)
-578,The Dedicated Few (Flex)
-579,The Dedicated Few (Flex Heroic)
+562,The Arachnid Quarter (Normal)
+563,The Arachnid Quarter (Heroic)
+564,The Construct Quarter (Normal)
+565,The Construct Quarter (Heroic)
+566,The Plague Quarter (Normal)
+567,The Plague Quarter (Heroic)
+568,The Military Quarter (Normal)
+569,The Military Quarter (Heroic)
+572,Sapphiron's Demise (Normal)
+573,Sapphiron's Demise (Heroic)
+574,Kel'Thuzad's Defeat (Normal)
+575,Kel'Thuzad's Defeat (Heroic)
+576,The Fall of Naxxramas (Normal)
+577,The Fall of Naxxramas (Heroic)
+578,The Dedicated Few (Normal)
+579,The Dedicated Few (Heroic)
 582,Alterac Valley All-Star
 583,Arathi Basin All-Star
 584,Arathi Basin Assassin
@@ -748,7 +749,7 @@
 1161,High Five: 2200
 1162,Hotter Streak
 1164,Everything Counts
-1165,My Sack is Gigantique"
+1165,My Sack is Gigantique""
 1166,To the Looter Go the Spoils
 1167,Master of Alterac Valley
 1168,Master of Alterac Valley
@@ -1115,10 +1116,10 @@
 1834,Lightning Struck
 1836,Old Crafty
 1837,Old Ironjaw
-1856,Make Quick Werk Of Him (Flex)
-1857,Make Quick Werk Of Him (Flex Heroic)
-1858,Arachnophobia (Flex)
-1859,Arachnophobia (Flex Heroic)
+1856,Make Quick Werk Of Him (Normal)
+1857,Make Quick Werk Of Him (Heroic)
+1858,Arachnophobia (Normal)
+1859,Arachnophobia (Heroic)
 1860,Gotta Go!
 1862,Volazj's Quick Demise
 1864,What the Eck?
@@ -1142,8 +1143,8 @@
 1958,I Smell A Giant Rat
 1976,Dalaran Cooking Awards gained
 1977,Dalaran Jewelcrafter's Tokens gained
-1996,The Safety Dance (Flex)
-1997,Momma Said Knock You Out (Flex)
+1996,The Safety Dance (Normal)
+1997,Momma Said Knock You Out (Normal)
 1998,Dalaran Cooking Award
 1999,10 Dalaran Cooking Awards
 2000,25 Dalaran Cooking Awards
@@ -1201,15 +1202,15 @@
 2136,Glory of the Hero
 2137,Glory of the Raider
 2138,Glory of the Raider
-2139,The Safety Dance (Flex Heroic)
-2140,Momma Said Knock You Out (Flex Heroic)
+2139,The Safety Dance (Heroic)
+2140,Momma Said Knock You Out (Heroic)
 2141,Stable Keeper
 2142,Filling Up The Barn
 2143,Leading the Cavalry
 2144,What A Long, Strange Trip It's Been
 2145,What A Long, Strange Trip It's Been
-2146,The Hundred Club (Flex)
-2147,The Hundred Club (Flex Heroic)
+2146,The Hundred Club (Normal)
+2147,The Hundred Club (Heroic)
 2148,Denyin' the Scion
 2149,Denyin' the Scion
 2150,Split Personality
@@ -1220,16 +1221,16 @@
 2155,Abuse the Ooze
 2156,My Girl Loves to Skadi All the Time
 2157,King's Bane
-2176,And They Would All Go Down Together (Flex)
-2177,And They Would All Go Down Together (Flex Heroic)
-2178,Shocking! (Flex)
-2179,Shocking! (Flex Heroic)
-2180,Subtraction (Flex)
-2181,Subtraction (Flex Heroic)
-2182,Spore Loser (Flex)
-2183,Spore Loser (Flex Heroic)
-2184,Just Can't Get Enough (Flex)
-2185,Just Can't Get Enough (Flex Heroic)
+2176,And They Would All Go Down Together (Normal)
+2177,And They Would All Go Down Together (Heroic)
+2178,Shocking! (Normal)
+2179,Shocking! (Heroic)
+2180,Subtraction (Normal)
+2181,Subtraction (Heroic)
+2182,Spore Loser (Normal)
+2183,Spore Loser (Heroic)
+2184,Just Can't Get Enough (Normal)
+2185,Just Can't Get Enough (Heroic)
 2186,Ascended: The Immortal (25 Player)
 2187,Ascended: The Undying (10 Player)
 2188,Leeeeeeeeeeeeeroy!
@@ -1514,7 +1515,7 @@
 3576,Now We're Cookin'
 3577,Now We're Cookin'
 3578,The Turkinator
-3579,FOOD FIGHT!"
+3579,FOOD FIGHT!""
 3580,Pilgrim's Peril
 3581,Pilgrim's Peril
 3582,Terokkar Turkey Time
@@ -1638,12 +1639,12 @@
 4396,Onyxia's Lair
 4397,Onyxia's Lair
 4400,WoW's 5th Anniversary
-4402,More Dots!
-4403,Many Whelps! Handle It!
-4404,She Deep Breaths More
-4405,More Dots!
-4406,Many Whelps! Handle It!
-4407,She Deep Breaths More
+4402,Normal: More Dots!
+4403,Normal: Many Whelps! Handle It!
+4404,Normal: She Deep Breaths More
+4405,Normal: Even More Dots!
+4406,Normal: To Many Whelps! Handle It!
+4407,Normal: She Deep Breaths A Lot More
 4436,BB King
 4437,BB King
 4456,Random Lich King (normal) dungeons completed
@@ -2156,7 +2157,7 @@
 5607,Too Close For Comfort
 5608,Who Let The Dogs Out
 5609,Crowd Control to Major-domo
-5610,Son of a...
+5610,Normal: Son of a...
 5611,Too Soon!
 5612,Tenacious Demon
 5613,Glory of the Molten Core Raider
@@ -3912,32 +3913,33 @@
 7681,Realm First! Died to Hogger!
 7682,Realm First! Conqueror of Blackwing Lair 25 Man
 7683,Realm First! Conqueror of Blackwing Lair 10 Man
-8000,Flex: High Priest Venoxis
-8001,Flex: High Priestess Mar'li
-8002,Flex: Bloodlord Mandokir
-8003,Flex: High Priest Thekal
-8004,Flex: Jin'do the Hexxer
-8005,Flex: Hakkar
-8006,Flex: High Priestess Jeklik
-8007,Flex: High Priestess Arlokk
-8008,Flex: Gahz'ranka
-8009,Flex: Gri'lek
-8010,Flex: Renataki
-8011,Flex: Wushoolay
-8012,Flex: Hazza'rah
-8013,Flex Heroic: High Priest Venoxis
-8014,Flex Heroic: High Priestess Mar'li
-8015,Flex Heroic: Bloodlord Mandokir
-8016,Flex Heroic: High Priest Thekal
-8017,Flex Heroic: Jin'do the Hexxer
-8018,Flex Heroic: Hakkar
-8019,Flex Heroic: High Priestess Jeklik
-8020,Flex Heroic: High Priestess Arlokk
-8021,Flex Heroic: Gahz'ranka
-8022,Flex Heroic: Gri'lek
-8023,Flex Heroic: Renataki
-8024,Flex Heroic: Wushoolay
-8025,Flex Heroic: Hazza'rah
+7842,Collector's Edition: Baneling
+8000,Normal: High Priest Venoxis
+8001,Normal: High Priestess Mar'li
+8002,Normal: Bloodlord Mandokir
+8003,Normal: High Priest Thekal
+8004,Normal: Jin'do the Hexxer
+8005,Normal: Hakkar
+8006,Normal: High Priestess Jeklik
+8007,Normal: High Priestess Arlokk
+8008,Normal: Gahz'ranka
+8009,Normal: Gri'lek
+8010,Normal: Renataki
+8011,Normal: Wushoolay
+8012,Normal: Hazza'rah
+8013,Heroic: High Priest Venoxis
+8014,Heroic: High Priestess Mar'li
+8015,Heroic: Bloodlord Mandokir
+8016,Heroic: High Priest Thekal
+8017,Heroic: Jin'do the Hexxer
+8018,Heroic: Hakkar
+8019,Heroic: High Priestess Jeklik
+8020,Heroic: High Priestess Arlokk
+8021,Heroic: Gahz'ranka
+8022,Heroic: Gri'lek
+8023,Heroic: Renataki
+8024,Heroic: Wushoolay
+8025,Heroic: Hazza'rah
 8026,Ascended: High Priest Venoxis (10 Player)
 8027,Ascended: High Priestess Mar'li (10 Player)
 8028,Ascended: Bloodlord Mandokir (10 Player)
@@ -3964,32 +3966,32 @@
 8049,Ascended: Renataki (25 Player)
 8050,Ascended: Wushoolay (25 Player)
 8051,Ascended: Hazza'rah (25 Player)
-8052,Realm First! Flex: High Priest Venoxis
-8053,Realm First! Flex: High Priestess Mar'li
-8054,Realm First! Flex: Bloodlord Mandokir
-8055,Realm First! Flex: High Priest Thekal
-8056,Realm First! Flex: Jin'do the Hexxer
-8057,Realm First! Flex: Hakkar
-8058,Realm First! Flex: High Priestess Jeklik
-8059,Realm First! Flex: High Priestess Arlokk
-8060,Realm First! Flex: Gahz'ranka
-8061,Realm First! Flex: Gri'lek
-8062,Realm First! Flex: Renataki
-8063,Realm First! Flex: Wushoolay
-8064,Realm First! Flex: Hazza'rah
-8065,Realm First! Flex Heroic: High Priest Venoxis
-8066,Realm First! Flex Heroic: High Priestess Mar'li
-8067,Realm First! Flex Heroic: Bloodlord Mandokir
-8068,Realm First! Flex Heroic: High Priest Thekal
-8069,Realm First! Flex Heroic: Jin'do the Hexxer
-8070,Realm First! Flex Heroic: Hakkar
-8071,Realm First! Flex Heroic: High Priestess Jeklik
-8072,Realm First! Flex Heroic: High Priestess Arlokk
-8073,Realm First! Flex Heroic: Gahz'ranka
-8074,Realm First! Flex Heroic: Gri'lek
-8075,Realm First! Flex Heroic: Renataki
-8076,Realm First! Flex Heroic: Wushoolay
-8077,Realm First! Flex Heroic: Hazza'rah
+8052,Realm First! Normal: High Priest Venoxis
+8053,Realm First! Normal: High Priestess Mar'li
+8054,Realm First! Normal: Bloodlord Mandokir
+8055,Realm First! Normal: High Priest Thekal
+8056,Realm First! Normal: Jin'do the Hexxer
+8057,Realm First! Normal: Hakkar
+8058,Realm First! Normal: High Priestess Jeklik
+8059,Realm First! Normal: High Priestess Arlokk
+8060,Realm First! Normal: Gahz'ranka
+8061,Realm First! Normal: Gri'lek
+8062,Realm First! Normal: Renataki
+8063,Realm First! Normal: Wushoolay
+8064,Realm First! Normal: Hazza'rah
+8065,Realm First! Heroic: High Priest Venoxis
+8066,Realm First! Heroic: High Priestess Mar'li
+8067,Realm First! Heroic: Bloodlord Mandokir
+8068,Realm First! Heroic: High Priest Thekal
+8069,Realm First! Heroic: Jin'do the Hexxer
+8070,Realm First! Heroic: Hakkar
+8071,Realm First! Heroic: High Priestess Jeklik
+8072,Realm First! Heroic: High Priestess Arlokk
+8073,Realm First! Heroic: Gahz'ranka
+8074,Realm First! Heroic: Gri'lek
+8075,Realm First! Heroic: Renataki
+8076,Realm First! Heroic: Wushoolay
+8077,Realm First! Heroic: Hazza'rah
 8078,Realm First! Ascended: High Priest Venoxis (10 Player)
 8079,Realm First! Ascended: High Priestess Mar'li (10 Player)
 8080,Realm First! Ascended: Bloodlord Mandokir (10 Player)
@@ -4016,32 +4018,32 @@
 8101,Realm First! Ascended: Renataki (25 Player)
 8102,Realm First! Ascended: Wushoolay (25 Player)
 8103,Realm First! Ascended: Hazza'rah (25 Player)
-8104,Nightmare Mode Flex: High Priest Venoxis
-8105,Nightmare Mode Flex: High Priestess Mar'li
-8106,Nightmare Mode Flex: Bloodlord Mandokir
-8107,Nightmare Mode Flex: High Priest Thekal
-8108,Nightmare Mode Flex: Jin'do the Hexxer
-8109,Nightmare Mode Flex: Hakkar
-8110,Nightmare Mode Flex: High Priestess Jeklik
-8111,Nightmare Mode Flex: High Priestess Arlokk
-8112,Nightmare Mode Flex: Gahz-ranka
-8113,Nightmare Mode Flex: Gri-lek
-8114,Nightmare Mode Flex: Renataki
-8115,Nightmare Mode Flex: Wushoolay
-8116,Nightmare Mode Flex: Hazza-rah
-8117,Nightmare Mode Flex Heroic: High Priest Venoxis
-8118,Nightmare Mode Flex Heroic: High Priestess Mar'li
-8119,Nightmare Mode Flex Heroic: Bloodlord Mandokir
-8120,Nightmare Mode Flex Heroic: High Priest Thekal
-8121,Nightmare Mode Flex Heroic: Jin'do the Hexxer
-8122,Nightmare Mode Flex Heroic: Hakkar
-8123,Nightmare Mode Flex Heroic: High Priestess Jeklik
-8124,Nightmare Mode Flex Heroic: High Priestess Arlokk
-8125,Nightmare Mode Flex Heroic: Gahz-ranka
-8126,Nightmare Mode Flex Heroic: Gri-lek
-8127,Nightmare Mode Flex Heroic: Renataki
-8128,Nightmare Mode Flex Heroic: Wushoolay
-8129,Nightmare Mode Flex Heroic: Hazza-rah
+8104,Nightmare Mode Normal: High Priest Venoxis
+8105,Nightmare Mode Normal: High Priestess Mar'li
+8106,Nightmare Mode Normal: Bloodlord Mandokir
+8107,Nightmare Mode Normal: High Priest Thekal
+8108,Nightmare Mode Normal: Jin'do the Hexxer
+8109,Nightmare Mode Normal: Hakkar
+8110,Nightmare Mode Normal: High Priestess Jeklik
+8111,Nightmare Mode Normal: High Priestess Arlokk
+8112,Nightmare Mode Normal: Gahz-ranka
+8113,Nightmare Mode Normal: Gri-lek
+8114,Nightmare Mode Normal: Renataki
+8115,Nightmare Mode Normal: Wushoolay
+8116,Nightmare Mode Normal: Hazza-rah
+8117,Nightmare Mode Heroic: High Priest Venoxis
+8118,Nightmare Mode Heroic: High Priestess Mar'li
+8119,Nightmare Mode Heroic: Bloodlord Mandokir
+8120,Nightmare Mode Heroic: High Priest Thekal
+8121,Nightmare Mode Heroic: Jin'do the Hexxer
+8122,Nightmare Mode Heroic: Hakkar
+8123,Nightmare Mode Heroic: High Priestess Jeklik
+8124,Nightmare Mode Heroic: High Priestess Arlokk
+8125,Nightmare Mode Heroic: Gahz-ranka
+8126,Nightmare Mode Heroic: Gri-lek
+8127,Nightmare Mode Heroic: Renataki
+8128,Nightmare Mode Heroic: Wushoolay
+8129,Nightmare Mode Heroic: Hazza-rah
 8130,Nightmare Mode Ascended: High Priest Venoxis (10 Player)
 8131,Nightmare Mode Ascended: High Priestess Mar'li (10 Player)
 8132,Nightmare Mode Ascended: Bloodlord Mandokir (10 Player)
@@ -4068,32 +4070,32 @@
 8153,Nightmare Mode Ascended: Renataki (25 Player)
 8154,Nightmare Mode Ascended: Wushoolay (25 Player)
 8155,Nightmare Mode Ascended: Hazza-rah (25 Player)
-8156,Realm First! Nightmare Mode Flex: High Priest Venoxis
-8157,Realm First! Nightmare Mode Flex: High Priestess Mar'li
-8158,Realm First! Nightmare Mode Flex: Bloodlord Mandokir
-8159,Realm First! Nightmare Mode Flex: High Priest Thekal
-8160,Realm First! Nightmare Mode Flex: Jin'do the Hexxer
-8161,Realm First! Nightmare Mode Flex: Hakkar
-8162,Realm First! Nightmare Mode Flex: High Priestess Jeklik
-8163,Realm First! Nightmare Mode Flex: High Priestess Arlokk
-8164,Realm First! Nightmare Mode Flex: Gahz-ranka
-8165,Realm First! Nightmare Mode Flex: Gri-lek
-8166,Realm First! Nightmare Mode Flex: Renataki
-8167,Realm First! Nightmare Mode Flex: Wushoolay
-8168,Realm First! Nightmare Mode Flex: Hazza-rah
-8169,Realm First! Nightmare Mode Flex Heroic: High Priest Venoxis
-8170,Realm First! Nightmare Mode Flex Heroic: High Priestess Mar'li
-8171,Realm First! Nightmare Mode Flex Heroic: Bloodlord Mandokir
-8172,Realm First! Nightmare Mode Flex Heroic: High Priest Thekal
-8173,Realm First! Nightmare Mode Flex Heroic: Jin'do the Hexxer
-8174,Realm First! Nightmare Mode Flex Heroic: Hakkar
-8175,Realm First! Nightmare Mode Flex Heroic: High Priestess Jeklik
-8176,Realm First! Nightmare Mode Flex Heroic: High Priestess Arlokk
-8177,Realm First! Nightmare Mode Flex Heroic: Gahz-ranka
-8178,Realm First! Nightmare Mode Flex Heroic: Gri-lek
-8179,Realm First! Nightmare Mode Flex Heroic: Renataki
-8180,Realm First! Nightmare Mode Flex Heroic: Wushoolay
-8181,Realm First! Nightmare Mode Flex Heroic: Hazza-rah
+8156,Realm First! Nightmare Mode Normal: High Priest Venoxis
+8157,Realm First! Nightmare Mode Normal: High Priestess Mar'li
+8158,Realm First! Nightmare Mode Normal: Bloodlord Mandokir
+8159,Realm First! Nightmare Mode Normal: High Priest Thekal
+8160,Realm First! Nightmare Mode Normal: Jin'do the Hexxer
+8161,Realm First! Nightmare Mode Normal: Hakkar
+8162,Realm First! Nightmare Mode Normal: High Priestess Jeklik
+8163,Realm First! Nightmare Mode Normal: High Priestess Arlokk
+8164,Realm First! Nightmare Mode Normal: Gahz-ranka
+8165,Realm First! Nightmare Mode Normal: Gri-lek
+8166,Realm First! Nightmare Mode Normal: Renataki
+8167,Realm First! Nightmare Mode Normal: Wushoolay
+8168,Realm First! Nightmare Mode Normal: Hazza-rah
+8169,Realm First! Nightmare Mode Heroic: High Priest Venoxis
+8170,Realm First! Nightmare Mode Heroic: High Priestess Mar'li
+8171,Realm First! Nightmare Mode Heroic: Bloodlord Mandokir
+8172,Realm First! Nightmare Mode Heroic: High Priest Thekal
+8173,Realm First! Nightmare Mode Heroic: Jin'do the Hexxer
+8174,Realm First! Nightmare Mode Heroic: Hakkar
+8175,Realm First! Nightmare Mode Heroic: High Priestess Jeklik
+8176,Realm First! Nightmare Mode Heroic: High Priestess Arlokk
+8177,Realm First! Nightmare Mode Heroic: Gahz-ranka
+8178,Realm First! Nightmare Mode Heroic: Gri-lek
+8179,Realm First! Nightmare Mode Heroic: Renataki
+8180,Realm First! Nightmare Mode Heroic: Wushoolay
+8181,Realm First! Nightmare Mode Heroic: Hazza-rah
 8182,Realm First! Nightmare Mode Ascended: High Priest Venoxis (10 Player)
 8183,Realm First! Nightmare Mode Ascended: High Priestess Mar'li (10 Player)
 8184,Realm First! Nightmare Mode Ascended: Bloodlord Mandokir (10 Player)
@@ -4355,16 +4357,16 @@
 8805,Kalimdor Rares
 8806,Apex Predator
 8807,Apex Predator
-8810,Flex: Kurinaxx
-8811,Flex: General Rajaxx
-8812,Flex: Buru the Gorger
-8813,Flex: Ayamiss the Hunter
-8814,Flex: Ossirian the Unscarred
-8815,Flex Heroic: Kurinaxx
-8816,Flex Heroic: General Rajaxx
-8817,Flex Heroic: Buru the Gorger
-8818,Flex Heroic: Ayamiss the Hunter
-8819,Flex Heroic: Ossirian the Unscarred
+8810,Normal: Kurinaxx
+8811,Normal: General Rajaxx
+8812,Normal: Buru the Gorger
+8813,Normal: Ayamiss the Hunter
+8814,Normal: Ossirian the Unscarred
+8815,Heroic: Kurinaxx
+8816,Heroic: General Rajaxx
+8817,Heroic: Buru the Gorger
+8818,Heroic: Ayamiss the Hunter
+8819,Heroic: Ossirian the Unscarred
 8820,Ascended: Kurinaxx (10 Player)
 8821,Ascended: General Rajaxx (10 Player)
 8822,Ascended: Buru the Gorger (10 Player)
@@ -4375,16 +4377,16 @@
 8827,Ascended: Buru the Gorger (25 Player)
 8828,Ascended: Ayamiss the Hunter (25 Player)
 8829,Ascended: Ossirian the Unscarred (25 Player)
-8830,Realm First! Flex: Kurinaxx
-8831,Realm First! Flex: General Rajaxx
-8832,Realm First! Flex: Buru the Gorger
-8833,Realm First! Flex: Ayamiss the Hunter
-8834,Realm First! Flex: Ossirian the Unscarred
-8835,Realm First! Flex Heroic: Kurinaxx
-8836,Realm First! Flex Heroic: General Rajaxx
-8837,Realm First! Flex Heroic: Buru the Gorger
-8838,Realm First! Flex Heroic: Ayamiss the Hunter
-8839,Realm First! Flex Heroic: Ossirian the Unscarred
+8830,Realm First! Normal: Kurinaxx
+8831,Realm First! Normal: General Rajaxx
+8832,Realm First! Normal: Buru the Gorger
+8833,Realm First! Normal: Ayamiss the Hunter
+8834,Realm First! Normal: Ossirian the Unscarred
+8835,Realm First! Heroic: Kurinaxx
+8836,Realm First! Heroic: General Rajaxx
+8837,Realm First! Heroic: Buru the Gorger
+8838,Realm First! Heroic: Ayamiss the Hunter
+8839,Realm First! Heroic: Ossirian the Unscarred
 8840,Realm First! Ascended: Kurinaxx (10 Player)
 8841,Realm First! Ascended: General Rajaxx (10 Player)
 8842,Realm First! Ascended: Buru the Gorger (10 Player)
@@ -4395,16 +4397,16 @@
 8847,Realm First! Ascended: Buru the Gorger (25 Player)
 8848,Realm First! Ascended: Ayamiss the Hunter (25 Player)
 8849,Realm First! Ascended: Ossirian the Unscarred (25 Player)
-8850,Nightmare Mode Flex: Kurinaxx
-8851,Nightmare Mode Flex: General Rajaxx
-8852,Nightmare Mode Flex: Buru the Gorger
-8853,Nightmare Mode Flex: Ayamiss the Hunter
-8854,Nightmare Mode Flex: Ossirian the Unscarred
-8855,Nightmare Mode Flex Heroic: Kurinaxx
-8856,Nightmare Mode Flex Heroic: General Rajaxx
-8857,Nightmare Mode Flex Heroic: Buru the Gorger
-8858,Nightmare Mode Flex Heroic: Ayamiss the Hunter
-8859,Nightmare Mode Flex Heroic: Ossirian the Unscarred
+8850,Nightmare Mode Normal: Kurinaxx
+8851,Nightmare Mode Normal: General Rajaxx
+8852,Nightmare Mode Normal: Buru the Gorger
+8853,Nightmare Mode Normal: Ayamiss the Hunter
+8854,Nightmare Mode Normal: Ossirian the Unscarred
+8855,Nightmare Mode Heroic: Kurinaxx
+8856,Nightmare Mode Heroic: General Rajaxx
+8857,Nightmare Mode Heroic: Buru the Gorger
+8858,Nightmare Mode Heroic: Ayamiss the Hunter
+8859,Nightmare Mode Heroic: Ossirian the Unscarred
 8860,Nightmare Mode Ascended: Kurinaxx (10 Player)
 8861,Nightmare Mode Ascended: General Rajaxx (10 Player)
 8862,Nightmare Mode Ascended: Buru the Gorger (10 Player)
@@ -4415,16 +4417,16 @@
 8867,Nightmare Mode Ascended: Buru the Gorger (25 Player)
 8868,Nightmare Mode Ascended: Ayamiss the Hunter (25 Player)
 8869,Nightmare Mode Ascended: Ossirian the Unscarred (25 Player)
-8870,Nightmare Mode Realm First! Flex: Kurinaxx
-8871,Nightmare Mode Realm First! Flex: General Rajaxx
-8872,Nightmare Mode Realm First! Flex: Buru the Gorger
-8873,Nightmare Mode Realm First! Flex: Ayamiss the Hunter
-8874,Nightmare Mode Realm First! Flex: Ossirian the Unscarred
-8875,Nightmare Mode Realm First! Flex Heroic: Kurinaxx
-8876,Nightmare Mode Realm First! Flex Heroic: General Rajaxx
-8877,Nightmare Mode Realm First! Flex Heroic: Buru the Gorger
-8878,Nightmare Mode Realm First! Flex Heroic: Ayamiss the Hunter
-8879,Nightmare Mode Realm First! Flex Heroic: Ossirian the Unscarred
+8870,Nightmare Mode Realm First! Normal: Kurinaxx
+8871,Nightmare Mode Realm First! Normal: General Rajaxx
+8872,Nightmare Mode Realm First! Normal: Buru the Gorger
+8873,Nightmare Mode Realm First! Normal: Ayamiss the Hunter
+8874,Nightmare Mode Realm First! Normal: Ossirian the Unscarred
+8875,Nightmare Mode Realm First! Heroic: Kurinaxx
+8876,Nightmare Mode Realm First! Heroic: General Rajaxx
+8877,Nightmare Mode Realm First! Heroic: Buru the Gorger
+8878,Nightmare Mode Realm First! Heroic: Ayamiss the Hunter
+8879,Nightmare Mode Realm First! Heroic: Ossirian the Unscarred
 8880,Nightmare Mode Realm First! Ascended: Kurinaxx (10 Player)
 8881,Nightmare Mode Realm First! Ascended: General Rajaxx (10 Player)
 8882,Nightmare Mode Realm First! Ascended: Buru the Gorger (10 Player)
@@ -4435,42 +4437,42 @@
 8887,Nightmare Mode Realm First! Ascended: Buru the Gorger (25 Player)
 8888,Nightmare Mode Realm First! Ascended: Ayamiss the Hunter (25 Player)
 8889,Nightmare Mode Realm First! Ascended: Ossirian the Unscarred (25 Player)
-8890,Flex: Moam
-8891,Flex Heroic: Moam
+8890,Normal: Moam
+8891,Heroic: Moam
 8892,Ascended: Moam (10 Player)
 8893,Ascended: Moam (25 Player)
-8894,Realm First! Flex: Moam
-8895,Realm First! Flex Heroic: Moam
+8894,Realm First! Normal: Moam
+8895,Realm First! Heroic: Moam
 8896,Realm First! Ascended: Moam (10 Player)
 8897,Realm First! Ascended: Moam (25 Player)
-8898,Nightmare Mode Flex: Moam
-8899,Nightmare Mode Flex Heroic: Moam
+8898,Nightmare Mode Normal: Moam
+8899,Nightmare Mode Heroic: Moam
 8900,Nightmare Mode Ascended: Moam (10 Player)
 8901,Nightmare Mode Ascended: Moam (25 Player)
-8902,Nightmare Mode Realm First! Flex: Moam
-8903,Nightmare Mode Realm First! Flex Heroic: Moam
+8902,Nightmare Mode Realm First! Normal: Moam
+8903,Nightmare Mode Realm First! Heroic: Moam
 8904,Nightmare Mode Realm First! Ascended: Moam (10 Player) 
 8905,Nightmare Mode Realm First! Ascended: Moam (25 Player)
 9148,Hunting The Hinterlands Rares
 9149,Hunting The Barrens Rares
-9150,Flex: Golemagg the Incinerator
-9151,Flex: Gehennas
-9152,Flex: Garr
-9153,Flex: Magmadar
-9154,Flex: Lucifron
-9155,Flex: Baron Geddon
-9156,Flex: Shazzrah
-9157,Flex: Sulfuron Harbringer
-9158,Flex: Ragnaros
-9159,Flex Heroic: Magmadar
-9160,Flex Heroic: Lucifron
-9161,Flex Heroic: Gehennas
-9162,Flex Heroic: Garr
-9163,Flex Heroic: Baron Geddon
-9164,Flex Heroic: Shazzrah
-9165,Flex Heroic: Golemagg the Incinerator
-9166,Flex Heroic: Sulfuron Harbringer
-9167,Flex Heroic: Ragnaros
+9150,Normal: Golemagg the Incinerator
+9151,Normal: Gehennas
+9152,Normal: Garr
+9153,Normal: Magmadar
+9154,Normal: Lucifron
+9155,Normal: Baron Geddon
+9156,Normal: Shazzrah
+9157,Normal: Sulfuron Harbringer
+9158,Normal: Ragnaros
+9159,Heroic: Magmadar
+9160,Heroic: Lucifron
+9161,Heroic: Gehennas
+9162,Heroic: Garr
+9163,Heroic: Baron Geddon
+9164,Heroic: Shazzrah
+9165,Heroic: Golemagg the Incinerator
+9166,Heroic: Sulfuron Harbringer
+9167,Heroic: Ragnaros
 9168,Ascended: Magmadar (10 Player)
 9169,Ascended: Lucifron (10 Player)
 9170,Ascended: Gehennas (10 Player)
@@ -4489,24 +4491,24 @@
 9183,Ascended: Golemagg the Incinerator (25 Player)
 9184,Ascended: Sulfuron Harbringer (25 Player)
 9185,Ascended: Ragnaros (25 Player)
-9186,Realm First! Flex: Magmadar
-9187,Realm First! Flex: Lucifron
-9188,Realm First! Flex: Gehennas
-9189,Realm First! Flex: Garr
-9190,Realm First! Flex: Baron Geddon
-9191,Realm First! Flex: Shazzrah
-9192,Realm First! Flex: Golemagg the Incinerator
-9193,Realm First! Flex: Sulfuron Harbringer
-9194,Realm First! Flex: Ragnaros
-9195,Realm First! Flex Heroic: Magmadar
-9196,Realm First! Flex Heroic: Lucifron
-9197,Realm First! Flex Heroic: Gehennas
-9198,Realm First! Flex Heroic: Garr
-9199,Realm First! Flex Heroic: Baron Geddon
-9200,Realm First! Flex Heroic: Shazzrah
-9201,Realm First! Flex Heroic: Golemagg the Incinerator
-9202,Realm First! Flex Heroic: Sulfuron Harbringer
-9203,Realm First! Flex Heroic: Ragnaros
+9186,Realm First! Normal: Magmadar
+9187,Realm First! Normal: Lucifron
+9188,Realm First! Normal: Gehennas
+9189,Realm First! Normal: Garr
+9190,Realm First! Normal: Baron Geddon
+9191,Realm First! Normal: Shazzrah
+9192,Realm First! Normal: Golemagg the Incinerator
+9193,Realm First! Normal: Sulfuron Harbringer
+9194,Realm First! Normal: Ragnaros
+9195,Realm First! Heroic: Magmadar
+9196,Realm First! Heroic: Lucifron
+9197,Realm First! Heroic: Gehennas
+9198,Realm First! Heroic: Garr
+9199,Realm First! Heroic: Baron Geddon
+9200,Realm First! Heroic: Shazzrah
+9201,Realm First! Heroic: Golemagg the Incinerator
+9202,Realm First! Heroic: Sulfuron Harbringer
+9203,Realm First! Heroic: Ragnaros
 9204,Realm First! Ascended: Magmadar (10 Player)
 9205,Realm First! Ascended: Lucifron (10 Player)
 9206,Realm First! Ascended: Gehennas (10 Player)
@@ -4525,24 +4527,24 @@
 9219,Realm First! Ascended: Golemagg the Incinerator (25 Player)
 9220,Realm First! Ascended: Sulfuron Harbringer (25 Player)
 9221,Realm First! Ascended: Ragnaros (25 Player)
-9222,Nightmare Mode Flex: Magmadar
-9223,Nightmare Mode Flex: Lucifron
-9224,Nightmare Mode Flex: Gehennas
-9225,Nightmare Mode Flex: Garr
-9226,Nightmare Mode Flex: Baron Geddon
-9227,Nightmare Mode Flex: Shazzrah
-9228,Nightmare Mode Flex: Golemagg the Incinerator
-9229,Nightmare Mode Flex: Sulfuron Harbringer
-9230,Nightmare Mode Flex: Ragnaros
-9231,Nightmare Mode Flex Heroic: Magmadar
-9232,Nightmare Mode Flex Heroic: Lucifron
-9233,Nightmare Mode Flex Heroic: Gehennas
-9234,Nightmare Mode Flex Heroic: Garr
-9235,Nightmare Mode Flex Heroic: Baron Geddon
-9236,Nightmare Mode Flex Heroic: Shazzrah
-9237,Nightmare Mode Flex Heroic: Golemagg the Incinerator
-9238,Nightmare Mode Flex Heroic: Sulfuron Harbringer
-9239,Nightmare Mode Flex Heroic: Ragnaros
+9222,Nightmare Mode Normal: Magmadar
+9223,Nightmare Mode Normal: Lucifron
+9224,Nightmare Mode Normal: Gehennas
+9225,Nightmare Mode Normal: Garr
+9226,Nightmare Mode Normal: Baron Geddon
+9227,Nightmare Mode Normal: Shazzrah
+9228,Nightmare Mode Normal: Golemagg the Incinerator
+9229,Nightmare Mode Normal: Sulfuron Harbringer
+9230,Nightmare Mode Normal: Ragnaros
+9231,Nightmare Mode Heroic: Magmadar
+9232,Nightmare Mode Heroic: Lucifron
+9233,Nightmare Mode Heroic: Gehennas
+9234,Nightmare Mode Heroic: Garr
+9235,Nightmare Mode Heroic: Baron Geddon
+9236,Nightmare Mode Heroic: Shazzrah
+9237,Nightmare Mode Heroic: Golemagg the Incinerator
+9238,Nightmare Mode Heroic: Sulfuron Harbringer
+9239,Nightmare Mode Heroic: Ragnaros
 9240,Nightmare Mode Ascended: Magmadar (10 Player)
 9241,Nightmare Mode Ascended: Lucifron (10 Player)
 9242,Nightmare Mode Ascended: Gehennas (10 Player)
@@ -4561,24 +4563,24 @@
 9255,Nightmare Mode Ascended: Golemagg the Incinerator (25 Player)
 9256,Nightmare Mode Ascended: Sulfuron Harbringer (25 Player)
 9257,Nightmare Mode Ascended: Ragnaros (25 Player)
-9258,Nightmare Mode Realm First! Flex: Magmadar
-9259,Nightmare Mode Realm First! Flex: Lucifron
-9260,Nightmare Mode Realm First! Flex: Gehennas
-9261,Nightmare Mode Realm First! Flex: Garr
-9262,Nightmare Mode Realm First! Flex: Baron Geddon
-9263,Nightmare Mode Realm First! Flex: Shazzrah
-9264,Nightmare Mode Realm First! Flex: Golemagg the Incinerator
-9265,Nightmare Mode Realm First! Flex: Sulfuron Harbringer
-9266,Nightmare Mode Realm First! Flex: Ragnaros
-9267,Nightmare Mode Realm First! Flex Heroic: Magmadar
-9268,Nightmare Mode Realm First! Flex Heroic: Lucifron
-9269,Nightmare Mode Realm First! Flex Heroic: Gehennas
-9270,Nightmare Mode Realm First! Flex Heroic: Garr
-9271,Nightmare Mode Realm First! Flex Heroic: Baron Geddon
-9272,Nightmare Mode Realm First! Flex Heroic: Shazzrah
-9273,Nightmare Mode Realm First! Flex Heroic: Golemagg the Incinerator
-9274,Nightmare Mode Realm First! Flex Heroic: Sulfuron Harbringer
-9275,Nightmare Mode Realm First! Flex Heroic: Ragnaros
+9258,Nightmare Mode Realm First! Normal: Magmadar
+9259,Nightmare Mode Realm First! Normal: Lucifron
+9260,Nightmare Mode Realm First! Normal: Gehennas
+9261,Nightmare Mode Realm First! Normal: Garr
+9262,Nightmare Mode Realm First! Normal: Baron Geddon
+9263,Nightmare Mode Realm First! Normal: Shazzrah
+9264,Nightmare Mode Realm First! Normal: Golemagg the Incinerator
+9265,Nightmare Mode Realm First! Normal: Sulfuron Harbringer
+9266,Nightmare Mode Realm First! Normal: Ragnaros
+9267,Nightmare Mode Realm First! Heroic: Magmadar
+9268,Nightmare Mode Realm First! Heroic: Lucifron
+9269,Nightmare Mode Realm First! Heroic: Gehennas
+9270,Nightmare Mode Realm First! Heroic: Garr
+9271,Nightmare Mode Realm First! Heroic: Baron Geddon
+9272,Nightmare Mode Realm First! Heroic: Shazzrah
+9273,Nightmare Mode Realm First! Heroic: Golemagg the Incinerator
+9274,Nightmare Mode Realm First! Heroic: Sulfuron Harbringer
+9275,Nightmare Mode Realm First! Heroic: Ragnaros
 9276,Nightmare Mode Realm First! Ascended: Magmadar (10 Player)
 9277,Nightmare Mode Realm First! Ascended: Lucifron (10 Player)
 9278,Nightmare Mode Realm First! Ascended: Gehennas (10 Player)
@@ -4597,32 +4599,32 @@
 9291,Nightmare Mode Realm First! Ascended: Golemagg the Incinerator (25 Player)
 9292,Nightmare Mode Realm First! Ascended: Sulfuron Harbringer (25 Player)
 9293,Nightmare Mode Realm First! Ascended: Ragnaros (25 Player)
-9294,Flex: Onyxia
-9295,Flex Heroic: Onyxia
-9296,Ascended: Onyxia (10 Player)
-9297,Ascended: Onyxia (25 Player)
-9298,Nightmare Mode Flex: Onyxia
-9299,Nightmare Mode Flex Heroic: Onyxia
+9294,Normal: Onyxia (Vanilla)
+9295,Heroic: Onyxia (Vanilla)
+9296,Ascended: Onyxia (10 Player) (Vanilla)
+9297,Ascended: Onyxia (25 Player) (Vanilla)
+9298,Nightmare Mode Normal: Onyxia
+9299,Nightmare Mode Heroic: Onyxia
 9300,Nightmare Mode Ascended: Onyxia (10 Player)
 9301,Nightmare Mode Ascended: Onyxia (25 Player)
-9302,Realm First! Flex: Onyxia
-9303,Realm First! Flex Heroic: Onyxia
-9304,Realm First! Ascended: Onyxia (10 Player)
-9305,Realm First! Ascended: Onyxia (25 Player)
-9306,Nightmare Mode Realm First! Flex: Onyxia
-9307,Nightmare Mode Realm First! Flex Heroic: Onyxia
+9302,Realm First! Normal: Onyxia (Vanilla)
+9303,Realm First! Heroic: Onyxia (Vanilla)
+9304,Realm First! Ascended: Onyxia (10 Player) (Vanilla)
+9305,Realm First! Ascended: Onyxia (25 Player) (Vanilla)
+9306,Nightmare Mode Realm First! Normal: Onyxia
+9307,Nightmare Mode Realm First! Heroic: Onyxia
 9308,Nightmare Mode Realm First! Ascended: Onyxia (10 Player)
 9309,Nightmare Mode Realm First! Ascended: Onyxia (25 Player)
-9310,Flex: Razorgore the Untamed
-9311,Flex: Vaelastrasz the Corrupt
-9312,Flex: Broodlord Lashlayer
-9313,Flex: Chromaggus
-9314,Flex: Nefarian
-9315,Flex Heroic: Razorgore the Untamed
-9316,Flex Heroic: Vaelastrasz the Corrupt
-9317,Flex Heroic: Broodlord Lashlayer
-9318,Flex Heroic: Chromaggus
-9319,Flex Heroic: Nefarian
+9310,Normal: Razorgore the Untamed
+9311,Normal: Vaelastrasz the Corrupt
+9312,Normal: Broodlord Lashlayer
+9313,Normal: Chromaggus
+9314,Normal: Nefarian
+9315,Heroic: Razorgore the Untamed
+9316,Heroic: Vaelastrasz the Corrupt
+9317,Heroic: Broodlord Lashlayer
+9318,Heroic: Chromaggus
+9319,Heroic: Nefarian
 9320,Ascended: Razorgore the Untamed (10 Player)
 9321,Ascended: Vaelastrasz the Corrupt (10 Player)
 9322,Ascended: Broodlord Lashlayer (10 Player)
@@ -4633,16 +4635,16 @@
 9327,Ascended: Broodlord Lashlayer (25 Player)
 9328,Ascended: Chromaggus (25 Player)
 9329,Ascended: Nefarian (25 Player)
-9330,Realm First! Flex: Razorgore the Untamed
-9331,Realm First! Flex: Vaelastrasz the Corrupt
-9332,Realm First! Flex: Broodlord Lashlayer
-9333,Realm First! Flex: Chromaggus
-9334,Realm First! Flex: Nefarian
-9335,Realm First! Flex Heroic: Razorgore the Untamed
-9336,Realm First! Flex Heroic: Vaelastrasz the Corrupt
-9337,Realm First! Flex Heroic: Broodlord Lashlayer
-9338,Realm First! Flex Heroic: Chromaggus
-9339,Realm First! Flex Heroic: Nefarian
+9330,Realm First! Normal: Razorgore the Untamed
+9331,Realm First! Normal: Vaelastrasz the Corrupt
+9332,Realm First! Normal: Broodlord Lashlayer
+9333,Realm First! Normal: Chromaggus
+9334,Realm First! Normal: Nefarian
+9335,Realm First! Heroic: Razorgore the Untamed
+9336,Realm First! Heroic: Vaelastrasz the Corrupt
+9337,Realm First! Heroic: Broodlord Lashlayer
+9338,Realm First! Heroic: Chromaggus
+9339,Realm First! Heroic: Nefarian
 9340,Realm First! Ascended: Razorgore the Untamed (10 Player)
 9341,Realm First! Ascended: Vaelastrasz the Corrupt (10 Player)
 9342,Realm First! Ascended: Broodlord Lashlayer (10 Player)
@@ -4653,16 +4655,16 @@
 9347,Realm First! Ascended: Broodlord Lashlayer (25 Player)
 9348,Realm First! Ascended: Chromaggus (25 Player)
 9349,Realm First! Ascended: Nefarian (25 Player)
-9350,Nightmare Mode Flex: Razorgore the Untamed
-9351,Nightmare Mode Flex: Vaelastrasz the Corrupt
-9352,Nightmare Mode Flex: Broodlord Lashlayer
-9353,Nightmare Mode Flex: Chromaggus
-9354,Nightmare Mode Flex: Nefarian
-9355,Nightmare Mode Flex Heroic: Razorgore the Untamed
-9356,Nightmare Mode Flex Heroic: Vaelastrasz the Corrupt
-9357,Nightmare Mode Flex Heroic: Broodlord Lashlayer
-9358,Nightmare Mode Flex Heroic: Chromaggus
-9359,Nightmare Mode Flex Heroic: Nefarian
+9350,Nightmare Mode Normal: Razorgore the Untamed
+9351,Nightmare Mode Normal: Vaelastrasz the Corrupt
+9352,Nightmare Mode Normal: Broodlord Lashlayer
+9353,Nightmare Mode Normal: Chromaggus
+9354,Nightmare Mode Normal: Nefarian
+9355,Nightmare Mode Heroic: Razorgore the Untamed
+9356,Nightmare Mode Heroic: Vaelastrasz the Corrupt
+9357,Nightmare Mode Heroic: Broodlord Lashlayer
+9358,Nightmare Mode Heroic: Chromaggus
+9359,Nightmare Mode Heroic: Nefarian
 9360,Nightmare Mode Ascended: Razorgore the Untamed (10 Player)
 9361,Nightmare Mode Ascended: Vaelastrasz the Corrupt (10 Player)
 9362,Nightmare Mode Ascended: Broodlord Lashlayer (10 Player)
@@ -4673,16 +4675,16 @@
 9367,Nightmare Mode Ascended: Broodlord Lashlayer (25 Player)
 9368,Nightmare Mode Ascended: Chromaggus (25 Player)
 9369,Nightmare Mode Ascended: Nefarian (25 Player)
-9370,Nightmare Mode Realm First! Flex: Razorgore the Untamed
-9371,Nightmare Mode Realm First! Flex: Vaelastrasz the Corrupt
-9372,Nightmare Mode Realm First! Flex: Broodlord Lashlayer
-9373,Nightmare Mode Realm First! Flex: Chromaggus
-9374,Nightmare Mode Realm First! Flex: Nefarian
-9375,Nightmare Mode Realm First! Flex Heroic: Razorgore the Untamed
-9376,Nightmare Mode Realm First! Flex Heroic: Vaelastrasz the Corrupt
-9377,Nightmare Mode Realm First! Flex Heroic: Broodlord Lashlayer
-9378,Nightmare Mode Realm First! Flex Heroic: Chromaggus
-9379,Nightmare Mode Realm First! Flex Heroic: Nefarian
+9370,Nightmare Mode Realm First! Normal: Razorgore the Untamed
+9371,Nightmare Mode Realm First! Normal: Vaelastrasz the Corrupt
+9372,Nightmare Mode Realm First! Normal: Broodlord Lashlayer
+9373,Nightmare Mode Realm First! Normal: Chromaggus
+9374,Nightmare Mode Realm First! Normal: Nefarian
+9375,Nightmare Mode Realm First! Heroic: Razorgore the Untamed
+9376,Nightmare Mode Realm First! Heroic: Vaelastrasz the Corrupt
+9377,Nightmare Mode Realm First! Heroic: Broodlord Lashlayer
+9378,Nightmare Mode Realm First! Heroic: Chromaggus
+9379,Nightmare Mode Realm First! Heroic: Nefarian
 9380,Nightmare Mode Realm First! Ascended: Razorgore the Untamed (10 Player)
 9381,Nightmare Mode Realm First! Ascended: Vaelastrasz the Corrupt (10 Player)
 9382,Nightmare Mode Realm First! Ascended: Broodlord Lashlayer (10 Player)
@@ -4711,6 +4713,9 @@
 9516,First Scroll of Fortune
 9517,First Sealed Card
 9677,Homewrecker
+9720,Realm First! Conqueror of Blackwing Lair (Andorhal)
+9721,Realm First! Conqueror of Ruins of Ahn'Qiraj (Andorhal)
+9722,Realm First! Conqueror of Temple of Ahn'Qiraj (Andorhal)
 9724,Ironman Level 60
 9727,Survivalist Level 60
 9728,[High Risk] Ironman Level 60
@@ -4718,7 +4723,7 @@
 9730,Realm First! Conqueror of Naxxramas
 9731,Realm First! Conqueror of Zul'Gurub
 9732,Realm First! Conqueror of Zul'Gurub
-9733,Realm First! Conqueror of Molten Core
+9733,Realm First! Conqueror of Molten Core (Andorhal)
 9734,Realm First! Conqueror of Molten Core
 9735,Realm First! Conqueror of Onyxia's Lair
 9736,Realm First! Conqueror of Onyxia's Lair
@@ -4726,24 +4731,24 @@
 9738,Realm First! Ironman Level 60
 9739,Realm First! Resolute Ironman Level 60
 9740,Resolute Ironman Level 60
-9741,Flex: Prophet Skeram
-9742,Flex: Bug Family
-9743,Flex: Battleguard Sartura
-9744,Flex: Fankriss the Unyielding
-9745,Flex: Viscidus
-9746,Flex: Princess Huhuran
-9747,Flex: Twin Emperors
-9748,Flex: Ouro
-9749,Flex: C'thun
-9750,Flex Heroic: Prophet Skeram
-9751,Flex Heroic: Bug Family
-9752,Flex Heroic: Battleguard Sartura
-9753,Flex Heroic: Fankriss the Unyielding
-9754,Flex Heroic: Viscidus
-9755,Flex Heroic: Princess Huhuran
-9756,Flex Heroic: Twin Emperors
-9757,Flex Heroic: Ouro
-9758,Flex Heroic: C'thun
+9741,Normal: Prophet Skeram
+9742,Normal: Bug Family
+9743,Normal: Battleguard Sartura
+9744,Normal: Fankriss the Unyielding
+9745,Normal: Viscidus
+9746,Normal: Princess Huhuran
+9747,Normal: Twin Emperors
+9748,Normal: Ouro
+9749,Normal: C'thun
+9750,Heroic: Prophet Skeram
+9751,Heroic: Bug Family
+9752,Heroic: Battleguard Sartura
+9753,Heroic: Fankriss the Unyielding
+9754,Heroic: Viscidus
+9755,Heroic: Princess Huhuran
+9756,Heroic: Twin Emperors
+9757,Heroic: Ouro
+9758,Heroic: C'thun
 9759,Ascended: Prophet Skeram (10 Player)
 9760,Ascended: Bug Family (10 Player)
 9761,Ascended: Battleguard Sartura (10 Player)
@@ -4762,24 +4767,24 @@
 9774,Ascended: Twin Emperors (25 Player)
 9775,Ascended: Ouro (25 Player)
 9776,Ascended: C'thun (25 Player)
-9777,Realm First! Flex: Prophet Skeram
-9778,Realm First! Flex: Bug Family
-9779,Realm First! Flex: Battleguard Sartura
-9780,Realm First! Flex: Fankriss the Unyielding
-9781,Realm First! Flex: Viscidus
-9782,Realm First! Flex: Princess Huhuran
-9783,Realm First! Flex: Twin Emperors
-9784,Realm First! Flex: Ouro
-9785,Realm First! Flex: C'thun
-9786,Realm First! Flex Heroic: Prophet Skeram
-9787,Realm First! Flex Heroic: Bug Family
-9788,Realm First! Flex Heroic: Battleguard Sartura
-9789,Realm First! Flex Heroic: Fankriss the Unyielding
-9790,Realm First! Flex Heroic: Viscidus
-9791,Realm First! Flex Heroic: Princess Huhuran
-9792,Realm First! Flex Heroic: Twin Emperors
-9793,Realm First! Flex Heroic: Ouro
-9794,Realm First! Flex Heroic: C'thun
+9777,Realm First! Normal: Prophet Skeram
+9778,Realm First! Normal: Bug Family
+9779,Realm First! Normal: Battleguard Sartura
+9780,Realm First! Normal: Fankriss the Unyielding
+9781,Realm First! Normal: Viscidus
+9782,Realm First! Normal: Princess Huhuran
+9783,Realm First! Normal: Twin Emperors
+9784,Realm First! Normal: Ouro
+9785,Realm First! Normal: C'thun
+9786,Realm First! Heroic: Prophet Skeram
+9787,Realm First! Heroic: Bug Family
+9788,Realm First! Heroic: Battleguard Sartura
+9789,Realm First! Heroic: Fankriss the Unyielding
+9790,Realm First! Heroic: Viscidus
+9791,Realm First! Heroic: Princess Huhuran
+9792,Realm First! Heroic: Twin Emperors
+9793,Realm First! Heroic: Ouro
+9794,Realm First! Heroic: C'thun
 9795,Realm First! Ascended: Prophet Skeram (10 Player)
 9796,Realm First! Ascended: Bug Family (10 Player)
 9797,Realm First! Ascended: Battleguard Sartura (10 Player)
@@ -4798,24 +4803,24 @@
 9810,Realm First! Ascended: Twin Emperors (25 Player)
 9811,Realm First! Ascended: Ouro (25 Player)
 9812,Realm First! Ascended: C'thun (25 Player)
-9813,Nightmare Mode Flex: Prophet Skeram
-9814,Nightmare Mode Flex: Bug Family
-9815,Nightmare Mode Flex: Battleguard Sartura
-9816,Nightmare Mode Flex: Fankriss the Unyielding
-9817,Nightmare Mode Flex: Viscidus
-9818,Nightmare Mode Flex: Princess Huhuran
-9819,Nightmare Mode Flex: Twin Emperors
-9820,Nightmare Mode Flex: Ouro
-9821,Nightmare Mode Flex: C'thun
-9822,Nightmare Mode Flex Heroic: Prophet Skeram
-9823,Nightmare Mode Flex Heroic: Bug Family
-9824,Nightmare Mode Flex Heroic: Battleguard Sartura
-9825,Nightmare Mode Flex Heroic: Fankriss the Unyielding
-9826,Nightmare Mode Flex Heroic: Viscidus
-9827,Nightmare Mode Flex Heroic: Princess Huhuran
-9828,Nightmare Mode Flex Heroic: Twin Emperors
-9829,Nightmare Mode Flex Heroic: Ouro
-9830,Nightmare Mode Flex Heroic: C'thun
+9813,Nightmare Mode Normal: Prophet Skeram
+9814,Nightmare Mode Normal: Bug Family
+9815,Nightmare Mode Normal: Battleguard Sartura
+9816,Nightmare Mode Normal: Fankriss the Unyielding
+9817,Nightmare Mode Normal: Viscidus
+9818,Nightmare Mode Normal: Princess Huhuran
+9819,Nightmare Mode Normal: Twin Emperors
+9820,Nightmare Mode Normal: Ouro
+9821,Nightmare Mode Normal: C'thun
+9822,Nightmare Mode Heroic: Prophet Skeram
+9823,Nightmare Mode Heroic: Bug Family
+9824,Nightmare Mode Heroic: Battleguard Sartura
+9825,Nightmare Mode Heroic: Fankriss the Unyielding
+9826,Nightmare Mode Heroic: Viscidus
+9827,Nightmare Mode Heroic: Princess Huhuran
+9828,Nightmare Mode Heroic: Twin Emperors
+9829,Nightmare Mode Heroic: Ouro
+9830,Nightmare Mode Heroic: C'thun
 9831,Nightmare Mode Ascended: Prophet Skeram (10 Player)
 9832,Nightmare Mode Ascended: Bug Family (10 Player)
 9833,Nightmare Mode Ascended: Battleguard Sartura (10 Player)
@@ -4834,24 +4839,24 @@
 9846,Nightmare Mode Ascended: Twin Emperors (25 Player)
 9847,Nightmare Mode Ascended: Ouro (25 Player)
 9848,Nightmare Mode Ascended: C'thun (25 Player)
-9849,Nightmare Mode Realm First! Flex: Prophet Skeram
-9850,Nightmare Mode Realm First! Flex: Bug Family
-9851,Nightmare Mode Realm First! Flex: Battleguard Sartura
-9852,Nightmare Mode Realm First! Flex: Fankriss the Unyielding
-9853,Nightmare Mode Realm First! Flex: Viscidus
-9854,Nightmare Mode Realm First! Flex: Princess Huhuran
-9855,Nightmare Mode Realm First! Flex: Twin Emperors
-9856,Nightmare Mode Realm First! Flex: Ouro
-9857,Nightmare Mode Realm First! Flex: C'thun
-9858,Nightmare Mode Realm First! Flex Heroic: Prophet Skeram
-9859,Nightmare Mode Realm First! Flex Heroic: Bug Family
-9860,Nightmare Mode Realm First! Flex Heroic: Battleguard Sartura
-9861,Nightmare Mode Realm First! Flex Heroic: Fankriss the Unyielding
-9862,Nightmare Mode Realm First! Flex Heroic: Viscidus
-9863,Nightmare Mode Realm First! Flex Heroic: Princess Huhuran
-9864,Nightmare Mode Realm First! Flex Heroic: Twin Emperors
-9865,Nightmare Mode Realm First! Flex Heroic: Ouro
-9866,Nightmare Mode Realm First! Flex Heroic: C'thun
+9849,Nightmare Mode Realm First! Normal: Prophet Skeram
+9850,Nightmare Mode Realm First! Normal: Bug Family
+9851,Nightmare Mode Realm First! Normal: Battleguard Sartura
+9852,Nightmare Mode Realm First! Normal: Fankriss the Unyielding
+9853,Nightmare Mode Realm First! Normal: Viscidus
+9854,Nightmare Mode Realm First! Normal: Princess Huhuran
+9855,Nightmare Mode Realm First! Normal: Twin Emperors
+9856,Nightmare Mode Realm First! Normal: Ouro
+9857,Nightmare Mode Realm First! Normal: C'thun
+9858,Nightmare Mode Realm First! Heroic: Prophet Skeram
+9859,Nightmare Mode Realm First! Heroic: Bug Family
+9860,Nightmare Mode Realm First! Heroic: Battleguard Sartura
+9861,Nightmare Mode Realm First! Heroic: Fankriss the Unyielding
+9862,Nightmare Mode Realm First! Heroic: Viscidus
+9863,Nightmare Mode Realm First! Heroic: Princess Huhuran
+9864,Nightmare Mode Realm First! Heroic: Twin Emperors
+9865,Nightmare Mode Realm First! Heroic: Ouro
+9866,Nightmare Mode Realm First! Heroic: C'thun
 9867,Nightmare Mode Realm First! Ascended: Prophet Skeram (10 Player)
 9868,Nightmare Mode Realm First! Ascended: Bug Family (10 Player)
 9869,Nightmare Mode Realm First! Ascended: Battleguard Sartura (10 Player)
@@ -4870,6 +4875,47 @@
 9882,Nightmare Mode Realm First! Ascended: Twin Emperors (25 Player)
 9883,Nightmare Mode Realm First! Ascended: Ouro (25 Player)
 9884,Nightmare Mode Realm First! Ascended: C'thun (25 Player)
+10001,Mr. Jigglesworth
+10002,Relm First! Mr. Jigglesworth
+10261,Normal: Dance Till You're Dead
+10262,Heroic: Dance Till You're Dead
+10263,Mythic: Dance Till You're Dead
+10264,Ascended: Dance Till You're Dead
+10265,Realm First! Normal: Dance Till You're Dead
+10266,Realm First! Heroic: Dance Till You're Dead
+10267,Realm First! Mythic: Dance Till You're Dead
+10268,Realm First! Ascended: Dance Till You're Dead
+10269,Normal: I Fear No Man
+10270,Heroic: I Fear No Man
+10271,Mythic: I Fear No Man
+10272,Ascended: I Fear No Man
+10273,Realm First! Normal: I Fear No Man
+10274,Realm First! Heroic: I Fear No Man
+10275,Realm First! Mythic: I Fear No Man
+10276,Realm First! Ascended: I Fear No Man
+10277,Realm First! God Slayer
+10278,Normal: Unbalancable Faith
+10279,Heroic: Unbalancable Faith
+10280,Mythic: Unbalancable Faith
+10281,Ascended: Unbalancable Faith
+10282,Realm First! Normal: Unbalancable Faith
+10283,Realm First! Heroic: Unbalancable Faith
+10284,Realm First! Mythic: Unbalancable Faith
+10285,Realm First! Ascended: Unbalancable Faith
+10286,He Whispers And I Must Listen
+10287,Realm First! He Whispers And I Must Listen
+10288,Among Us
+10289,Realm First! Among Us
+10290,Imposter
+10291,Realm First! Imposter
+10292,Normal: This Is No Place To Die
+10293,Heroic: This Is No Place To Die
+10294,Mythic: This Is No Place To Die
+10295,Ascended: This Is No Place To Die
+10296,Realm First! Normal: This Is No Place To Die
+10297,Realm First! Heroic: This Is No Place To Die
+10298,Realm First! Mythic: This Is No Place To Die
+10299,Realm First! Ascended: This Is No Place To Die
 10300,Fishbot 5000
 10301,Fishbot 25K
 10302,Critter Catastrophe
@@ -4894,11 +4940,16 @@
 10321,Realm First! First person to take a flightpath Drunk
 10322,Realm First! Gilded Ravasaur
 10323,Realm First! Slain Hogger
+10324,Seasonal Collection (Chapter 1): Unlock 1
+10325,Seasonal Collection (Chapter 1): Unlock 2
+10326,Seasonal Collection (Chapter 1): Unlock 3
+10327,Seasonal Collection (Chapter 1): Unlock 4
 10328,Stormwind Sapper
 10329,Orgrimmar Sapper
 10330,Realm First! Used Lay On Hands on a Full HP Target
 10331,Realm First! Killed somebody while Mind Controlled
 10332,Realm First! Looted an Epic
+10333,Seasonal Collection (Chapter 1): Unlock 5
 10334,Realm First! Obtained a Mount
 10335,Realm First! Drunk Death from Falling
 10336,Realm First! Drunk Death from a Fire
@@ -4914,6 +4965,12 @@
 10346,Season 5 Rank V
 10347,Season 5 Rank VI
 10348,Season 5 Rank VII
+10349,Seasonal Collection (Chapter 1): Unlock 6
+10350,Seasonal Collection (Chapter 1): Unlock 7
+10351,Seasonal Collection (Chapter 2): Unlock 1
+10352,Seasonal Collection (Chapter 2): Unlock 2
+10353,Seasonal Collection (Chapter 2): Unlock 3
+10354,Seasonal Collection (Chapter 2): Unlock 4
 10355,Wrecked Razza
 10356,Breaking The Unbreakable
 10357,Mushgog Must go
@@ -4924,66 +4981,79 @@
 10362,Realm First! Expert Alchemist
 10363,Realm First! Artisan Alchemist
 10364,Realm First! Master Alchemist
+10365,Seasonal Collection (Chapter 2): Unlock 5
 10366,Realm First! Apprentice Blacksmith
 10367,Realm First! Journeyman Blacksmith
 10368,Realm First! Expert Blacksmith
 10369,Realm First! Artisan Blacksmith
 10370,Realm First! Master Blacksmith
+10371,Seasonal Collection (Chapter 2): Unlock 6
 10372,Realm First! Apprentice Enchanter
 10373,Realm First! Journeyman Enchanter
 10374,Realm First! Expert Enchanter
 10375,Realm First! Artisan Enchanter
 10376,Realm First! Master Enchanter
+10377,Seasonal Collection (Chapter 2): Unlock 7
 10378,Realm First! Apprentice Engineer
 10379,Realm First! Journeyman Engineer
 10380,Realm First! Expert Engineer
 10381,Realm First! Artisan Engineer
 10382,Realm First! Master Engineer
+10383,Seasonal Collection (Chapter 3): Unlock 1
 10384,Realm First! Apprentice Leatherworker
 10385,Realm First! Journeyman Leatherworker
 10386,Realm First! Expert Leatherworker
 10387,Realm First! Artisan Leatherworker
 10388,Realm First! Master Leatherworker
+10389,Seasonal Collection (Chapter 3): Unlock 2
 10390,Realm First! Apprentice Tailor
 10391,Realm First! Journeyman Tailor
 10392,Realm First! Expert Tailor
 10393,Realm First! Artisan Tailor
 10394,Realm First! Master Tailor
+10395,Seasonal Collection (Chapter 3): Unlock 3
 10396,Realm First! Apprentice Scribe
 10397,Realm First! Journeyman Scribe
 10398,Realm First! Expert Scribe
 10399,Realm First! Artisan Scribe
 10400,Realm First! Master Scribe
+10401,Seasonal Collection (Chapter 3): Unlock 4
 10402,Realm First! Apprentice Jewelcrafter
 10403,Realm First! Journeyman Jewelcrafter
 10404,Realm First! Expert Jewelcrafter
 10405,Realm First! Artisan Jewelcrafter
 10406,Realm First! Master Jewelcrafter
+10407,Seasonal Collection (Chapter 3): Unlock 5
 10408,Realm First! Apprentice Herbalist
 10409,Realm First! Journeyman Herbalist
 10410,Realm First! Expert Herbalist
 10411,Realm First! Artisan Herbalist
 10412,Realm First! Master Herbalist
+10413,Seasonal Collection (Chapter 3): Unlock 6
 10414,Realm First! Apprentice Miner
 10415,Realm First! Journeyman Miner
 10416,Realm First! Expert Miner
 10417,Realm First! Artisan Miner
 10418,Realm First! Master Miner
+10419,Seasonal Collection (Chapter 3): Unlock 7
 10420,Realm First! Apprentice Skinner
 10421,Realm First! Journeyman Skinner
 10422,Realm First! Expert Skinner
 10423,Realm First! Artisan Skinner
 10424,Realm First! Master Skinner
+10425,Seasonal Collection (Chapter 4): Unlock 1
 10426,Realm First! Cooking Apprentice
 10427,Realm First! Cooking Journeyman
 10428,Realm First! Cooking Expert
 10429,Realm First! Cooking Artisan
 10430,Realm First! Cooking Master
+10431,Seasonal Collection (Chapter 4): Unlock 2
 10432,Realm First! Apprentice Angler
 10433,Realm First! Journeyman Angler
 10434,Realm First! Expert Angler
 10435,Realm First! Artisan Angler
 10436,Realm First! Master Angler
+10437,Seasonal Collection (Chapter 4): Unlock 3
 10438,Realm First! First Aid Apprentice
 10439,Realm First! First Aid Journeyman
 10440,Realm First! First Aid Expert
@@ -5172,6 +5242,7 @@
 10623,Hero's Call: Zul'Gurub
 10624,Hero's Call: Ruins of Ahn'Qiraj
 10625,Keeping Evil at Bay: Dragonmaw Gates
+10626,Seasonal Collection (Chapter 4): Unlock 4
 10627,Keeping Evil at Bay: Purgation Isle
 10628,Keeping Evil at Bay: Tyr's Hand
 10629,Keeping Evil at Bay: The Tainted Scar
@@ -5179,7 +5250,9 @@
 10631,Keeping Evil at Bay: Frostwhisper Gorge
 10632,Keeping Evil at Bay: Darkwhisper Gorge
 10633,Keeping Evil at Bay: Isle of Dread
+10634,Seasonal Collection (Chapter 4): Unlock 5
 10635,Keeping Evil at Bay: Jademir Lake
+10636,Seasonal Collection (Chapter 4): Unlock 6
 10637,Keeping Evil at Bay: Alcaz Island
 10638,Keeping Evil at Bay: Lake Mennar
 10639,A Hero's Answer
@@ -5223,6 +5296,7 @@
 10677,Realm First! Death in the Dire Maul
 10678,Realm First! Death in Scholomance
 10679,Realm First! Death in Stratholme
+10680,Seasonal Collection (Chapter 4): Unlock 7
 10700,Realm First! Death from Falling
 10701,Realm First! Death from a Fire
 10702,Realm First! Death from Drowning
@@ -6200,8 +6274,6 @@
 11701,Vanilla Progression 3 Arena 2v2 Champion
 11702,Vanilla Progression 4 Arena 2v2 Champion
 11703,Vanilla Progression 5 Arena 2v2 Champion
-11868,Mythic: Auchenai Crypts
-11869,Realm First! Mythic: Auchenai Crypts
 11870,Mythic: Hellfire Ramparts
 11871,Mythic: The Blood Furnace
 11872,Mythic: The Slave Pens
@@ -6232,106 +6304,108 @@
 11897,Realm First! Mythic: The Botanica
 11898,Realm First! Mythic: The Arcatraz
 11899,Realm First! Mythic: Magister's Terrace
-11900,Flex: Attumen the Huntsman
-11901,Flex: Moroes
-11902,Flex: Maiden of Virtue
-11903,Flex: The Curator
-11904,Flex: Terestian Illhoof
-11905,Flex: Shade of Aran
-11906,Flex: Netherspite
-11907,Flex: Nightbane
-11908,Flex: Prince Malchezaar
-11909,Flex: Nalorakk
-11910,Flex: Jan'alai
-11911,Flex: Akil'zon
-11912,Flex: Halazzi
-11913,Flex: Hex Lord Malacrass
-11914,Flex: Zul'Jin
-11915,Flex: High King Maulgar
-11920,Flex: Gruul the Dragonkiller
-11921,Flex: Magtheridon
-11922,Flex: Hydross the Unstable
-11923,Flex: The Lurker Below
-11924,Flex: Leotheras the Blind
-11925,Flex: Fathom-Lord Karathress
-11926,Flex: Morogrim Tidewalker
-11927,Flex: Lady Vashj
-11928,Flex: Al'ar
-11929,Flex: Void Reaver
-11930,Flex: High Astromancer Solarian
-11931,Flex: Kael'thas Sunstrider
-11932,Flex: Rage Winterchill
-11933,Flex: Anetheron
-11934,Flex: Kaz'rogal
-11935,Flex: Azgalor
-11936,Flex: Archimonde
-11937,Flex: High Warlord Naj'entus
-11938,Flex: Supremus
-11939,Flex: Shade of Akama
-11940,Flex: Teron Gorefiend
-11941,Flex: Gurtogg Bloodboil
-11942,Flex: Reliquary of Souls
-11943,Flex: Mother Shahraz
-11944,Flex: Illidari Council
-11948,Flex: Illidan Stormrage
-11949,Flex: Kalecgos
-11950,Flex: Sathrovarr
-11951,Flex: Brutallus
-11952,Flex: Felmyst
-11953,Flex: Grand Warlock Alythess
-11954,Flex: Lady Sacrolash
-11955,Flex: M'uru
-11956,Flex: Kil'Jaeden
-12000,Flex Heroic: Attumen the Huntsman
-12001,Flex Heroic: Moroes
-12002,Flex Heroic: Maiden of Virtue
-12003,Flex Heroic: The Curator
-12004,Flex Heroic: Terestian Illhoof
-12005,Flex Heroic: Shade of Aran
-12006,Flex Heroic: Netherspite
-12007,Flex Heroic: Nightbane
-12008,Flex Heroic: Prince Malchezaar
-12009,Flex Heroic: Nalorakk
-12010,Flex Heroic: Jan'alai
-12011,Flex Heroic: Akil'zon
-12012,Flex Heroic: Halazzi
-12013,Flex Heroic: Hex Lord Malacrass
-12014,Flex Heroic: Zul'Jin
-12015,Flex Heroic: High King Maulgar
-12020,Flex Heroic: Gruul the Dragonkiller
-12021,Flex Heroic: Magtheridon
-12022,Flex Heroic: Hydross the Unstable
-12023,Flex Heroic: The Lurker Below
-12024,Flex Heroic: Leotheras the Blind
-12025,Flex Heroic: Fathom-Lord Karathress
-12026,Flex Heroic: Morogrim Tidewalker
-12027,Flex Heroic: Lady Vashj
-12028,Flex Heroic: Al'ar
-12029,Flex Heroic: Void Reaver
-12030,Flex Heroic: High Astromancer Solarian
-12031,Flex Heroic: Kael'thas Sunstrider
-12032,Flex Heroic: Rage Winterchill
-12033,Flex Heroic: Anetheron
-12034,Flex Heroic: Kaz'rogal
-12035,Flex Heroic: Azgalor
-12036,Flex Heroic: Archimonde
-12037,Flex Heroic: High Warlord Naj'entus
-12038,Flex Heroic: Supremus
-12039,Flex Heroic: Shade of Akama
-12040,Flex Heroic: Teron Gorefiend
-12041,Flex Heroic: Gurtogg Bloodboil
-12042,Flex Heroic: Reliquary of Souls
-12043,Flex Heroic: Mother Shahraz
-12044,Flex Heroic: Illidari Council
-12048,Flex Heroic: Illidan Stormrage
-12049,Flex Heroic: Kalecgos
-12050,Flex Heroic: Sathrovarr
-12051,Flex Heroic: Brutallus
-12052,Flex Heroic: Felmyst
-12053,Flex Heroic: Grand Warlock Alythess
-12054,Flex Heroic: Lady Sacrolash
-12055,Flex Heroic: M'uru
-12056,Flex Heroic: Kil'Jaeden
+11900,Normal: Attumen the Huntsman
+11901,Normal: Moroes
+11902,Normal: Maiden of Virtue
+11903,Normal: The Curator
+11904,Normal: Terestian Illhoof
+11905,Normal: Shade of Aran
+11906,Normal: Netherspite
+11907,Normal: Nightbane
+11908,Normal: Prince Malchezaar
+11909,Normal: Nalorakk
+11910,Normal: Jan'alai
+11911,Normal: Akil'zon
+11912,Normal: Halazzi
+11913,Normal: Hex Lord Malacrass
+11914,Normal: Zul'Jin
+11915,Normal: High King Maulgar
+11920,Normal: Gruul the Dragonkiller
+11921,Normal: Magtheridon
+11922,Normal: Hydross the Unstable
+11923,Normal: The Lurker Below
+11924,Normal: Leotheras the Blind
+11925,Normal: Fathom-Lord Karathress
+11926,Normal: Morogrim Tidewalker
+11927,Normal: Lady Vashj
+11928,Normal: Al'ar
+11929,Normal: Void Reaver
+11930,Normal: High Astromancer Solarian
+11931,Normal: Kael'thas Sunstrider
+11932,Normal: Rage Winterchill
+11933,Normal: Anetheron
+11934,Normal: Kaz'rogal
+11935,Normal: Azgalor
+11936,Normal: Archimonde
+11937,Normal: High Warlord Naj'entus
+11938,Normal: Supremus
+11939,Normal: Shade of Akama
+11940,Normal: Teron Gorefiend
+11941,Normal: Gurtogg Bloodboil
+11942,Normal: Reliquary of Souls
+11943,Normal: Mother Shahraz
+11944,Normal: Illidari Council
+11948,Normal: Illidan Stormrage
+11949,Normal: Kalecgos
+11950,Normal: Sathrovarr
+11951,Normal: Brutallus
+11952,Normal: Felmyst
+11953,Normal: Grand Warlock Alythess
+11954,Normal: Lady Sacrolash
+11955,Normal: M'uru
+11956,Normal: Kil'Jaeden
+11986,Mythic: Auchenai Crypts
+11987,Realm First! Mythic: Auchenai Crypts
+12000,Heroic: Attumen the Huntsman
+12001,Heroic: Moroes
+12002,Heroic: Maiden of Virtue
+12003,Heroic: The Curator
+12004,Heroic: Terestian Illhoof
+12005,Heroic: Shade of Aran
+12006,Heroic: Netherspite
+12007,Heroic: Nightbane
+12008,Heroic: Prince Malchezaar
+12009,Heroic: Nalorakk
+12010,Heroic: Jan'alai
+12011,Heroic: Akil'zon
+12012,Heroic: Halazzi
+12013,Heroic: Hex Lord Malacrass
+12014,Heroic: Zul'Jin
+12015,Heroic: High King Maulgar
+12020,Heroic: Gruul the Dragonkiller
+12021,Heroic: Magtheridon
+12022,Heroic: Hydross the Unstable
+12023,Heroic: The Lurker Below
+12024,Heroic: Leotheras the Blind
+12025,Heroic: Fathom-Lord Karathress
+12026,Heroic: Morogrim Tidewalker
+12027,Heroic: Lady Vashj
+12028,Heroic: Al'ar
+12029,Heroic: Void Reaver
+12030,Heroic: High Astromancer Solarian
+12031,Heroic: Kael'thas Sunstrider
+12032,Heroic: Rage Winterchill
+12033,Heroic: Anetheron
+12034,Heroic: Kaz'rogal
+12035,Heroic: Azgalor
+12036,Heroic: Archimonde
+12037,Heroic: High Warlord Naj'entus
+12038,Heroic: Supremus
+12039,Heroic: Shade of Akama
+12040,Heroic: Teron Gorefiend
+12041,Heroic: Gurtogg Bloodboil
+12042,Heroic: Reliquary of Souls
+12043,Heroic: Mother Shahraz
+12044,Heroic: Illidari Council
+12048,Heroic: Illidan Stormrage
+12049,Heroic: Kalecgos
+12050,Heroic: Sathrovarr
+12051,Heroic: Brutallus
+12052,Heroic: Felmyst
+12053,Heroic: Grand Warlock Alythess
+12054,Heroic: Lady Sacrolash
+12055,Heroic: M'uru
+12056,Heroic: Kil'Jaeden
 12070,Realm First! Karazhan
 12071,Doom Lord Kazzak
 12072,Doomwalker
@@ -6441,56 +6515,56 @@
 12254,Ascended: Lady Sacrolash (25 Player)
 12255,Ascended: M'uru (25 Player)
 12256,Ascended: Kil'Jaeden (25 Player)
-12257,Realm First! Flex Heroic: Attumen the Huntsman
-12258,Realm First! Flex Heroic: Moroes
-12259,Realm First! Flex Heroic: Maiden of Virtue
-12260,Realm First! Flex Heroic: The Curator
-12261,Realm First! Flex Heroic: Terestian Illhoof
-12262,Realm First! Flex Heroic: Shade of Aran
-12263,Realm First! Flex Heroic: Netherspite
-12264,Realm First! Flex Heroic: Nightbane
-12265,Realm First! Flex Heroic: Prince Malchezaar
-12266,Realm First! Flex Heroic: Nalorakk
-12267,Realm First! Flex Heroic: Jan'alai
-12268,Realm First! Flex Heroic: Akil'zon
-12269,Realm First! Flex Heroic: Halazzi
-12270,Realm First! Flex Heroic: Hex Lord Malacrass
-12271,Realm First! Flex Heroic: Zul'Jin
-12272,Realm First! Flex Heroic: High King Maulgar
-12277,Realm First! Flex Heroic: Gruul the Dragonkiller
-12278,Realm First! Flex Heroic: Magtheridon
-12279,Realm First! Flex Heroic: Hydross the Unstable
-12280,Realm First! Flex Heroic: The Lurker Below
-12281,Realm First! Flex Heroic: Leotheras the Blind
-12282,Realm First! Flex Heroic: Fathom-Lord Karathress
-12283,Realm First! Flex Heroic: Morogrim Tidewalker
-12284,Realm First! Flex Heroic: Lady Vashj
-12285,Realm First! Flex Heroic: Al'ar
-12286,Realm First! Flex Heroic: Void Reaver
-12287,Realm First! Flex Heroic: High Astromancer Solarian
-12288,Realm First! Flex Heroic: Kael'thas Sunstrider
-12289,Realm First! Flex Heroic: Rage Winterchill
-12290,Realm First! Flex Heroic: Anetheron
-12291,Realm First! Flex Heroic: Kaz'rogal
-12292,Realm First! Flex Heroic: Azgalor
-12293,Realm First! Flex Heroic: Archimonde
-12294,Realm First! Flex Heroic: High Warlord Naj'entus
-12295,Realm First! Flex Heroic: Supremus
-12296,Realm First! Flex Heroic: Shade of Akama
-12297,Realm First! Flex Heroic: Teron Gorefiend
-12298,Realm First! Flex Heroic: Gurtogg Bloodboil
-12299,Realm First! Flex Heroic: Reliquary of Souls
-12300,Realm First! Flex Heroic: Mother Shahraz
-12301,Realm First! Flex Heroic: Illidari Council
-12305,Realm First! Flex Heroic: Illidan Stormrage
-12306,Realm First! Flex Heroic: Kalecgos
-12307,Realm First! Flex Heroic: Sathrovarr
-12308,Realm First! Flex Heroic: Brutallus
-12309,Realm First! Flex Heroic: Felmyst
-12310,Realm First! Flex Heroic: Grand Warlock Alythess
-12311,Realm First! Flex Heroic: Lady Sacrolash
-12312,Realm First! Flex Heroic: M'uru
-12313,Realm First! Flex Heroic: Kil'Jaeden
+12257,Realm First! Heroic: Attumen the Huntsman
+12258,Realm First! Heroic: Moroes
+12259,Realm First! Heroic: Maiden of Virtue
+12260,Realm First! Heroic: The Curator
+12261,Realm First! Heroic: Terestian Illhoof
+12262,Realm First! Heroic: Shade of Aran
+12263,Realm First! Heroic: Netherspite
+12264,Realm First! Heroic: Nightbane
+12265,Realm First! Heroic: Prince Malchezaar
+12266,Realm First! Heroic: Nalorakk
+12267,Realm First! Heroic: Jan'alai
+12268,Realm First! Heroic: Akil'zon
+12269,Realm First! Heroic: Halazzi
+12270,Realm First! Heroic: Hex Lord Malacrass
+12271,Realm First! Heroic: Zul'Jin
+12272,Realm First! Heroic: High King Maulgar
+12277,Realm First! Heroic: Gruul the Dragonkiller
+12278,Realm First! Heroic: Magtheridon
+12279,Realm First! Heroic: Hydross the Unstable
+12280,Realm First! Heroic: The Lurker Below
+12281,Realm First! Heroic: Leotheras the Blind
+12282,Realm First! Heroic: Fathom-Lord Karathress
+12283,Realm First! Heroic: Morogrim Tidewalker
+12284,Realm First! Heroic: Lady Vashj
+12285,Realm First! Heroic: Al'ar
+12286,Realm First! Heroic: Void Reaver
+12287,Realm First! Heroic: High Astromancer Solarian
+12288,Realm First! Heroic: Kael'thas Sunstrider
+12289,Realm First! Heroic: Rage Winterchill
+12290,Realm First! Heroic: Anetheron
+12291,Realm First! Heroic: Kaz'rogal
+12292,Realm First! Heroic: Azgalor
+12293,Realm First! Heroic: Archimonde
+12294,Realm First! Heroic: High Warlord Naj'entus
+12295,Realm First! Heroic: Supremus
+12296,Realm First! Heroic: Shade of Akama
+12297,Realm First! Heroic: Teron Gorefiend
+12298,Realm First! Heroic: Gurtogg Bloodboil
+12299,Realm First! Heroic: Reliquary of Souls
+12300,Realm First! Heroic: Mother Shahraz
+12301,Realm First! Heroic: Illidari Council
+12305,Realm First! Heroic: Illidan Stormrage
+12306,Realm First! Heroic: Kalecgos
+12307,Realm First! Heroic: Sathrovarr
+12308,Realm First! Heroic: Brutallus
+12309,Realm First! Heroic: Felmyst
+12310,Realm First! Heroic: Grand Warlock Alythess
+12311,Realm First! Heroic: Lady Sacrolash
+12312,Realm First! Heroic: M'uru
+12313,Realm First! Heroic: Kil'Jaeden
 12357,Realm First! Ascended: Attumen the Huntsman (10 Player)
 12358,Realm First! Ascended: Moroes (10 Player)
 12359,Realm First! Ascended: Maiden of Virtue (10 Player)
@@ -6973,8 +7047,8 @@
 12985,Realm First! Crafted Swiftsteel Shoulders
 12986,Realm First! Crafted Dawnsteel Bracers
 12987,Realm First! Crafted Dawnsteel Shoulders
-12988,Realm First! Crafted Bindings of Lightning Reflexes
-12989,Realm First! Crafted Shoulders of Lightning Reflexes
+12988,Realm First! Crafted Bindings of Lightning ReNormales
+12989,Realm First! Crafted Shoulders of Lightning ReNormales
 12990,Realm First! Crafted Living Earth Bindings
 12991,Realm First! Crafted Living Earth Shoulders
 12992,Realm First! Crafted Swiftstrike Bracers
@@ -7004,7 +7078,7 @@
 13016,Realm First! Crafted Sunblessed Breastplate
 13017,Realm First! Crafted Sunblessed Gauntlets
 13018,Realm First! Reins of the Raven Lord
-13019,Realm First! Amani War Bear
+13019,Realm First! Red Amani War Bear
 13020,Realm First! Ashes of Alar
 13021,Realm First! Fiery Warhorses Reins
 13022,Realm First! Swift White Hawkstrider
@@ -7174,156 +7248,156 @@
 13217,Realm First! Prestige 8 Blood Elf
 13218,Realm First! Prestige 9 Blood Elf
 13219,Realm First! Prestige 10 Blood Elf
-13400,Nightmare Mode Flex: Attumen the Huntsman
-13401,Nightmare Mode Flex: Moroes
-13402,Nightmare Mode Flex: Maiden of Virtue
-13403,Nightmare Mode Flex: The Curator
-13404,Nightmare Mode Flex: Terestian Illhoof
-13405,Nightmare Mode Flex: Shade of Aran
-13406,Nightmare Mode Flex: Netherspite
-13407,Nightmare Mode Flex: Nightbane
-13408,Nightmare Mode Flex: Prince Malchezaar
-13409,Nightmare Mode Flex: Nalorakk
-13410,Nightmare Mode Flex: Jan'alai
-13411,Nightmare Mode Flex: Akil'zon
-13412,Nightmare Mode Flex: Halazzi
-13413,Nightmare Mode Flex: Hex Lord Malacrass
-13414,Nightmare Mode Flex: Zul'Jin
-13415,Nightmare Mode Flex: High King Maulgar
-13420,Nightmare Mode Flex: Gruul the Dragonkiller
-13421,Nightmare Mode Flex: Magtheridon
-13422,Nightmare Mode Flex: Hydross the Unstable
-13423,Nightmare Mode Flex: The Lurker Below
-13424,Nightmare Mode Flex: Leotheras the Blind
-13425,Nightmare Mode Flex: Fathom-Lord Karathress
-13426,Nightmare Mode Flex: Morogrim Tidewalker
-13427,Nightmare Mode Flex: Lady Vashj
-13428,Nightmare Mode Flex: Al'ar
-13429,Nightmare Mode Flex: Void Reaver
-13430,Nightmare Mode Flex: High Astromancer Solarian
-13431,Nightmare Mode Flex: Kael'thas Sunstrider
-13432,Nightmare Mode Flex: Rage Winterchill
-13433,Nightmare Mode Flex: Anetheron
-13434,Nightmare Mode Flex: Kaz'rogal
-13435,Nightmare Mode Flex: Azgalor
-13436,Nightmare Mode Flex: Archimonde
-13437,Nightmare Mode Flex: High Warlord Naj'entus
-13438,Nightmare Mode Flex: Supremus
-13439,Nightmare Mode Flex: Shade of Akama
-13440,Nightmare Mode Flex: Teron Gorefiend
-13441,Nightmare Mode Flex: Gurtogg Bloodboil
-13442,Nightmare Mode Flex: Reliquary of Souls
-13443,Nightmare Mode Flex: Mother Shahraz
-13444,Nightmare Mode Flex: Illidari Council
-13448,Nightmare Mode Flex: Illidan Stormrage
-13449,Nightmare Mode Flex: Kalecgos
-13450,Nightmare Mode Flex: Sathrovarr
-13451,Nightmare Mode Flex: Brutallus
-13452,Nightmare Mode Flex: Felmyst
-13453,Nightmare Mode Flex: Grand Warlock Alythess
-13454,Nightmare Mode Flex: Lady Sacrolash
-13455,Nightmare Mode Flex: M'uru
-13456,Nightmare Mode Flex: Kil'Jaeden
-13657,Realm First! Nightmare Mode Flex: Attumen the Huntsman
-13658,Realm First! Nightmare Mode Flex: Moroes
-13659,Realm First! Nightmare Mode Flex: Maiden of Virtue
-13660,Realm First! Nightmare Mode Flex: The Curator
-13661,Realm First! Nightmare Mode Flex: Terestian Illhoof
-13662,Realm First! Nightmare Mode Flex: Shade of Aran
-13663,Realm First! Nightmare Mode Flex: Netherspite
-13664,Realm First! Nightmare Mode Flex: Nightbane
-13665,Realm First! Nightmare Mode Flex: Prince Malchezaar
-13666,Realm First! Nightmare Mode Flex: Nalorakk
-13667,Realm First! Nightmare Mode Flex: Jan'alai
-13668,Realm First! Nightmare Mode Flex: Akil'zon
-13669,Realm First! Nightmare Mode Flex: Halazzi
-13670,Realm First! Nightmare Mode Flex: Hex Lord Malacrass
-13671,Realm First! Nightmare Mode Flex: Zul'Jin
-13672,Realm First! Nightmare Mode Flex: High King Maulgar
-13677,Realm First! Nightmare Mode Flex: Gruul the Dragonkiller
-13678,Realm First! Nightmare Mode Flex: Magtheridon
-13679,Realm First! Nightmare Mode Flex: Hydross the Unstable
-13680,Realm First! Nightmare Mode Flex: The Lurker Below
-13681,Realm First! Nightmare Mode Flex: Leotheras the Blind
-13682,Realm First! Nightmare Mode Flex: Fathom-Lord Karathress
-13683,Realm First! Nightmare Mode Flex: Morogrim Tidewalker
-13684,Realm First! Nightmare Mode Flex: Lady Vashj
-13685,Realm First! Nightmare Mode Flex: Al'ar
-13686,Realm First! Nightmare Mode Flex: Void Reaver
-13687,Realm First! Nightmare Mode Flex: High Astromancer Solarian
-13688,Realm First! Nightmare Mode Flex: Kael'thas Sunstrider
-13689,Realm First! Nightmare Mode Flex: Rage Winterchill
-13690,Realm First! Nightmare Mode Flex: Anetheron
-13691,Realm First! Nightmare Mode Flex: Kaz'rogal
-13692,Realm First! Nightmare Mode Flex: Azgalor
-13693,Realm First! Nightmare Mode Flex: Archimonde
-13694,Realm First! Nightmare Mode Flex: High Warlord Naj'entus
-13695,Realm First! Nightmare Mode Flex: Supremus
-13696,Realm First! Nightmare Mode Flex: Shade of Akama
-13697,Realm First! Nightmare Mode Flex: Teron Gorefiend
-13698,Realm First! Nightmare Mode Flex: Gurtogg Bloodboil
-13699,Realm First! Nightmare Mode Flex: Reliquary of Souls
-13700,Realm First! Nightmare Mode Flex: Mother Shahraz
-13701,Realm First! Nightmare Mode Flex: Illidari Council
-13705,Realm First! Nightmare Mode Flex: Illidan Stormrage
-13706,Realm First! Nightmare Mode Flex: Kalecgos
-13707,Realm First! Nightmare Mode Flex: Sathrovarr
-13708,Realm First! Nightmare Mode Flex: Brutallus
-13709,Realm First! Nightmare Mode Flex: Felmyst
-13710,Realm First! Nightmare Mode Flex: Grand Warlock Alythess
-13711,Realm First! Nightmare Mode Flex: Lady Sacrolash
-13712,Realm First! Nightmare Mode Flex: M'uru
-13713,Realm First! Nightmare Mode Flex: Kil'Jaeden
-14000,Nightmare Mode Flex Heroic: Attumen the Huntsman
-14001,Nightmare Mode Flex Heroic: Moroes
-14002,Nightmare Mode Flex Heroic: Maiden of Virtue
-14003,Nightmare Mode Flex Heroic: The Curator
-14004,Nightmare Mode Flex Heroic: Terestian Illhoof
-14005,Nightmare Mode Flex Heroic: Shade of Aran
-14006,Nightmare Mode Flex Heroic: Netherspite
-14007,Nightmare Mode Flex Heroic: Nightbane
-14008,Nightmare Mode Flex Heroic: Prince Malchezaar
-14009,Nightmare Mode Flex Heroic: Nalorakk
-14010,Nightmare Mode Flex Heroic: Jan'alai
-14011,Nightmare Mode Flex Heroic: Akil'zon
-14012,Nightmare Mode Flex Heroic: Halazzi
-14013,Nightmare Mode Flex Heroic: Hex Lord Malacrass
-14014,Nightmare Mode Flex Heroic: Zul'Jin
-14015,Nightmare Mode Flex Heroic: High King Maulgar
-14020,Nightmare Mode Flex Heroic: Gruul the Dragonkiller
-14021,Nightmare Mode Flex Heroic: Magtheridon
-14022,Nightmare Mode Flex Heroic: Hydross the Unstable
-14023,Nightmare Mode Flex Heroic: The Lurker Below
-14024,Nightmare Mode Flex Heroic: Leotheras the Blind
-14025,Nightmare Mode Flex Heroic: Fathom-Lord Karathress
-14026,Nightmare Mode Flex Heroic: Morogrim Tidewalker
-14027,Nightmare Mode Flex Heroic: Lady Vashj
-14028,Nightmare Mode Flex Heroic: Al'ar
-14029,Nightmare Mode Flex Heroic: Void Reaver
-14030,Nightmare Mode Flex Heroic: High Astromancer Solarian
-14031,Nightmare Mode Flex Heroic: Kael'thas Sunstrider
-14032,Nightmare Mode Flex Heroic: Rage Winterchill
-14033,Nightmare Mode Flex Heroic: Anetheron
-14034,Nightmare Mode Flex Heroic: Kaz'rogal
-14035,Nightmare Mode Flex Heroic: Azgalor
-14036,Nightmare Mode Flex Heroic: Archimonde
-14037,Nightmare Mode Flex Heroic: High Warlord Naj'entus
-14038,Nightmare Mode Flex Heroic: Supremus
-14039,Nightmare Mode Flex Heroic: Shade of Akama
-14040,Nightmare Mode Flex Heroic: Teron Gorefiend
-14041,Nightmare Mode Flex Heroic: Gurtogg Bloodboil
-14042,Nightmare Mode Flex Heroic: Reliquary of Souls
-14043,Nightmare Mode Flex Heroic: Mother Shahraz
-14044,Nightmare Mode Flex Heroic: Illidari Council
-14048,Nightmare Mode Flex Heroic: Illidan Stormrage
-14049,Nightmare Mode Flex Heroic: Kalecgos
-14050,Nightmare Mode Flex Heroic: Sathrovarr
-14051,Nightmare Mode Flex Heroic: Brutallus
-14052,Nightmare Mode Flex Heroic: Felmyst
-14053,Nightmare Mode Flex Heroic: Grand Warlock Alythess
-14054,Nightmare Mode Flex Heroic: Lady Sacrolash
-14055,Nightmare Mode Flex Heroic: M'uru
-14056,Nightmare Mode Flex Heroic: Kil'Jaeden
+13400,Nightmare Mode Normal: Attumen the Huntsman
+13401,Nightmare Mode Normal: Moroes
+13402,Nightmare Mode Normal: Maiden of Virtue
+13403,Nightmare Mode Normal: The Curator
+13404,Nightmare Mode Normal: Terestian Illhoof
+13405,Nightmare Mode Normal: Shade of Aran
+13406,Nightmare Mode Normal: Netherspite
+13407,Nightmare Mode Normal: Nightbane
+13408,Nightmare Mode Normal: Prince Malchezaar
+13409,Nightmare Mode Normal: Nalorakk
+13410,Nightmare Mode Normal: Jan'alai
+13411,Nightmare Mode Normal: Akil'zon
+13412,Nightmare Mode Normal: Halazzi
+13413,Nightmare Mode Normal: Hex Lord Malacrass
+13414,Nightmare Mode Normal: Zul'Jin
+13415,Nightmare Mode Normal: High King Maulgar
+13420,Nightmare Mode Normal: Gruul the Dragonkiller
+13421,Nightmare Mode Normal: Magtheridon
+13422,Nightmare Mode Normal: Hydross the Unstable
+13423,Nightmare Mode Normal: The Lurker Below
+13424,Nightmare Mode Normal: Leotheras the Blind
+13425,Nightmare Mode Normal: Fathom-Lord Karathress
+13426,Nightmare Mode Normal: Morogrim Tidewalker
+13427,Nightmare Mode Normal: Lady Vashj
+13428,Nightmare Mode Normal: Al'ar
+13429,Nightmare Mode Normal: Void Reaver
+13430,Nightmare Mode Normal: High Astromancer Solarian
+13431,Nightmare Mode Normal: Kael'thas Sunstrider
+13432,Nightmare Mode Normal: Rage Winterchill
+13433,Nightmare Mode Normal: Anetheron
+13434,Nightmare Mode Normal: Kaz'rogal
+13435,Nightmare Mode Normal: Azgalor
+13436,Nightmare Mode Normal: Archimonde
+13437,Nightmare Mode Normal: High Warlord Naj'entus
+13438,Nightmare Mode Normal: Supremus
+13439,Nightmare Mode Normal: Shade of Akama
+13440,Nightmare Mode Normal: Teron Gorefiend
+13441,Nightmare Mode Normal: Gurtogg Bloodboil
+13442,Nightmare Mode Normal: Reliquary of Souls
+13443,Nightmare Mode Normal: Mother Shahraz
+13444,Nightmare Mode Normal: Illidari Council
+13448,Nightmare Mode Normal: Illidan Stormrage
+13449,Nightmare Mode Normal: Kalecgos
+13450,Nightmare Mode Normal: Sathrovarr
+13451,Nightmare Mode Normal: Brutallus
+13452,Nightmare Mode Normal: Felmyst
+13453,Nightmare Mode Normal: Grand Warlock Alythess
+13454,Nightmare Mode Normal: Lady Sacrolash
+13455,Nightmare Mode Normal: M'uru
+13456,Nightmare Mode Normal: Kil'Jaeden
+13657,Realm First! Nightmare Mode Normal: Attumen the Huntsman
+13658,Realm First! Nightmare Mode Normal: Moroes
+13659,Realm First! Nightmare Mode Normal: Maiden of Virtue
+13660,Realm First! Nightmare Mode Normal: The Curator
+13661,Realm First! Nightmare Mode Normal: Terestian Illhoof
+13662,Realm First! Nightmare Mode Normal: Shade of Aran
+13663,Realm First! Nightmare Mode Normal: Netherspite
+13664,Realm First! Nightmare Mode Normal: Nightbane
+13665,Realm First! Nightmare Mode Normal: Prince Malchezaar
+13666,Realm First! Nightmare Mode Normal: Nalorakk
+13667,Realm First! Nightmare Mode Normal: Jan'alai
+13668,Realm First! Nightmare Mode Normal: Akil'zon
+13669,Realm First! Nightmare Mode Normal: Halazzi
+13670,Realm First! Nightmare Mode Normal: Hex Lord Malacrass
+13671,Realm First! Nightmare Mode Normal: Zul'Jin
+13672,Realm First! Nightmare Mode Normal: High King Maulgar
+13677,Realm First! Nightmare Mode Normal: Gruul the Dragonkiller
+13678,Realm First! Nightmare Mode Normal: Magtheridon
+13679,Realm First! Nightmare Mode Normal: Hydross the Unstable
+13680,Realm First! Nightmare Mode Normal: The Lurker Below
+13681,Realm First! Nightmare Mode Normal: Leotheras the Blind
+13682,Realm First! Nightmare Mode Normal: Fathom-Lord Karathress
+13683,Realm First! Nightmare Mode Normal: Morogrim Tidewalker
+13684,Realm First! Nightmare Mode Normal: Lady Vashj
+13685,Realm First! Nightmare Mode Normal: Al'ar
+13686,Realm First! Nightmare Mode Normal: Void Reaver
+13687,Realm First! Nightmare Mode Normal: High Astromancer Solarian
+13688,Realm First! Nightmare Mode Normal: Kael'thas Sunstrider
+13689,Realm First! Nightmare Mode Normal: Rage Winterchill
+13690,Realm First! Nightmare Mode Normal: Anetheron
+13691,Realm First! Nightmare Mode Normal: Kaz'rogal
+13692,Realm First! Nightmare Mode Normal: Azgalor
+13693,Realm First! Nightmare Mode Normal: Archimonde
+13694,Realm First! Nightmare Mode Normal: High Warlord Naj'entus
+13695,Realm First! Nightmare Mode Normal: Supremus
+13696,Realm First! Nightmare Mode Normal: Shade of Akama
+13697,Realm First! Nightmare Mode Normal: Teron Gorefiend
+13698,Realm First! Nightmare Mode Normal: Gurtogg Bloodboil
+13699,Realm First! Nightmare Mode Normal: Reliquary of Souls
+13700,Realm First! Nightmare Mode Normal: Mother Shahraz
+13701,Realm First! Nightmare Mode Normal: Illidari Council
+13705,Realm First! Nightmare Mode Normal: Illidan Stormrage
+13706,Realm First! Nightmare Mode Normal: Kalecgos
+13707,Realm First! Nightmare Mode Normal: Sathrovarr
+13708,Realm First! Nightmare Mode Normal: Brutallus
+13709,Realm First! Nightmare Mode Normal: Felmyst
+13710,Realm First! Nightmare Mode Normal: Grand Warlock Alythess
+13711,Realm First! Nightmare Mode Normal: Lady Sacrolash
+13712,Realm First! Nightmare Mode Normal: M'uru
+13713,Realm First! Nightmare Mode Normal: Kil'Jaeden
+14000,Nightmare Mode Heroic: Attumen the Huntsman
+14001,Nightmare Mode Heroic: Moroes
+14002,Nightmare Mode Heroic: Maiden of Virtue
+14003,Nightmare Mode Heroic: The Curator
+14004,Nightmare Mode Heroic: Terestian Illhoof
+14005,Nightmare Mode Heroic: Shade of Aran
+14006,Nightmare Mode Heroic: Netherspite
+14007,Nightmare Mode Heroic: Nightbane
+14008,Nightmare Mode Heroic: Prince Malchezaar
+14009,Nightmare Mode Heroic: Nalorakk
+14010,Nightmare Mode Heroic: Jan'alai
+14011,Nightmare Mode Heroic: Akil'zon
+14012,Nightmare Mode Heroic: Halazzi
+14013,Nightmare Mode Heroic: Hex Lord Malacrass
+14014,Nightmare Mode Heroic: Zul'Jin
+14015,Nightmare Mode Heroic: High King Maulgar
+14020,Nightmare Mode Heroic: Gruul the Dragonkiller
+14021,Nightmare Mode Heroic: Magtheridon
+14022,Nightmare Mode Heroic: Hydross the Unstable
+14023,Nightmare Mode Heroic: The Lurker Below
+14024,Nightmare Mode Heroic: Leotheras the Blind
+14025,Nightmare Mode Heroic: Fathom-Lord Karathress
+14026,Nightmare Mode Heroic: Morogrim Tidewalker
+14027,Nightmare Mode Heroic: Lady Vashj
+14028,Nightmare Mode Heroic: Al'ar
+14029,Nightmare Mode Heroic: Void Reaver
+14030,Nightmare Mode Heroic: High Astromancer Solarian
+14031,Nightmare Mode Heroic: Kael'thas Sunstrider
+14032,Nightmare Mode Heroic: Rage Winterchill
+14033,Nightmare Mode Heroic: Anetheron
+14034,Nightmare Mode Heroic: Kaz'rogal
+14035,Nightmare Mode Heroic: Azgalor
+14036,Nightmare Mode Heroic: Archimonde
+14037,Nightmare Mode Heroic: High Warlord Naj'entus
+14038,Nightmare Mode Heroic: Supremus
+14039,Nightmare Mode Heroic: Shade of Akama
+14040,Nightmare Mode Heroic: Teron Gorefiend
+14041,Nightmare Mode Heroic: Gurtogg Bloodboil
+14042,Nightmare Mode Heroic: Reliquary of Souls
+14043,Nightmare Mode Heroic: Mother Shahraz
+14044,Nightmare Mode Heroic: Illidari Council
+14048,Nightmare Mode Heroic: Illidan Stormrage
+14049,Nightmare Mode Heroic: Kalecgos
+14050,Nightmare Mode Heroic: Sathrovarr
+14051,Nightmare Mode Heroic: Brutallus
+14052,Nightmare Mode Heroic: Felmyst
+14053,Nightmare Mode Heroic: Grand Warlock Alythess
+14054,Nightmare Mode Heroic: Lady Sacrolash
+14055,Nightmare Mode Heroic: M'uru
+14056,Nightmare Mode Heroic: Kil'Jaeden
 14100,Nightmare Mode Ascended: Attumen the Huntsman (10 Player)
 14101,Nightmare Mode Ascended: Moroes (10 Player)
 14102,Nightmare Mode Ascended: Maiden of Virtue (10 Player)
@@ -7424,56 +7498,56 @@
 14254,Nightmare Mode Ascended: Lady Sacrolash (25 Player)
 14255,Nightmare Mode Ascended: M'uru (25 Player)
 14256,Nightmare Mode Ascended: Kil'Jaeden (25 Player)
-14257,Realm First! Nightmare Mode Flex Heroic: Attumen the Huntsman
-14258,Realm First! Nightmare Mode Flex Heroic: Moroes
-14259,Realm First! Nightmare Mode Flex Heroic: Maiden of Virtue
-14260,Realm First! Nightmare Mode Flex Heroic: The Curator
-14261,Realm First! Nightmare Mode Flex Heroic: Terestian Illhoof
-14262,Realm First! Nightmare Mode Flex Heroic: Shade of Aran
-14263,Realm First! Nightmare Mode Flex Heroic: Netherspite
-14264,Realm First! Nightmare Mode Flex Heroic: Nightbane
-14265,Realm First! Nightmare Mode Flex Heroic: Prince Malchezaar
-14266,Realm First! Nightmare Mode Flex Heroic: Nalorakk
-14267,Realm First! Nightmare Mode Flex Heroic: Jan'alai
-14268,Realm First! Nightmare Mode Flex Heroic: Akil'zon
-14269,Realm First! Nightmare Mode Flex Heroic: Halazzi
-14270,Realm First! Nightmare Mode Flex Heroic: Hex Lord Malacrass
-14271,Realm First! Nightmare Mode Flex Heroic: Zul'Jin
-14272,Realm First! Nightmare Mode Flex Heroic: High King Maulgar
-14277,Realm First! Nightmare Mode Flex Heroic: Gruul the Dragonkiller
-14278,Realm First! Nightmare Mode Flex Heroic: Magtheridon
-14279,Realm First! Nightmare Mode Flex Heroic: Hydross the Unstable
-14280,Realm First! Nightmare Mode Flex Heroic: The Lurker Below
-14281,Realm First! Nightmare Mode Flex Heroic: Leotheras the Blind
-14282,Realm First! Nightmare Mode Flex Heroic: Fathom-Lord Karathress
-14283,Realm First! Nightmare Mode Flex Heroic: Morogrim Tidewalker
-14284,Realm First! Nightmare Mode Flex Heroic: Lady Vashj
-14285,Realm First! Nightmare Mode Flex Heroic: Al'ar
-14286,Realm First! Nightmare Mode Flex Heroic: Void Reaver
-14287,Realm First! Nightmare Mode Flex Heroic: High Astromancer Solarian
-14288,Realm First! Nightmare Mode Flex Heroic: Kael'thas Sunstrider
-14289,Realm First! Nightmare Mode Flex Heroic: Rage Winterchill
-14290,Realm First! Nightmare Mode Flex Heroic: Anetheron
-14291,Realm First! Nightmare Mode Flex Heroic: Kaz'rogal
-14292,Realm First! Nightmare Mode Flex Heroic: Azgalor
-14293,Realm First! Nightmare Mode Flex Heroic: Archimonde
-14294,Realm First! Nightmare Mode Flex Heroic: High Warlord Naj'entus
-14295,Realm First! Nightmare Mode Flex Heroic: Supremus
-14296,Realm First! Nightmare Mode Flex Heroic: Shade of Akama
-14297,Realm First! Nightmare Mode Flex Heroic: Teron Gorefiend
-14298,Realm First! Nightmare Mode Flex Heroic: Gurtogg Bloodboil
-14299,Realm First! Nightmare Mode Flex Heroic: Reliquary of Souls
-14300,Realm First! Nightmare Mode Flex Heroic: Mother Shahraz
-14301,Realm First! Nightmare Mode Flex Heroic: Illidari Council
-14305,Realm First! Nightmare Mode Flex Heroic: Illidan Stormrage
-14306,Realm First! Nightmare Mode Flex Heroic: Kalecgos
-14307,Realm First! Nightmare Mode Flex Heroic: Sathrovarr
-14308,Realm First! Nightmare Mode Flex Heroic: Brutallus
-14309,Realm First! Nightmare Mode Flex Heroic: Felmyst
-14310,Realm First! Nightmare Mode Flex Heroic: Grand Warlock Alythess
-14311,Realm First! Nightmare Mode Flex Heroic: Lady Sacrolash
-14312,Realm First! Nightmare Mode Flex Heroic: M'uru
-14313,Realm First! Nightmare Mode Flex Heroic: Kil'Jaeden
+14257,Realm First! Nightmare Mode Heroic: Attumen the Huntsman
+14258,Realm First! Nightmare Mode Heroic: Moroes
+14259,Realm First! Nightmare Mode Heroic: Maiden of Virtue
+14260,Realm First! Nightmare Mode Heroic: The Curator
+14261,Realm First! Nightmare Mode Heroic: Terestian Illhoof
+14262,Realm First! Nightmare Mode Heroic: Shade of Aran
+14263,Realm First! Nightmare Mode Heroic: Netherspite
+14264,Realm First! Nightmare Mode Heroic: Nightbane
+14265,Realm First! Nightmare Mode Heroic: Prince Malchezaar
+14266,Realm First! Nightmare Mode Heroic: Nalorakk
+14267,Realm First! Nightmare Mode Heroic: Jan'alai
+14268,Realm First! Nightmare Mode Heroic: Akil'zon
+14269,Realm First! Nightmare Mode Heroic: Halazzi
+14270,Realm First! Nightmare Mode Heroic: Hex Lord Malacrass
+14271,Realm First! Nightmare Mode Heroic: Zul'Jin
+14272,Realm First! Nightmare Mode Heroic: High King Maulgar
+14277,Realm First! Nightmare Mode Heroic: Gruul the Dragonkiller
+14278,Realm First! Nightmare Mode Heroic: Magtheridon
+14279,Realm First! Nightmare Mode Heroic: Hydross the Unstable
+14280,Realm First! Nightmare Mode Heroic: The Lurker Below
+14281,Realm First! Nightmare Mode Heroic: Leotheras the Blind
+14282,Realm First! Nightmare Mode Heroic: Fathom-Lord Karathress
+14283,Realm First! Nightmare Mode Heroic: Morogrim Tidewalker
+14284,Realm First! Nightmare Mode Heroic: Lady Vashj
+14285,Realm First! Nightmare Mode Heroic: Al'ar
+14286,Realm First! Nightmare Mode Heroic: Void Reaver
+14287,Realm First! Nightmare Mode Heroic: High Astromancer Solarian
+14288,Realm First! Nightmare Mode Heroic: Kael'thas Sunstrider
+14289,Realm First! Nightmare Mode Heroic: Rage Winterchill
+14290,Realm First! Nightmare Mode Heroic: Anetheron
+14291,Realm First! Nightmare Mode Heroic: Kaz'rogal
+14292,Realm First! Nightmare Mode Heroic: Azgalor
+14293,Realm First! Nightmare Mode Heroic: Archimonde
+14294,Realm First! Nightmare Mode Heroic: High Warlord Naj'entus
+14295,Realm First! Nightmare Mode Heroic: Supremus
+14296,Realm First! Nightmare Mode Heroic: Shade of Akama
+14297,Realm First! Nightmare Mode Heroic: Teron Gorefiend
+14298,Realm First! Nightmare Mode Heroic: Gurtogg Bloodboil
+14299,Realm First! Nightmare Mode Heroic: Reliquary of Souls
+14300,Realm First! Nightmare Mode Heroic: Mother Shahraz
+14301,Realm First! Nightmare Mode Heroic: Illidari Council
+14305,Realm First! Nightmare Mode Heroic: Illidan Stormrage
+14306,Realm First! Nightmare Mode Heroic: Kalecgos
+14307,Realm First! Nightmare Mode Heroic: Sathrovarr
+14308,Realm First! Nightmare Mode Heroic: Brutallus
+14309,Realm First! Nightmare Mode Heroic: Felmyst
+14310,Realm First! Nightmare Mode Heroic: Grand Warlock Alythess
+14311,Realm First! Nightmare Mode Heroic: Lady Sacrolash
+14312,Realm First! Nightmare Mode Heroic: M'uru
+14313,Realm First! Nightmare Mode Heroic: Kil'Jaeden
 14357,Realm First! Nightmare Mode Ascended: Attumen the Huntsman (10 Player)
 14358,Realm First! Nightmare Mode Ascended: Moroes (10 Player)
 14359,Realm First! Nightmare Mode Ascended: Maiden of Virtue (10 Player)
@@ -7957,8 +8031,8 @@
 14985,Realm First! Nightmare Mode: Crafted Swiftsteel Shoulders
 14986,Realm First! Nightmare Mode: Crafted Dawnsteel Bracers
 14987,Realm First! Nightmare Mode: Crafted Dawnsteel Shoulders
-14988,Realm First! Nightmare Mode: Crafted Bindings of Lightning Reflexes
-14989,Realm First! Nightmare Mode: Crafted Shoulders of Lightning Reflexes
+14988,Realm First! Nightmare Mode: Crafted Bindings of Lightning ReNormales
+14989,Realm First! Nightmare Mode: Crafted Shoulders of Lightning ReNormales
 14990,Realm First! Nightmare Mode: Crafted Living Earth Bindings
 14991,Realm First! Nightmare Mode: Crafted Living Earth Shoulders
 14992,Realm First! Nightmare Mode: Crafted Swiftstrike Bracers
@@ -9197,6 +9271,46 @@
 17181,Kalimdor Rares
 17182,Apex Predator
 17183,Apex Predator
+17332,Nightmare Mode: Mythic: Hellfire Ramparts
+17333,Nightmare Mode: Mythic: The Blood Furnace
+17334,Nightmare Mode: Mythic: The Slave Pens
+17335,Nightmare Mode: Mythic: Underbog
+17336,Nightmare Mode: Mythic: Mana-Tombs
+17337,Nightmare Mode: Mythic: The Escape From Durnholde
+17338,Nightmare Mode: Mythic: Sethekk Halls
+17339,Nightmare Mode: Mythic: Shadow Labyrinth
+17340,Nightmare Mode: Mythic: Opening of the Dark Portal
+17341,Nightmare Mode: Mythic: The Steamvault
+17342,Nightmare Mode: Mythic: The Shattered Halls
+17343,Nightmare Mode: Mythic: The Mechanar
+17344,Nightmare Mode: Mythic: The Botanica
+17345,Nightmare Mode: Mythic: The Arcatraz
+17346,Nightmare Mode: Mythic: Magister's Terrace
+17347,Realm First! Nightmare Mode: Mythic: Hellfire Ramparts
+17348,Realm First! Nightmare Mode: Mythic: The Blood Furnace
+17349,Realm First! Nightmare Mode: Mythic: The Slave Pens
+17350,Realm First! Nightmare Mode: Mythic: Underbog
+17351,Realm First! Nightmare Mode: Mythic: Mana-Tombs
+17352,Realm First! Nightmare Mode: Mythic: The Escape From Durnholde
+17353,Realm First! Nightmare Mode: Mythic: Sethekk Halls
+17354,Realm First! Nightmare Mode: Mythic: Shadow Labyrinth
+17355,Realm First! Nightmare Mode: Mythic: Opening of the Dark Portal
+17356,Realm First! Nightmare Mode: Mythic: The Steamvault
+17357,Realm First! Nightmare Mode: Mythic: The Shattered Halls
+17358,Realm First! Nightmare Mode: Mythic: The Mechanar
+17359,Realm First! Nightmare Mode: Mythic: The Botanica
+17360,Realm First! Nightmare Mode: Mythic: The Arcatraz
+17361,Realm First! Nightmare Mode: Mythic: Magister's Terrace
+17362,Nightmare Mode: Mythic: Auchenai Crypts
+17363,Realm First! Nightmare Mode: Mythic: Auchenai Crypts
+17400,Normal: Not All Heroes Wear Cloaks
+17401,Heroic: Not All Heroes Wear Cloaks
+17402,Mythic: Not All Heroes Wear Cloaks
+17403,Ascended: Not All Heroes Wear Cloaks
+17404,Realm First! Normal: Not All Heroes Wear Cloaks
+17405,Realm First! Heroic: Not All Heroes Wear Cloaks
+17406,Realm First! Mythic: Not All Heroes Wear Cloaks
+17407,Realm First! Ascended: Not All Heroes Wear Cloaks
 18000,Nightmare Mode: Level 60
 18001,Nightmare Mode: Resolute Ironman Level 60
 18002,Blackrock Depths: Overmaster Pyron
@@ -9236,7 +9350,6 @@
 18036,Lower Blackrock Spire: Burning Felguard
 18037,Upper Blackrock Spire: Pyroguard Emberseer
 18038,Upper Blackrock Spire: Solakar Flamewreath
-18039,Upper Blackrock Spire: Father Flame
 18040,Upper Blackrock Spire: Jed Runewatcher
 18041,Upper Blackrock Spire: Goraluk Anvilcrack
 18042,Upper Blackrock Spire: Warchief Rend Blackhand
@@ -9335,7 +9448,6 @@
 18135,Realm First! Lower Blackrock Spire: Burning Felguard
 18136,Realm First! Upper Blackrock Spire: Pyroguard Emberseer
 18137,Realm First! Upper Blackrock Spire: Solakar Flamewreath
-18138,Realm First! Upper Blackrock Spire: Father Flame
 18139,Realm First! Upper Blackrock Spire: Jed Runewatcher
 18140,Realm First! Upper Blackrock Spire: Goraluk Anvilcrack
 18141,Realm First! Upper Blackrock Spire: Warchief Rend Blackhand
@@ -9434,7 +9546,6 @@
 18234,Nightmare Mode: Lower Blackrock Spire: Burning Felguard
 18235,Nightmare Mode: Upper Blackrock Spire: Pyroguard Emberseer
 18236,Nightmare Mode: Upper Blackrock Spire: Solakar Flamewreath
-18237,Nightmare Mode: Upper Blackrock Spire: Father Flame
 18238,Nightmare Mode: Upper Blackrock Spire: Jed Runewatcher
 18239,Nightmare Mode: Upper Blackrock Spire: Goraluk Anvilcrack
 18240,Nightmare Mode: Upper Blackrock Spire: Warchief Rend Blackhand
@@ -9533,7 +9644,6 @@
 18333,Realm First! Nightmare Mode: Lower Blackrock Spire: Burning Felguard
 18334,Realm First! Nightmare Mode: Upper Blackrock Spire: Pyroguard Emberseer
 18335,Realm First! Nightmare Mode: Upper Blackrock Spire: Solakar Flamewreath
-18336,Realm First! Nightmare Mode: Upper Blackrock Spire: Father Flame
 18337,Realm First! Nightmare Mode: Upper Blackrock Spire: Jed Runewatcher
 18338,Realm First! Nightmare Mode: Upper Blackrock Spire: Goraluk Anvilcrack
 18339,Realm First! Nightmare Mode: Upper Blackrock Spire: Warchief Rend Blackhand
@@ -9632,7 +9742,6 @@
 18432,Lower Blackrock Spire Heroic: Burning Felguard
 18433,Upper Blackrock Spire Heroic: Pyroguard Emberseer
 18434,Upper Blackrock Spire Heroic: Solakar Flamewreath
-18435,Upper Blackrock Spire Heroic: Father Flame
 18436,Upper Blackrock Spire Heroic: Jed Runewatcher
 18437,Upper Blackrock Spire Heroic: Goraluk Anvilcrack
 18438,Upper Blackrock Spire Heroic: Warchief Rend Blackhand
@@ -9731,7 +9840,6 @@
 18531,Realm First! Lower Blackrock Spire Heroic: Burning Felguard
 18532,Realm First! Upper Blackrock Spire Heroic: Pyroguard Emberseer
 18533,Realm First! Upper Blackrock Spire Heroic: Solakar Flamewreath
-18534,Realm First! Upper Blackrock Spire Heroic: Father Flame
 18535,Realm First! Upper Blackrock Spire Heroic: Jed Runewatcher
 18536,Realm First! Upper Blackrock Spire Heroic: Goraluk Anvilcrack
 18537,Realm First! Upper Blackrock Spire Heroic: Warchief Rend Blackhand
@@ -9830,7 +9938,6 @@
 18630,Nightmare Mode: Lower Blackrock Spire Heroic: Burning Felguard
 18631,Nightmare Mode: Upper Blackrock Spire Heroic: Pyroguard Emberseer
 18632,Nightmare Mode: Upper Blackrock Spire Heroic: Solakar Flamewreath
-18633,Nightmare Mode: Upper Blackrock Spire Heroic: Father Flame
 18634,Nightmare Mode: Upper Blackrock Spire Heroic: Jed Runewatcher
 18635,Nightmare Mode: Upper Blackrock Spire Heroic: Goraluk Anvilcrack
 18636,Nightmare Mode: Upper Blackrock Spire Heroic: Warchief Rend Blackhand
@@ -9929,7 +10036,6 @@
 18729,Realm First! Nightmare Mode: Lower Blackrock Spire Heroic: Burning Felguard
 18730,Realm First! Nightmare Mode: Upper Blackrock Spire Heroic: Pyroguard Emberseer
 18731,Realm First! Nightmare Mode: Upper Blackrock Spire Heroic: Solakar Flamewreath
-18732,Realm First! Nightmare Mode: Upper Blackrock Spire Heroic: Father Flame
 18733,Realm First! Nightmare Mode: Upper Blackrock Spire Heroic: Jed Runewatcher
 18734,Realm First! Nightmare Mode: Upper Blackrock Spire Heroic: Goraluk Anvilcrack
 18735,Realm First! Nightmare Mode: Upper Blackrock Spire Heroic: Warchief Rend Blackhand
@@ -10028,7 +10134,6 @@
 18828,Lower Blackrock Spire Mythic: Burning Felguard
 18829,Upper Blackrock Spire Mythic: Pyroguard Emberseer
 18830,Upper Blackrock Spire Mythic: Solakar Flamewreath
-18831,Upper Blackrock Spire Mythic: Father Flame
 18832,Upper Blackrock Spire Mythic: Jed Runewatcher
 18833,Upper Blackrock Spire Mythic: Goraluk Anvilcrack
 18834,Upper Blackrock Spire Mythic: Warchief Rend Blackhand
@@ -10127,7 +10232,6 @@
 18927,Realm First! Lower Blackrock Spire Mythic: Burning Felguard
 18928,Realm First! Upper Blackrock Spire Mythic: Pyroguard Emberseer
 18929,Realm First! Upper Blackrock Spire Mythic: Solakar Flamewreath
-18930,Realm First! Upper Blackrock Spire Mythic: Father Flame
 18931,Realm First! Upper Blackrock Spire Mythic: Jed Runewatcher
 18932,Realm First! Upper Blackrock Spire Mythic: Goraluk Anvilcrack
 18933,Realm First! Upper Blackrock Spire Mythic: Warchief Rend Blackhand
@@ -10226,7 +10330,6 @@
 19026,Nightmare Mode: Lower Blackrock Spire Mythic: Burning Felguard
 19027,Nightmare Mode: Upper Blackrock Spire Mythic: Pyroguard Emberseer
 19028,Nightmare Mode: Upper Blackrock Spire Mythic: Solakar Flamewreath
-19029,Nightmare Mode: Upper Blackrock Spire Mythic: Father Flame
 19030,Nightmare Mode: Upper Blackrock Spire Mythic: Jed Runewatcher
 19031,Nightmare Mode: Upper Blackrock Spire Mythic: Goraluk Anvilcrack
 19032,Nightmare Mode: Upper Blackrock Spire Mythic: Warchief Rend Blackhand
@@ -10325,7 +10428,6 @@
 19125,Realm First! Nightmare Mode: Lower Blackrock Spire Mythic: Burning Felguard
 19126,Realm First! Nightmare Mode: Upper Blackrock Spire Mythic: Pyroguard Emberseer
 19127,Realm First! Nightmare Mode: Upper Blackrock Spire Mythic: Solakar Flamewreath
-19128,Realm First! Nightmare Mode: Upper Blackrock Spire Mythic: Father Flame
 19129,Realm First! Nightmare Mode: Upper Blackrock Spire Mythic: Jed Runewatcher
 19130,Realm First! Nightmare Mode: Upper Blackrock Spire Mythic: Goraluk Anvilcrack
 19131,Realm First! Nightmare Mode: Upper Blackrock Spire Mythic: Warchief Rend Blackhand
@@ -10387,36 +10489,36 @@
 19187,Realm First! Nightmare Mode: Stratholme Mythic: Magistrate Barthilas
 19188,Realm First! Nightmare Mode: Stratholme Mythic: Ramstein the Gorger
 19189,Realm First! Nightmare Mode: Stratholme Mythic: Baron Rivendare
-19200,Flex: Patchwerk
-19201,Flex: Grobbulus
-19202,Flex: Gluth
-19203,Flex: Thaddius
-19204,Flex: Anub'rekhan
-19205,Flex: Grand Widow Faerlina
-19206,Flex: Maexxna
-19207,Flex: Noth the Plaguebringer
-19208,Flex: Heigan the Unclean
-19209,Flex: Loatheb
-19210,Flex: Instructor Razuvious
-19211,Flex: Gothik the Harvester
-19212,Flex: The Four Horsemen
-19213,Flex: Sapphiron
-19214,Flex: Kel'thuzad
-19215,Flex Heroic: Patchwerk
-19216,Flex Heroic: Grobbulus
-19217,Flex Heroic: Gluth
-19218,Flex Heroic: Thaddius
-19219,Flex Heroic: Anub'rekhan
-19220,Flex Heroic: Grand Widow Faerlina
-19221,Flex Heroic: Maexxna
-19222,Flex Heroic: Noth the Plaguebringer
-19223,Flex Heroic: Heigan the Unclean
-19224,Flex Heroic: Loatheb
-19225,Flex Heroic: Instructor Razuvious
-19226,Flex Heroic: Gothik the Harvester
-19227,Flex Heroic: The Four Horsemen
-19228,Flex Heroic: Sapphiron
-19229,Flex Heroic: Kel'thuzad
+19200,Normal: Patchwerk
+19201,Normal: Grobbulus
+19202,Normal: Gluth
+19203,Normal: Thaddius
+19204,Normal: Anub'rekhan
+19205,Normal: Grand Widow Faerlina
+19206,Normal: Maexxna
+19207,Normal: Noth the Plaguebringer
+19208,Normal: Heigan the Unclean
+19209,Normal: Loatheb
+19210,Normal: Instructor Razuvious
+19211,Normal: Gothik the Harvester
+19212,Normal: The Four Horsemen
+19213,Normal: Sapphiron
+19214,Normal: Kel'thuzad
+19215,Heroic: Patchwerk
+19216,Heroic: Grobbulus
+19217,Heroic: Gluth
+19218,Heroic: Thaddius
+19219,Heroic: Anub'rekhan
+19220,Heroic: Grand Widow Faerlina
+19221,Heroic: Maexxna
+19222,Heroic: Noth the Plaguebringer
+19223,Heroic: Heigan the Unclean
+19224,Heroic: Loatheb
+19225,Heroic: Instructor Razuvious
+19226,Heroic: Gothik the Harvester
+19227,Heroic: The Four Horsemen
+19228,Heroic: Sapphiron
+19229,Heroic: Kel'thuzad
 19230,Ascended: Patchwerk (10 Player)
 19231,Ascended: Grobbulus (10 Player)
 19232,Ascended: Gluth (10 Player)
@@ -10447,36 +10549,36 @@
 19257,Ascended: The Four Horsemen (25 Player)
 19258,Ascended: Sapphiron (25 Player)
 19259,Ascended: Kel'thuzad (25 Player)
-19260,Realm First! Flex: Patchwerk
-19261,Realm First! Flex: Grobbulus
-19262,Realm First! Flex: Gluth
-19263,Realm First! Flex: Thaddius
-19264,Realm First! Flex: Anub'rekhan
-19265,Realm First! Flex: Grand Widow Faerlina
-19266,Realm First! Flex: Maexxna
-19267,Realm First! Flex: Noth the Plaguebringer
-19268,Realm First! Flex: Heigan the Unclean
-19269,Realm First! Flex: Loatheb
-19270,Realm First! Flex: Instructor Razuvious
-19271,Realm First! Flex: Gothik the Harvester
-19272,Realm First! Flex: The Four Horsemen
-19273,Realm First! Flex: Sapphiron
-19274,Realm First! Flex: Kel'thuzad
-19275,Realm First! Flex Heroic: Patchwerk
-19276,Realm First! Flex Heroic: Grobbulus
-19277,Realm First! Flex Heroic: Gluth
-19278,Realm First! Flex Heroic: Thaddius
-19279,Realm First! Flex Heroic: Anub'rekhan
-19280,Realm First! Flex Heroic: Grand Widow Faerlina
-19281,Realm First! Flex Heroic: Maexxna
-19282,Realm First! Flex Heroic: Noth the Plaguebringer
-19283,Realm First! Flex Heroic: Heigan the Unclean
-19284,Realm First! Flex Heroic: Loatheb
-19285,Realm First! Flex Heroic: Instructor Razuvious
-19286,Realm First! Flex Heroic: Gothik the Harvester
-19287,Realm First! Flex Heroic: The Four Horsemen
-19288,Realm First! Flex Heroic: Sapphiron
-19289,Realm First! Flex Heroic: Kel'thuzad
+19260,Realm First! Normal: Patchwerk
+19261,Realm First! Normal: Grobbulus
+19262,Realm First! Normal: Gluth
+19263,Realm First! Normal: Thaddius
+19264,Realm First! Normal: Anub'rekhan
+19265,Realm First! Normal: Grand Widow Faerlina
+19266,Realm First! Normal: Maexxna
+19267,Realm First! Normal: Noth the Plaguebringer
+19268,Realm First! Normal: Heigan the Unclean
+19269,Realm First! Normal: Loatheb
+19270,Realm First! Normal: Instructor Razuvious
+19271,Realm First! Normal: Gothik the Harvester
+19272,Realm First! Normal: The Four Horsemen
+19273,Realm First! Normal: Sapphiron
+19274,Realm First! Normal: Kel'thuzad
+19275,Realm First! Heroic: Patchwerk
+19276,Realm First! Heroic: Grobbulus
+19277,Realm First! Heroic: Gluth
+19278,Realm First! Heroic: Thaddius
+19279,Realm First! Heroic: Anub'rekhan
+19280,Realm First! Heroic: Grand Widow Faerlina
+19281,Realm First! Heroic: Maexxna
+19282,Realm First! Heroic: Noth the Plaguebringer
+19283,Realm First! Heroic: Heigan the Unclean
+19284,Realm First! Heroic: Loatheb
+19285,Realm First! Heroic: Instructor Razuvious
+19286,Realm First! Heroic: Gothik the Harvester
+19287,Realm First! Heroic: The Four Horsemen
+19288,Realm First! Heroic: Sapphiron
+19289,Realm First! Heroic: Kel'thuzad
 19290,Realm First! Ascended: Patchwerk (10 Player)
 19291,Realm First! Ascended: Grobbulus (10 Player)
 19292,Realm First! Ascended: Gluth (10 Player)
@@ -10507,36 +10609,36 @@
 19317,Realm First! Ascended: The Four Horsemen (25 Player)
 19318,Realm First! Ascended: Sapphiron (25 Player)
 19319,Realm First! Ascended: Kel'thuzad (25 Player)
-19320,Nightmare Mode Flex: Patchwerk
-19321,Nightmare Mode Flex: Grobbulus
-19322,Nightmare Mode Flex: Gluth
-19323,Nightmare Mode Flex: Thaddius
-19324,Nightmare Mode Flex: Anub'rekhan
-19325,Nightmare Mode Flex: Grand Widow Faerlina
-19326,Nightmare Mode Flex: Maexxna
-19327,Nightmare Mode Flex: Noth the Plaguebringer
-19328,Nightmare Mode Flex: Heigan the Unclean
-19329,Nightmare Mode Flex: Loatheb
-19330,Nightmare Mode Flex: Instructor Razuvious
-19331,Nightmare Mode Flex: Gothik the Harvester
-19332,Nightmare Mode Flex: The Four Horsemen
-19333,Nightmare Mode Flex: Sapphiron
-19334,Nightmare Mode Flex: Kel'thuzad
-19335,Nightmare Mode Flex Heroic: Patchwerk
-19336,Nightmare Mode Flex Heroic: Grobbulus
-19337,Nightmare Mode Flex Heroic: Gluth
-19338,Nightmare Mode Flex Heroic: Thaddius
-19339,Nightmare Mode Flex Heroic: Anub'rekhan
-19340,Nightmare Mode Flex Heroic: Grand Widow Faerlina
-19341,Nightmare Mode Flex Heroic: Maexxna
-19342,Nightmare Mode Flex Heroic: Noth the Plaguebringer
-19343,Nightmare Mode Flex Heroic: Heigan the Unclean
-19344,Nightmare Mode Flex Heroic: Loatheb
-19345,Nightmare Mode Flex Heroic: Instructor Razuvious
-19346,Nightmare Mode Flex Heroic: Gothik the Harvester
-19347,Nightmare Mode Flex Heroic: The Four Horsemen
-19348,Nightmare Mode Flex Heroic: Sapphiron
-19349,Nightmare Mode Flex Heroic: Kel'thuzad
+19320,Nightmare Mode Normal: Patchwerk
+19321,Nightmare Mode Normal: Grobbulus
+19322,Nightmare Mode Normal: Gluth
+19323,Nightmare Mode Normal: Thaddius
+19324,Nightmare Mode Normal: Anub'rekhan
+19325,Nightmare Mode Normal: Grand Widow Faerlina
+19326,Nightmare Mode Normal: Maexxna
+19327,Nightmare Mode Normal: Noth the Plaguebringer
+19328,Nightmare Mode Normal: Heigan the Unclean
+19329,Nightmare Mode Normal: Loatheb
+19330,Nightmare Mode Normal: Instructor Razuvious
+19331,Nightmare Mode Normal: Gothik the Harvester
+19332,Nightmare Mode Normal: The Four Horsemen
+19333,Nightmare Mode Normal: Sapphiron
+19334,Nightmare Mode Normal: Kel'thuzad
+19335,Nightmare Mode Heroic: Patchwerk
+19336,Nightmare Mode Heroic: Grobbulus
+19337,Nightmare Mode Heroic: Gluth
+19338,Nightmare Mode Heroic: Thaddius
+19339,Nightmare Mode Heroic: Anub'rekhan
+19340,Nightmare Mode Heroic: Grand Widow Faerlina
+19341,Nightmare Mode Heroic: Maexxna
+19342,Nightmare Mode Heroic: Noth the Plaguebringer
+19343,Nightmare Mode Heroic: Heigan the Unclean
+19344,Nightmare Mode Heroic: Loatheb
+19345,Nightmare Mode Heroic: Instructor Razuvious
+19346,Nightmare Mode Heroic: Gothik the Harvester
+19347,Nightmare Mode Heroic: The Four Horsemen
+19348,Nightmare Mode Heroic: Sapphiron
+19349,Nightmare Mode Heroic: Kel'thuzad
 19350,Nightmare Mode Ascended: Patchwerk (10 Player)
 19351,Nightmare Mode Ascended: Grobbulus (10 Player)
 19352,Nightmare Mode Ascended: Gluth (10 Player)
@@ -10567,36 +10669,36 @@
 19377,Nightmare Mode Ascended: The Four Horsemen (25 Player)
 19378,Nightmare Mode Ascended: Sapphiron (25 Player)
 19379,Nightmare Mode Ascended: Kel'thuzad (25 Player)
-19380,Nightmare Mode Realm First! Flex: Patchwerk
-19381,Nightmare Mode Realm First! Flex: Grobbulus
-19382,Nightmare Mode Realm First! Flex: Gluth
-19383,Nightmare Mode Realm First! Flex: Thaddius
-19384,Nightmare Mode Realm First! Flex: Anub'rekhan
-19385,Nightmare Mode Realm First! Flex: Grand Widow Faerlina
-19386,Nightmare Mode Realm First! Flex: Maexxna
-19387,Nightmare Mode Realm First! Flex: Noth the Plaguebringer
-19388,Nightmare Mode Realm First! Flex: Heigan the Unclean
-19389,Nightmare Mode Realm First! Flex: Loatheb
-19390,Nightmare Mode Realm First! Flex: Instructor Razuvious
-19391,Nightmare Mode Realm First! Flex: Gothik the Harvester
-19392,Nightmare Mode Realm First! Flex: The Four Horsemen
-19393,Nightmare Mode Realm First! Flex: Sapphiron
-19394,Nightmare Mode Realm First! Flex: Kel'thuzad
-19395,Nightmare Mode Realm First! Flex Heroic: Patchwerk
-19396,Nightmare Mode Realm First! Flex Heroic: Grobbulus
-19397,Nightmare Mode Realm First! Flex Heroic: Gluth
-19398,Nightmare Mode Realm First! Flex Heroic: Thaddius
-19399,Nightmare Mode Realm First! Flex Heroic: Anub'rekhan
-19400,Nightmare Mode Realm First! Flex Heroic: Grand Widow Faerlina
-19401,Nightmare Mode Realm First! Flex Heroic: Maexxna
-19402,Nightmare Mode Realm First! Flex Heroic: Noth the Plaguebringer
-19403,Nightmare Mode Realm First! Flex Heroic: Heigan the Unclean
-19404,Nightmare Mode Realm First! Flex Heroic: Loatheb
-19405,Nightmare Mode Realm First! Flex Heroic: Instructor Razuvious
-19406,Nightmare Mode Realm First! Flex Heroic: Gothik the Harvester
-19407,Nightmare Mode Realm First! Flex Heroic: The Four Horsemen
-19408,Nightmare Mode Realm First! Flex Heroic: Sapphiron
-19409,Nightmare Mode Realm First! Flex Heroic: Kel'thuzad
+19380,Nightmare Mode Realm First! Normal: Patchwerk
+19381,Nightmare Mode Realm First! Normal: Grobbulus
+19382,Nightmare Mode Realm First! Normal: Gluth
+19383,Nightmare Mode Realm First! Normal: Thaddius
+19384,Nightmare Mode Realm First! Normal: Anub'rekhan
+19385,Nightmare Mode Realm First! Normal: Grand Widow Faerlina
+19386,Nightmare Mode Realm First! Normal: Maexxna
+19387,Nightmare Mode Realm First! Normal: Noth the Plaguebringer
+19388,Nightmare Mode Realm First! Normal: Heigan the Unclean
+19389,Nightmare Mode Realm First! Normal: Loatheb
+19390,Nightmare Mode Realm First! Normal: Instructor Razuvious
+19391,Nightmare Mode Realm First! Normal: Gothik the Harvester
+19392,Nightmare Mode Realm First! Normal: The Four Horsemen
+19393,Nightmare Mode Realm First! Normal: Sapphiron
+19394,Nightmare Mode Realm First! Normal: Kel'thuzad
+19395,Nightmare Mode Realm First! Heroic: Patchwerk
+19396,Nightmare Mode Realm First! Heroic: Grobbulus
+19397,Nightmare Mode Realm First! Heroic: Gluth
+19398,Nightmare Mode Realm First! Heroic: Thaddius
+19399,Nightmare Mode Realm First! Heroic: Anub'rekhan
+19400,Nightmare Mode Realm First! Heroic: Grand Widow Faerlina
+19401,Nightmare Mode Realm First! Heroic: Maexxna
+19402,Nightmare Mode Realm First! Heroic: Noth the Plaguebringer
+19403,Nightmare Mode Realm First! Heroic: Heigan the Unclean
+19404,Nightmare Mode Realm First! Heroic: Loatheb
+19405,Nightmare Mode Realm First! Heroic: Instructor Razuvious
+19406,Nightmare Mode Realm First! Heroic: Gothik the Harvester
+19407,Nightmare Mode Realm First! Heroic: The Four Horsemen
+19408,Nightmare Mode Realm First! Heroic: Sapphiron
+19409,Nightmare Mode Realm First! Heroic: Kel'thuzad
 19410,Nightmare Mode Realm First! Ascended: Patchwerk (10 Player)
 19411,Nightmare Mode Realm First! Ascended: Grobbulus (10 Player)
 19412,Nightmare Mode Realm First! Ascended: Gluth (10 Player)
@@ -10627,12 +10729,342 @@
 19437,Nightmare Mode Realm First! Ascended: The Four Horsemen (25 Player)
 19438,Nightmare Mode Realm First! Ascended: Sapphiron (25 Player)
 19439,Nightmare Mode Realm First! Ascended: Kel'thuzad (25 Player)
+19724,Ironman Level 60
+19725,Ironman Level 60
+19726,Ironman Level 60
+19727,Ironman Level 60
 20000,Heroic Hellfire Citadel Dungeons Unlocked!
 20001,Heroic Hellfire Citadel Dungeons Unlocked!
 20002,Heroic Coilfang Reservoir Dungeons Unlocked!
 20003,Heroic Auchenai Dungeons Unlocked!
 20004,Heroic Caverns of Time Dungeons Unlocked!
 20005,Heroic Tempest Keep Dungeons Unlocked!
+20006,Normal: Bear-ly Made It!
+20007,Heroic: Bear-ly Made It!
+20008,Mythic: Bear-ly Made It!
+20009,Ascended: Bear-ly Made It!
+20010,Realm First! Normal: Bear-ly Made It!
+20011,Realm First! Heroic: Bear-ly Made It!
+20012,Realm First! Mythic: Bear-ly Made It!
+20013,Realm First! Ascended: Bear-ly Made It!
+20014,Grand Theft Amani
+20015,Realm First! Grand Theft Amani
+20016,Normal: Straight to the Heart
+20017,Heroic: Straight to the Heart
+20018,Mythic: Straight to the Heart
+20019,Ascended: Straight to the Heart
+20020,Realm First! Normal: Straight to the Heart
+20021,Realm First! Heroic: Straight to the Heart
+20022,Realm First! Mythic: Straight to the Heart
+20023,Realm First! Ascended: Straight to the Heart
+20024,Normal: Legendary!
+20025,Heroic: Legendary!
+20026,Mythic: Legendary!
+20027,Ascended: Legendary!
+20028,Realm First! Normal: Legendary!
+20029,Realm First! Heroic: Legendary!
+20030,Realm First! Mythic: Legendary!
+20031,Realm First! Ascended: Legendary!
+20401,Realm First! Normal: More Dots!
+20402,Realm First! Normal: Many Whelps! Handle It!
+20403,Realm First! Normal: She Deep Breaths More
+20404,Realm First! Normal: Even More Dots!
+20405,Realm First! Normal: To Many Whelps! Handle It!
+20406,Realm First! Normal: She Deep Breaths A Lot More
+20407,Realm First! Ascended: Onyxia (Vanilla)
+20408,Realm First! Heroic: More Dots!
+20409,Realm First! Heroic: Many Whelps! Handle It!
+20410,Realm First! Heroic: She Deep Breaths More
+20411,Realm First! Heroic: Even More Dots!
+20412,Realm First! Heroic: To Many Whelps! Handle It!
+20413,Realm First! Heroic: She Deep Breaths A Lot More
+20414,Realm First! Mythic: More Dots!
+20415,Realm First! Mythic: Many Whelps! Handle It!
+20416,Realm First! Mythic: She Deep Breaths More
+20417,Realm First! Mythic: Even More Dots!
+20418,Realm First! Mythic: To Many Whelps! Handle It!
+20419,Realm First! Mythic: She Deep Breaths A Lot More
+20420,Realm First! Ascended: More Dots!
+20421,Realm First! Ascended: Many Whelps! Handle It!
+20422,Realm First! Ascended: She Deep Breaths More
+20423,Realm First! Ascended: Even More Dots!
+20424,Realm First! Ascended: To Many Whelps! Handle It!
+20425,Realm First! Ascended: She Deep Breaths A Lot More
+20430,Purple Amani War Bear
+20431,Pink Amani War Bear
+20432,Yellow Amani War Bear
+20433,Green Amani War Bear
+20434,Black Amani War Bear
+20436,Realm First! Purple Amani War Bear
+20437,Realm First! Pink Amani War Bear
+20438,Realm First! Yellow Amani War Bear
+20439,Realm First! Green Amani War Bear
+20440,Realm First! Black Amani War Bear
+20500,Realm First! Heroic: Son of a...
+20501,Realm First! Mythic: Son of a...
+20502,Realm First! Ascended: Son of a...
+20503,Ascended: Son of a...
+20504,Heroic: Son of a...
+20505,Mythic: Son of a...
+20506,Completed Mythic: 1
+20507,Completed Mythic: 2
+20508,Completed Mythic: 3
+20509,Completed Mythic: 4
+20510,Completed Mythic: 5
+20511,Completed Mythic: 6
+20512,Completed Mythic: 7
+20513,Completed Mythic: 8
+20514,Completed Mythic: 9
+20515,Completed Mythic: 10
+20516,Completed Mythic: 11
+20517,Completed Mythic: 12
+20518,Completed Mythic: 13
+20519,Completed Mythic: 14
+20520,Completed Mythic: 15
+20521,Completed Mythic: 16
+20522,Completed Mythic: 17
+20523,Completed Mythic: 18
+20524,Completed Mythic: 19
+20525,Completed Mythic: 20
+20526,Completed Mythic: 21
+20527,Completed Mythic: 22
+20528,Completed Mythic: 23
+20529,Completed Mythic: 24
+20530,Completed Mythic: 25
+20531,Completed Mythic: 26
+20532,Completed Mythic: 27
+20533,Completed Mythic: 28
+20534,Completed Mythic: 29
+20535,Completed Mythic: 30
+20536,Completed Mythic: 31
+20537,Completed Mythic: 32
+20538,Completed Mythic: 33
+20539,Completed Mythic: 34
+20540,Completed Mythic: 35
+20541,Completed Mythic: 36
+20542,Completed Mythic: 37
+20543,Completed Mythic: 38
+20544,Completed Mythic: 39
+20545,Completed Mythic: 40
+20556,(TBC) - Completed Mythic: 1
+20557,(TBC) - Completed Mythic: 2
+20558,(TBC) - Completed Mythic: 3
+20559,(TBC) - Completed Mythic: 4
+20560,(TBC) - Completed Mythic: 5
+20561,(TBC) - Completed Mythic: 6
+20562,(TBC) - Completed Mythic: 7
+20563,(TBC) - Completed Mythic: 8
+20564,(TBC) - Completed Mythic: 9
+20565,(TBC) - Completed Mythic: 10
+20566,(TBC) - Completed Mythic: 11
+20567,(TBC) - Completed Mythic: 12
+20568,(TBC) - Completed Mythic: 13
+20569,(TBC) - Completed Mythic: 14
+20570,(TBC) - Completed Mythic: 15
+20571,(TBC) - Completed Mythic: 16
+20572,(TBC) - Completed Mythic: 17
+20573,(TBC) - Completed Mythic: 18
+20574,(TBC) - Completed Mythic: 19
+20575,(TBC) - Completed Mythic: 20
+20576,(TBC) - Completed Mythic: 21
+20577,(TBC) - Completed Mythic: 22
+20578,(TBC) - Completed Mythic: 23
+20579,(TBC) - Completed Mythic: 24
+20580,(TBC) - Completed Mythic: 25
+20581,(TBC) - Completed Mythic: 26
+20582,(TBC) - Completed Mythic: 27
+20583,(TBC) - Completed Mythic: 28
+20584,(TBC) - Completed Mythic: 29
+20585,(TBC) - Completed Mythic: 30
+20586,(TBC) - Completed Mythic: 31
+20587,(TBC) - Completed Mythic: 32
+20588,(TBC) - Completed Mythic: 33
+20589,(TBC) - Completed Mythic: 34
+20590,(TBC) - Completed Mythic: 35
+20591,(TBC) - Completed Mythic: 36
+20592,(TBC) - Completed Mythic: 37
+20593,(TBC) - Completed Mythic: 38
+20594,(TBC) - Completed Mythic: 39
+20595,(TBC) - Completed Mythic: 40
+23026,Mythic: High Priest Venoxis
+23027,Mythic: High Priestess Mar'li
+23028,Mythic: Bloodlord Mandokir
+23029,Mythic: High Priest Thekal
+23030,Mythic: Jin'do the Hexxer
+23031,Mythic: Hakkar
+23032,Mythic: High Priestess Jeklik
+23033,Mythic: High Priestess Arlokk
+23034,Mythic: Gahz'ranka
+23035,Mythic: Gri'lek
+23036,Mythic: Renataki
+23037,Mythic: Wushoolay
+23038,Mythic: Hazza'rah
+23078,Realm First! Mythic: High Priest Venoxis
+23079,Realm First! Mythic: High Priestess Mar'li
+23080,Realm First! Mythic: Bloodlord Mandokir
+23081,Realm First! Mythic: High Priest Thekal
+23082,Realm First! Mythic: Jin'do the Hexxer
+23083,Realm First! Mythic: Hakkar
+23084,Realm First! Mythic: High Priestess Jeklik
+23085,Realm First! Mythic: High Priestess Arlokk
+23086,Realm First! Mythic: Gahz'ranka
+23087,Realm First! Mythic: Gri'lek
+23088,Realm First! Mythic: Renataki
+23089,Realm First! Mythic: Wushoolay
+23090,Realm First! Mythic: Hazza'rah
+23130,Nightmare Mode Mythic: High Priest Venoxis
+23131,Nightmare Mode Mythic: High Priestess Mar'li
+23132,Nightmare Mode Mythic: Bloodlord Mandokir
+23133,Nightmare Mode Mythic: High Priest Thekal
+23134,Nightmare Mode Mythic: Jin'do the Hexxer
+23135,Nightmare Mode Mythic: Hakkar
+23136,Nightmare Mode Mythic: High Priestess Jeklik
+23137,Nightmare Mode Mythic: High Priestess Arlokk
+23138,Nightmare Mode Mythic: Gahz-ranka
+23139,Nightmare Mode Mythic: Gri-lek
+23140,Nightmare Mode Mythic: Renataki
+23141,Nightmare Mode Mythic: Wushoolay
+23142,Nightmare Mode Mythic: Hazza-rah
+23182,Realm First! Nightmare Mode Mythic: High Priest Venoxis
+23183,Realm First! Nightmare Mode Mythic: High Priestess Mar'li
+23184,Realm First! Nightmare Mode Mythic: Bloodlord Mandokir
+23185,Realm First! Nightmare Mode Mythic: High Priest Thekal
+23186,Realm First! Nightmare Mode Mythic: Jin'do the Hexxer
+23187,Realm First! Nightmare Mode Mythic: Hakkar
+23188,Realm First! Nightmare Mode Mythic: High Priestess Jeklik
+23189,Realm First! Nightmare Mode Mythic: High Priestess Arlokk
+23190,Realm First! Nightmare Mode Mythic: Gahz-ranka
+23191,Realm First! Nightmare Mode Mythic: Gri-lek
+23192,Realm First! Nightmare Mode Mythic: Renataki
+23193,Realm First! Nightmare Mode Mythic: Wushoolay
+23194,Realm First! Nightmare Mode Mythic: Hazza-rah
+23820,Mythic: Kurinaxx
+23821,Mythic: General Rajaxx
+23822,Mythic: Buru the Gorger
+23823,Mythic: Ayamiss the Hunter
+23824,Mythic: Ossirian the Unscarred
+23840,Realm First! Mythic: Kurinaxx
+23841,Realm First! Mythic: General Rajaxx
+23842,Realm First! Mythic: Buru the Gorger
+23843,Realm First! Mythic: Ayamiss the Hunter
+23844,Realm First! Mythic: Ossirian the Unscarred
+23860,Nightmare Mode Mythic: Kurinaxx
+23861,Nightmare Mode Mythic: General Rajaxx
+23862,Nightmare Mode Mythic: Buru the Gorger
+23863,Nightmare Mode Mythic: Ayamiss the Hunter
+23864,Nightmare Mode Mythic: Ossirian the Unscarred
+23880,Nightmare Mode Realm First! Mythic: Kurinaxx
+23881,Nightmare Mode Realm First! Mythic: General Rajaxx
+23882,Nightmare Mode Realm First! Mythic: Buru the Gorger
+23883,Nightmare Mode Realm First! Mythic: Ayamiss the Hunter
+23884,Nightmare Mode Realm First! Mythic: Ossirian the Unscarred
+23892,Mythic: Moam
+23896,Realm First! Mythic: Moam
+23900,Nightmare Mode Mythic: Moam
+23904,Nightmare Mode Realm First! Mythic: Moam 
+24168,Mythic: Magmadar
+24169,Mythic: Lucifron
+24170,Mythic: Gehennas
+24171,Mythic: Garr
+24172,Mythic: Baron Geddon
+24173,Mythic: Shazzrah
+24174,Mythic: Golemagg the Incinerator
+24175,Mythic: Sulfuron Harbringer
+24176,Mythic: Ragnaros
+24204,Realm First! Mythic: Magmadar
+24205,Realm First! Mythic: Lucifron
+24206,Realm First! Mythic: Gehennas
+24207,Realm First! Mythic: Garr
+24208,Realm First! Mythic: Baron Geddon
+24209,Realm First! Mythic: Shazzrah
+24210,Realm First! Mythic: Golemagg the Incinerator
+24211,Realm First! Mythic: Sulfuron Harbringer
+24212,Realm First! Mythic: Ragnaros
+24240,Nightmare Mode Mythic: Magmadar
+24241,Nightmare Mode Mythic: Lucifron
+24242,Nightmare Mode Mythic: Gehennas
+24243,Nightmare Mode Mythic: Garr
+24244,Nightmare Mode Mythic: Baron Geddon
+24245,Nightmare Mode Mythic: Shazzrah
+24246,Nightmare Mode Mythic: Golemagg the Incinerator
+24247,Nightmare Mode Mythic: Sulfuron Harbringer
+24248,Nightmare Mode Mythic: Ragnaros
+24276,Nightmare Mode Realm First! Mythic: Magmadar
+24277,Nightmare Mode Realm First! Mythic: Lucifron
+24278,Nightmare Mode Realm First! Mythic: Gehennas
+24279,Nightmare Mode Realm First! Mythic: Garr
+24280,Nightmare Mode Realm First! Mythic: Baron Geddon
+24281,Nightmare Mode Realm First! Mythic: Shazzrah
+24282,Nightmare Mode Realm First! Mythic: Golemagg the Incinerator
+24283,Nightmare Mode Realm First! Mythic: Sulfuron Harbringer
+24284,Nightmare Mode Realm First! Mythic: Ragnaros
+24296,Mythic: Onyxia (Vanilla)
+24297,Ascended: Onyxia (Vanilla)
+24300,Nightmare Mode Mythic: Onyxia
+24304,Realm First! Mythic: Onyxia (Vanilla)
+24308,Nightmare Mode Realm First! Mythic: Onyxia
+24320,Mythic: Razorgore the Untamed
+24321,Mythic: Vaelastrasz the Corrupt
+24322,Mythic: Broodlord Lashlayer
+24323,Mythic: Chromaggus
+24324,Mythic: Nefarian
+24340,Realm First! Mythic: Razorgore the Untamed
+24341,Realm First! Mythic: Vaelastrasz the Corrupt
+24342,Realm First! Mythic: Broodlord Lashlayer
+24343,Realm First! Mythic: Chromaggus
+24344,Realm First! Mythic: Nefarian
+24360,Nightmare Mode Mythic: Razorgore the Untamed
+24361,Nightmare Mode Mythic: Vaelastrasz the Corrupt
+24362,Nightmare Mode Mythic: Broodlord Lashlayer
+24363,Nightmare Mode Mythic: Chromaggus
+24364,Nightmare Mode Mythic: Nefarian
+24380,Nightmare Mode Realm First! Mythic: Razorgore the Untamed
+24381,Nightmare Mode Realm First! Mythic: Vaelastrasz the Corrupt
+24382,Nightmare Mode Realm First! Mythic: Broodlord Lashlayer
+24383,Nightmare Mode Realm First! Mythic: Chromaggus
+24384,Nightmare Mode Realm First! Mythic: Nefarian
+24402,Heroic: More Dots!
+24403,Heroic: Many Whelps! Handle It!
+24404,Heroic: She Deep Breaths More
+24405,Heroic: Even More Dots!
+24406,Heroic: To Many Whelps! Handle It!
+24407,Heroic: She Deep Breaths A Lot More
+24759,Mythic: Prophet Skeram
+24760,Mythic: Bug Family
+24761,Mythic: Battleguard Sartura
+24762,Mythic: Fankriss the Unyielding
+24763,Mythic: Viscidus
+24764,Mythic: Princess Huhuran
+24765,Mythic: Twin Emperors
+24766,Mythic: Ouro
+24767,Mythic: C'thun
+24795,Realm First! Mythic: Prophet Skeram
+24796,Realm First! Mythic: Bug Family
+24797,Realm First! Mythic: Battleguard Sartura
+24798,Realm First! Mythic: Fankriss the Unyielding
+24799,Realm First! Mythic: Viscidus
+24800,Realm First! Mythic: Princess Huhuran
+24801,Realm First! Mythic: Twin Emperors
+24802,Realm First! Mythic: Ouro
+24803,Realm First! Mythic: C'thun
+24831,Nightmare Mode Mythic: Prophet Skeram
+24832,Nightmare Mode Mythic: Bug Family
+24833,Nightmare Mode Mythic: Battleguard Sartura
+24834,Nightmare Mode Mythic: Fankriss the Unyielding
+24835,Nightmare Mode Mythic: Viscidus
+24836,Nightmare Mode Mythic: Princess Huhuran
+24837,Nightmare Mode Mythic: Twin Emperors
+24838,Nightmare Mode Mythic: Ouro
+24839,Nightmare Mode Mythic: C'thun
+24867,Nightmare Mode Realm First! Mythic: Prophet Skeram
+24868,Nightmare Mode Realm First! Mythic: Bug Family
+24869,Nightmare Mode Realm First! Mythic: Battleguard Sartura
+24870,Nightmare Mode Realm First! Mythic: Fankriss the Unyielding
+24871,Nightmare Mode Realm First! Mythic: Viscidus
+24872,Nightmare Mode Realm First! Mythic: Princess Huhuran
+24873,Nightmare Mode Realm First! Mythic: Twin Emperors
+24874,Nightmare Mode Realm First! Mythic: Ouro
+24875,Nightmare Mode Realm First! Mythic: C'thun
 26140,Crushing Bones and Cracking Skulls
 26141,Arrested Development
 26142,Too Hot to Handle
@@ -10643,6 +11075,278 @@
 26147,Twin Peaks flags returned
 26148,Petting Zoo
 26149,Menagerie
+26150,Noble Ambitions
+27075,Mythic Karazhan
+27077,Realm First! Mythic Karazhan
+27100,Mythic: Attumen the Huntsman
+27101,Mythic: Moroes
+27102,Mythic: Maiden of Virtue
+27103,Mythic: The Curator
+27104,Mythic: Terestian Illhoof
+27105,Mythic: Shade of Aran
+27106,Mythic: Netherspite
+27107,Mythic: Nightbane
+27108,Mythic: Prince Malchezaar
+27109,Mythic: Nalorakk
+27110,Mythic: Jan'alai
+27111,Mythic: Akil'zon
+27112,Mythic: Halazzi
+27113,Mythic: Hex Lord Malacrass
+27114,Mythic: Zul'Jin
+27115,Mythic: High King Maulgar
+27120,Mythic: Gruul the Dragonkiller
+27121,Mythic: Magtheridon
+27122,Mythic: Hydross the Unstable
+27123,Mythic: The Lurker Below
+27124,Mythic: Leotheras the Blind
+27125,Mythic: Fathom-Lord Karathress
+27126,Mythic: Morogrim Tidewalker
+27127,Mythic: Lady Vashj
+27128,Mythic: Al'ar
+27129,Mythic: Void Reaver
+27130,Mythic: High Astromancer Solarian
+27131,Mythic: Kael'thas Sunstrider
+27132,Mythic: Rage Winterchill
+27133,Mythic: Anetheron
+27134,Mythic: Kaz'rogal
+27135,Mythic: Azgalor
+27136,Mythic: Archimonde
+27137,Mythic: High Warlord Naj'entus
+27138,Mythic: Supremus
+27139,Mythic: Shade of Akama
+27140,Mythic: Teron Gorefiend
+27141,Mythic: Gurtogg Bloodboil
+27142,Mythic: Reliquary of Souls
+27143,Mythic: Mother Shahraz
+27144,Mythic: Illidari Council
+27148,Mythic: Illidan Stormrage
+27149,Mythic: Kalecgos
+27150,Mythic: Sathrovarr
+27151,Mythic: Brutallus
+27152,Mythic: Felmyst
+27153,Mythic: Grand Warlock Alythess
+27154,Mythic: Lady Sacrolash
+27155,Mythic: M'uru
+27156,Mythic: Kil'Jaeden
+27357,Realm First! Mythic: Attumen the Huntsman
+27358,Realm First! Mythic: Moroes
+27359,Realm First! Mythic: Maiden of Virtue
+27360,Realm First! Mythic: The Curator
+27361,Realm First! Mythic: Terestian Illhoof
+27362,Realm First! Mythic: Shade of Aran
+27363,Realm First! Mythic: Netherspite
+27364,Realm First! Mythic: Nightbane
+27365,Realm First! Mythic: Prince Malchezaar
+27366,Realm First! Mythic: Nalorakk
+27367,Realm First! Mythic: Jan'alai
+27368,Realm First! Mythic: Akil'zon
+27369,Realm First! Mythic: Halazzi
+27370,Realm First! Mythic: Hex Lord Malacrass
+27371,Realm First! Mythic: Zul'Jin
+27372,Realm First! Mythic: High King Maulgar
+27377,Realm First! Mythic: Gruul the Dragonkiller
+27378,Realm First! Mythic: Magtheridon
+27379,Realm First! Mythic: Hydross the Unstable
+27380,Realm First! Mythic: The Lurker Below
+27381,Realm First! Mythic: Leotheras the Blind
+27382,Realm First! Mythic: Fathom-Lord Karathress
+27383,Realm First! Mythic: Morogrim Tidewalker
+27384,Realm First! Mythic: Lady Vashj
+27385,Realm First! Mythic: Al'ar
+27386,Realm First! Mythic: Void Reaver
+27387,Realm First! Mythic: High Astromancer Solarian
+27388,Realm First! Mythic: Kael'thas Sunstrider
+27389,Realm First! Mythic: Rage Winterchill
+27390,Realm First! Mythic: Anetheron
+27391,Realm First! Mythic: Kaz'rogal
+27392,Realm First! Mythic: Azgalor
+27393,Realm First! Mythic: Archimonde
+27394,Realm First! Mythic: High Warlord Naj'entus
+27395,Realm First! Mythic: Supremus
+27396,Realm First! Mythic: Shade of Akama
+27397,Realm First! Mythic: Teron Gorefiend
+27398,Realm First! Mythic: Gurtogg Bloodboil
+27399,Realm First! Mythic: Reliquary of Souls
+27400,Realm First! Mythic: Mother Shahraz
+27401,Realm First! Mythic: Illidari Council
+27405,Realm First! Mythic: Illidan Stormrage
+27406,Realm First! Mythic: Kalecgos
+27407,Realm First! Mythic: Sathrovarr
+27408,Realm First! Mythic: Brutallus
+27409,Realm First! Mythic: Felmyst
+27410,Realm First! Mythic: Grand Warlock Alythess
+27411,Realm First! Mythic: Lady Sacrolash
+27412,Realm First! Mythic: M'uru
+27413,Realm First! Mythic: Kil'Jaeden
+29100,Nightmare Mode Mythic: Attumen the Huntsman
+29101,Nightmare Mode Mythic: Moroes
+29102,Nightmare Mode Mythic: Maiden of Virtue
+29103,Nightmare Mode Mythic: The Curator
+29104,Nightmare Mode Mythic: Terestian Illhoof
+29105,Nightmare Mode Mythic: Shade of Aran
+29106,Nightmare Mode Mythic: Netherspite
+29107,Nightmare Mode Mythic: Nightbane
+29108,Nightmare Mode Mythic: Prince Malchezaar
+29109,Nightmare Mode Mythic: Nalorakk
+29110,Nightmare Mode Mythic: Jan'alai
+29111,Nightmare Mode Mythic: Akil'zon
+29112,Nightmare Mode Mythic: Halazzi
+29113,Nightmare Mode Mythic: Hex Lord Malacrass
+29114,Nightmare Mode Mythic: Zul'Jin
+29115,Nightmare Mode Mythic: High King Maulgar
+29120,Nightmare Mode Mythic: Gruul the Dragonkiller
+29121,Nightmare Mode Mythic: Magtheridon
+29122,Nightmare Mode Mythic: Hydross the Unstable
+29123,Nightmare Mode Mythic: The Lurker Below
+29124,Nightmare Mode Mythic: Leotheras the Blind
+29125,Nightmare Mode Mythic: Fathom-Lord Karathress
+29126,Nightmare Mode Mythic: Morogrim Tidewalker
+29127,Nightmare Mode Mythic: Lady Vashj
+29128,Nightmare Mode Mythic: Al'ar
+29129,Nightmare Mode Mythic: Void Reaver
+29130,Nightmare Mode Mythic: High Astromancer Solarian
+29131,Nightmare Mode Mythic: Kael'thas Sunstrider
+29132,Nightmare Mode Mythic: Rage Winterchill
+29133,Nightmare Mode Mythic: Anetheron
+29134,Nightmare Mode Mythic: Kaz'rogal
+29135,Nightmare Mode Mythic: Azgalor
+29136,Nightmare Mode Mythic: Archimonde
+29137,Nightmare Mode Mythic: High Warlord Naj'entus
+29138,Nightmare Mode Mythic: Supremus
+29139,Nightmare Mode Mythic: Shade of Akama
+29140,Nightmare Mode Mythic: Teron Gorefiend
+29141,Nightmare Mode Mythic: Gurtogg Bloodboil
+29142,Nightmare Mode Mythic: Reliquary of Souls
+29143,Nightmare Mode Mythic: Mother Shahraz
+29144,Nightmare Mode Mythic: Illidari Council
+29148,Nightmare Mode Mythic: Illidan Stormrage
+29149,Nightmare Mode Mythic: Kalecgos
+29150,Nightmare Mode Mythic: Sathrovarr
+29151,Nightmare Mode Mythic: Brutallus
+29152,Nightmare Mode Mythic: Felmyst
+29153,Nightmare Mode Mythic: Grand Warlock Alythess
+29154,Nightmare Mode Mythic: Lady Sacrolash
+29155,Nightmare Mode Mythic: M'uru
+29156,Nightmare Mode Mythic: Kil'Jaeden
+29357,Realm First! Nightmare Mode Mythic: Attumen the Huntsman
+29358,Realm First! Nightmare Mode Mythic: Moroes
+29359,Realm First! Nightmare Mode Mythic: Maiden of Virtue
+29360,Realm First! Nightmare Mode Mythic: The Curator
+29361,Realm First! Nightmare Mode Mythic: Terestian Illhoof
+29362,Realm First! Nightmare Mode Mythic: Shade of Aran
+29363,Realm First! Nightmare Mode Mythic: Netherspite
+29364,Realm First! Nightmare Mode Mythic: Nightbane
+29365,Realm First! Nightmare Mode Mythic: Prince Malchezaar
+29366,Realm First! Nightmare Mode Mythic: Nalorakk
+29367,Realm First! Nightmare Mode Mythic: Jan'alai
+29368,Realm First! Nightmare Mode Mythic: Akil'zon
+29369,Realm First! Nightmare Mode Mythic: Halazzi
+29370,Realm First! Nightmare Mode Mythic: Hex Lord Malacrass
+29371,Realm First! Nightmare Mode Mythic: Zul'Jin
+29372,Realm First! Nightmare Mode Mythic: High King Maulgar
+29377,Realm First! Nightmare Mode Mythic: Gruul the Dragonkiller
+29378,Realm First! Nightmare Mode Mythic: Magtheridon
+29379,Realm First! Nightmare Mode Mythic: Hydross the Unstable
+29380,Realm First! Nightmare Mode Mythic: The Lurker Below
+29381,Realm First! Nightmare Mode Mythic: Leotheras the Blind
+29382,Realm First! Nightmare Mode Mythic: Fathom-Lord Karathress
+29383,Realm First! Nightmare Mode Mythic: Morogrim Tidewalker
+29384,Realm First! Nightmare Mode Mythic: Lady Vashj
+29385,Realm First! Nightmare Mode Mythic: Al'ar
+29386,Realm First! Nightmare Mode Mythic: Void Reaver
+29387,Realm First! Nightmare Mode Mythic: High Astromancer Solarian
+29388,Realm First! Nightmare Mode Mythic: Kael'thas Sunstrider
+29389,Realm First! Nightmare Mode Mythic: Rage Winterchill
+29390,Realm First! Nightmare Mode Mythic: Anetheron
+29391,Realm First! Nightmare Mode Mythic: Kaz'rogal
+29392,Realm First! Nightmare Mode Mythic: Azgalor
+29393,Realm First! Nightmare Mode Mythic: Archimonde
+29394,Realm First! Nightmare Mode Mythic: High Warlord Naj'entus
+29395,Realm First! Nightmare Mode Mythic: Supremus
+29396,Realm First! Nightmare Mode Mythic: Shade of Akama
+29397,Realm First! Nightmare Mode Mythic: Teron Gorefiend
+29398,Realm First! Nightmare Mode Mythic: Gurtogg Bloodboil
+29399,Realm First! Nightmare Mode Mythic: Reliquary of Souls
+29400,Realm First! Nightmare Mode Mythic: Mother Shahraz
+29401,Realm First! Nightmare Mode Mythic: Illidari Council
+29405,Realm First! Nightmare Mode Mythic: Illidan Stormrage
+29406,Realm First! Nightmare Mode Mythic: Kalecgos
+29407,Realm First! Nightmare Mode Mythic: Sathrovarr
+29408,Realm First! Nightmare Mode Mythic: Brutallus
+29409,Realm First! Nightmare Mode Mythic: Felmyst
+29410,Realm First! Nightmare Mode Mythic: Grand Warlock Alythess
+29411,Realm First! Nightmare Mode Mythic: Lady Sacrolash
+29412,Realm First! Nightmare Mode Mythic: M'uru
+29413,Realm First! Nightmare Mode Mythic: Kil'Jaeden
+34230,Mythic: Patchwerk
+34231,Mythic: Grobbulus
+34232,Mythic: Gluth
+34233,Mythic: Thaddius
+34234,Mythic: Anub'rekhan
+34235,Mythic: Grand Widow Faerlina
+34236,Mythic: Maexxna
+34237,Mythic: Noth the Plaguebringer
+34238,Mythic: Heigan the Unclean
+34239,Mythic: Loatheb
+34240,Mythic: Instructor Razuvious
+34241,Mythic: Gothik the Harvester
+34242,Mythic: The Four Horsemen
+34243,Mythic: Sapphiron
+34244,Mythic: Kel'thuzad
+34290,Realm First! Mythic: Patchwerk
+34291,Realm First! Mythic: Grobbulus
+34292,Realm First! Mythic: Gluth
+34293,Realm First! Mythic: Thaddius
+34294,Realm First! Mythic: Anub'rekhan
+34295,Realm First! Mythic: Grand Widow Faerlina
+34296,Realm First! Mythic: Maexxna
+34297,Realm First! Mythic: Noth the Plaguebringer
+34298,Realm First! Mythic: Heigan the Unclean
+34299,Realm First! Mythic: Loatheb
+34300,Realm First! Mythic: Instructor Razuvious
+34301,Realm First! Mythic: Gothik the Harvester
+34302,Realm First! Mythic: The Four Horsemen
+34303,Realm First! Mythic: Sapphiron
+34304,Realm First! Mythic: Kel'thuzad
+34350,Nightmare Mode Mythic: Patchwerk
+34351,Nightmare Mode Mythic: Grobbulus
+34352,Nightmare Mode Mythic: Gluth
+34353,Nightmare Mode Mythic: Thaddius
+34354,Nightmare Mode Mythic: Anub'rekhan
+34355,Nightmare Mode Mythic: Grand Widow Faerlina
+34356,Nightmare Mode Mythic: Maexxna
+34357,Nightmare Mode Mythic: Noth the Plaguebringer
+34358,Nightmare Mode Mythic: Heigan the Unclean
+34359,Nightmare Mode Mythic: Loatheb
+34360,Nightmare Mode Mythic: Instructor Razuvious
+34361,Nightmare Mode Mythic: Gothik the Harvester
+34362,Nightmare Mode Mythic: The Four Horsemen
+34363,Nightmare Mode Mythic: Sapphiron
+34364,Nightmare Mode Mythic: Kel'thuzad
+34402,Mythic: More Dots!
+34403,Mythic: Many Whelps! Handle It!
+34404,Mythic: She Deep Breaths More
+34405,Mythic: Even More Dots!
+34406,Mythic: To Many Whelps! Handle It!
+34407,Mythic: She Deep Breaths A Lot More
+34410,Nightmare Mode Realm First! Mythic: Patchwerk
+34411,Nightmare Mode Realm First! Mythic: Grobbulus
+34412,Nightmare Mode Realm First! Mythic: Gluth
+34413,Nightmare Mode Realm First! Mythic: Thaddius
+34414,Nightmare Mode Realm First! Mythic: Anub'rekhan
+34415,Nightmare Mode Realm First! Mythic: Grand Widow Faerlina
+34416,Nightmare Mode Realm First! Mythic: Maexxna
+34417,Nightmare Mode Realm First! Mythic: Noth the Plaguebringer
+34418,Nightmare Mode Realm First! Mythic: Heigan the Unclean
+34419,Nightmare Mode Realm First! Mythic: Loatheb
+34420,Nightmare Mode Realm First! Mythic: Instructor Razuvious
+34421,Nightmare Mode Realm First! Mythic: Gothik the Harvester
+34422,Nightmare Mode Realm First! Mythic: The Four Horsemen
+34423,Nightmare Mode Realm First! Mythic: Sapphiron
+34424,Nightmare Mode Realm First! Mythic: Kel'thuzad
+35008,Mythic: Bear-ly Made It!
+35012,Realm First! Mythic: Bear-ly Made It!
+35610,Realm First! Normal: Son of a...
 39000,Felforged Tier: 11
 39001,Felforged Tier: 12
 39002,Felforged Tier: 13
@@ -11186,7 +11890,7 @@
 40577,Veteran of the Horde II
 40578,Hero of the Horde
 40579,Hero of the Alliance
-41001,Fel Power (250)
+41001,Fel Power (100)
 41002,Fel Power (500)
 41003,Fel Power (750)
 41004,Fel Power (1000)
@@ -11252,6 +11956,128 @@
 41064,Fel Power (900000)
 41065,Fel Power (950000)
 41066,Fel Power (1000000)
+41067,Marks of Ascension (100)
+41068,Marks of Ascension (500)
+41069,Marks of Ascension (750)
+41070,Marks of Ascension (1000)
+41071,Marks of Ascension (2500)
+41072,Marks of Ascension (5000)
+41073,Marks of Ascension (7500)
+41074,Marks of Ascension (10000)
+41075,Marks of Ascension (12500)
+41076,Marks of Ascension (15000)
+41077,Marks of Ascension (17500)
+41078,Marks of Ascension (20000)
+41079,Marks of Ascension (22500)
+41080,Marks of Ascension (25000)
+41081,Marks of Ascension (27500)
+41082,Marks of Ascension (30000)
+41083,Marks of Ascension (32500)
+41084,Marks of Ascension (35000)
+41085,Marks of Ascension (37500)
+41086,Marks of Ascension (40000)
+41087,Marks of Ascension (42500)
+41088,Marks of Ascension (45000)
+41089,Marks of Ascension (50000)
+41090,Marks of Ascension (55000)
+41091,Marks of Ascension (60000)
+41092,Marks of Ascension (65000)
+41093,Marks of Ascension (70000)
+41094,Marks of Ascension (75000)
+41095,Marks of Ascension (80000)
+41096,Marks of Ascension (85000)
+41097,Marks of Ascension (90000)
+41098,Marks of Ascension (95000)
+41099,Marks of Ascension (100000)
+41100,Marks of Ascension (110000)
+41101,Marks of Ascension (120000)
+41102,Marks of Ascension (130000)
+41103,Marks of Ascension (140000)
+41104,Marks of Ascension (150000)
+41105,Marks of Ascension (160000)
+41106,Marks of Ascension (170000)
+41107,Marks of Ascension (180000)
+41108,Marks of Ascension (190000)
+41109,Marks of Ascension (200000)
+41110,Marks of Ascension (210000)
+41111,Marks of Ascension (235000)
+41112,Marks of Ascension (260000)
+41113,Marks of Ascension (285000)
+41114,Marks of Ascension (310000)
+41115,Marks of Ascension (335000)
+41116,Marks of Ascension (360000)
+41117,Marks of Ascension (385000)
+41118,Marks of Ascension (410000)
+41119,Marks of Ascension (435000)
+41120,Marks of Ascension (460000)
+41121,Marks of Ascension (485000)
+41122,Marks of Ascension (500000)
+41123,Marks of Ascension (550000)
+41124,Marks of Ascension (600000)
+41125,Marks of Ascension (650000)
+41126,Marks of Ascension (700000)
+41127,Marks of Ascension (750000)
+41128,Marks of Ascension (800000)
+41129,Marks of Ascension (850000)
+41130,Marks of Ascension (900000)
+41131,Marks of Ascension (950000)
+41132,Marks of Ascension (1000000)
+41133,[Draft Mode] - Level 60
+41134,Greedy
+41135,Worldforged!
+41136,Interested in a World Tour?
+41137,Contender!
+41141,Marks of Ascension (1000000)
+41142,Marks of Ascension (1100000)
+41143,Marks of Ascension (1200000)
+41144,Marks of Ascension (1300000)
+41145,Marks of Ascension (1400000)
+41146,Marks of Ascension (1500000)
+41147,Marks of Ascension (1600000)
+41148,Marks of Ascension (1700000)
+41149,Marks of Ascension (1800000)
+41150,Marks of Ascension (1900000)
+41151,Marks of Ascension (2000000)
+41152,Marks of Ascension (2100000)
+41153,Marks of Ascension (2200000)
+41154,Marks of Ascension (2300000)
+41155,Marks of Ascension (2400000)
+41156,Marks of Ascension (2500000)
+41157,Marks of Ascension (2600000)
+41158,Marks of Ascension (2700000)
+41159,Marks of Ascension (2800000)
+41160,Marks of Ascension (2900000)
+41161,Marks of Ascension (3000000)
+41162,Marks of Ascension (3100000)
+41163,Marks of Ascension (3200000)
+41164,Marks of Ascension (3300000)
+41165,Marks of Ascension (3400000)
+41166,Marks of Ascension (3500000)
+41167,Marks of Ascension (3600000)
+41168,Marks of Ascension (3700000)
+41169,Marks of Ascension (3800000)
+41170,Marks of Ascension (3900000)
+41171,Marks of Ascension (4000000)
+41172,Marks of Ascension (4100000)
+41173,Marks of Ascension (4200000)
+41174,Marks of Ascension (4300000)
+41175,Marks of Ascension (4400000)
+41176,Marks of Ascension (4500000)
+41177,Marks of Ascension (4600000)
+41178,Marks of Ascension (4700000)
+41179,Marks of Ascension (4800000)
+41180,Marks of Ascension (4900000)
+41181,Marks of Ascension (5000000)
+41182,Marks of Ascension (5500000)
+41183,Marks of Ascension (6000000)
+41184,Marks of Ascension (6500000)
+41185,Marks of Ascension (7000000)
+41186,Marks of Ascension (7500000)
+41187,Marks of Ascension (8000000)
+41188,Marks of Ascension (8500000)
+41189,Marks of Ascension (9000000)
+41190,Marks of Ascension (9500000)
+41191,Marks of Ascension (10000000)
 41276,Tier 11 Fel Challenge: Endangered
 41277,Tier 12 Fel Challenge: Endangered
 41278,Tier 13 Fel Challenge: Endangered
@@ -12002,6 +12828,191 @@
 42023,Realm First! Tier 23 Fel Challenge: Animus
 42024,Realm First! Tier 24 Fel Challenge: Animus
 42025,Realm First! Tier 25 Fel Challenge: Animus
+42027,Unlocked Tier 1 Chest Vendor (Normal)
+42028,Unlocked Tier 1 Leg Vendor (Normal)
+42029,Unlocked Tier 1 Helm Vendor (Normal)
+42030,Unlocked Tier 1 Shoulder Vendor (Normal)
+42031,Unlocked Tier 1 Wrist Vendor (Normal)
+42032,Unlocked Tier 1 Belt Vendor (Normal)
+42033,Unlocked Tier 1 Gloves Vendor (Normal)
+42034,Unlocked Tier 1 Boots Vendor (Normal)
+42035,Unlocked Tier 1 Chest Vendor (Heroic)
+42036,Unlocked Tier 1 Leg Vendor (Heroic)
+42037,Unlocked Tier 1 Helm Vendor (Heroic)
+42038,Unlocked Tier 1 Shoulder Vendor (Heroic)
+42039,Unlocked Tier 1 Wrist Vendor (Heroic)
+42040,Unlocked Tier 1 Belt Vendor (Heroic)
+42041,Unlocked Tier 1 Gloves Vendor (Heroic)
+42042,Unlocked Tier 1 Boots Vendor (Heroic)
+42043,Unlocked Tier 1 Chest Vendor (Ascended)
+42044,Unlocked Tier 1 Leg Vendor (Ascended)
+42045,Unlocked Tier 1 Helm Vendor (Ascended)
+42046,Unlocked Tier 1 Shoulder Vendor (Ascended)
+42047,Unlocked Tier 1 Wrist Vendor (Ascended)
+42048,Unlocked Tier 1 Belt Vendor (Ascended)
+42049,Unlocked Tier 1 Gloves Vendor (Ascended)
+42050,Unlocked Tier 1 Boots Vendor (Ascended)
+42051,Unlocked Tier 1 Chest Vendor (Mythic)
+42052,Unlocked Tier 1 Leg Vendor (Mythic)
+42053,Unlocked Tier 1 Helm Vendor (Mythic)
+42054,Unlocked Tier 1 Shoulder Vendor (Mythic)
+42055,Unlocked Tier 1 Wrist Vendor (Mythic)
+42056,Unlocked Tier 1 Belt Vendor (Mythic)
+42057,Unlocked Tier 1 Gloves Vendor (Mythic)
+42058,Unlocked Tier 1 Boots Vendor (Mythic)
+42059,Unlocked Tier 2 Chest Vendor (Normal)
+42060,Unlocked Tier 2 Leg Vendor (Normal)
+42061,Unlocked Tier 2 Helm Vendor (Normal)
+42062,Unlocked Tier 2 Shoulder Vendor (Normal)
+42063,Unlocked Tier 2 Wrist Vendor (Normal)
+42064,Unlocked Tier 2 Belt Vendor (Normal)
+42065,Unlocked Tier 2 Gloves Vendor (Normal)
+42066,Unlocked Tier 2 Boots Vendor (Normal)
+42067,Unlocked Tier 2 Chest Vendor (Heroic)
+42068,Unlocked Tier 2 Leg Vendor (Heroic)
+42069,Unlocked Tier 2 Helm Vendor (Heroic)
+42070,Unlocked Tier 2 Shoulder Vendor (Heroic)
+42071,Unlocked Tier 2 Wrist Vendor (Heroic)
+42072,Unlocked Tier 2 Belt Vendor (Heroic)
+42073,Unlocked Tier 2 Gloves Vendor (Heroic)
+42074,Unlocked Tier 2 Boots Vendor (Heroic)
+42075,Unlocked Tier 2 Chest Vendor (Ascended)
+42076,Unlocked Tier 2 Leg Vendor (Ascended)
+42077,Unlocked Tier 2 Helm Vendor (Ascended)
+42078,Unlocked Tier 2 Shoulder Vendor (Ascended)
+42079,Unlocked Tier 2 Wrist Vendor (Ascended)
+42080,Unlocked Tier 2 Belt Vendor (Ascended)
+42081,Unlocked Tier 2 Gloves Vendor (Ascended)
+42082,Unlocked Tier 2 Boots Vendor (Ascended)
+42083,Unlocked Tier 2 Chest Vendor (Mythic)
+42084,Unlocked Tier 2 Leg Vendor (Mythic)
+42085,Unlocked Tier 2 Helm Vendor (Mythic)
+42086,Unlocked Tier 2 Shoulder Vendor (Mythic)
+42087,Unlocked Tier 2 Wrist Vendor (Mythic)
+42088,Unlocked Tier 2 Belt Vendor (Mythic)
+42089,Unlocked Tier 2 Gloves Vendor (Mythic)
+42090,Unlocked Tier 2 Boots Vendor (Mythic)
+42091,Unlocked Tier 2.5 Chest Vendor (Normal)
+42092,Unlocked Tier 2.5 Leg Vendor (Normal)
+42093,Unlocked Tier 2.5 Helm Vendor (Normal)
+42094,Unlocked Tier 2.5 Shoulder Vendor (Normal)
+42095,Unlocked Tier 2.5 Boots Vendor (Normal)
+42096,Unlocked Tier 2.5 Chest Vendor (Heroic)
+42097,Unlocked Tier 2.5 Leg Vendor (Heroic)
+42098,Unlocked Tier 2.5 Helm Vendor (Heroic)
+42099,Unlocked Tier 2.5 Shoulder Vendor (Heroic)
+42100,Unlocked Tier 2.5 Boots Vendor (Heroic)
+42101,Unlocked Tier 2.5 Chest Vendor (Ascended)
+42102,Unlocked Tier 2.5 Leg Vendor (Ascended)
+42103,Unlocked Tier 2.5 Helm Vendor (Ascended)
+42104,Unlocked Tier 2.5 Shoulder Vendor (Ascended)
+42105,Unlocked Tier 2.5 Boots Vendor (Ascended)
+42106,Unlocked Tier 2.5 Chest Vendor (Mythic)
+42107,Unlocked Tier 2.5 Leg Vendor (Mythic)
+42108,Unlocked Tier 2.5 Helm Vendor (Mythic)
+42109,Unlocked Tier 2.5 Shoulder Vendor (Mythic)
+42110,Unlocked Tier 2.5 Boots Vendor (Mythic)
+42111,Unlocked Tier 3 Chest Vendor (Normal)
+42112,Unlocked Tier 3 Leg Vendor (Normal)
+42113,Unlocked Tier 3 Helm Vendor (Normal)
+42114,Unlocked Tier 3 Shoulder Vendor (Normal)
+42115,Unlocked Tier 3 Wrist Vendor (Normal)
+42116,Unlocked Tier 3 Belt Vendor (Normal)
+42117,Unlocked Tier 3 Gloves Vendor (Normal)
+42118,Unlocked Tier 3 Boots Vendor (Normal)
+42119,Unlocked Tier 3 Ring Vendor (Normal)
+42120,Unlocked Tier 3 Chest Vendor (Ascended)
+42121,Unlocked Tier 3 Leg Vendor (Ascended)
+42122,Unlocked Tier 3 Helm Vendor (Ascended)
+42123,Unlocked Tier 3 Shoulder Vendor (Ascended)
+42124,Unlocked Tier 3 Wrist Vendor (Ascended)
+42125,Unlocked Tier 3 Belt Vendor (Ascended)
+42126,Unlocked Tier 3 Gloves Vendor (Ascended)
+42127,Unlocked Tier 3 Boots Vendor (Ascended)
+42128,Unlocked Tier 3 Ring Vendor (Ascended)
+42129,Unlocked Tier 3 Chest Vendor (Heroic)
+42130,Unlocked Tier 3 Leg Vendor (Heroic)
+42131,Unlocked Tier 3 Helm Vendor (Heroic)
+42132,Unlocked Tier 3 Shoulder Vendor (Heroic)
+42133,Unlocked Tier 3 Wrist Vendor (Heroic)
+42134,Unlocked Tier 3 Belt Vendor (Heroic)
+42135,Unlocked Tier 3 Gloves Vendor (Heroic)
+42136,Unlocked Tier 3 Boots Vendor (Heroic)
+42137,Unlocked Tier 3 Ring Vendor (Heroic)
+42138,Unlocked Tier 3 Chest Vendor (Mythic)
+42139,Unlocked Tier 3 Leg Vendor (Mythic)
+42140,Unlocked Tier 3 Helm Vendor (Mythic)
+42141,Unlocked Tier 3 Shoulder Vendor (Mythic)
+42142,Unlocked Tier 3 Wrist Vendor (Mythic)
+42143,Unlocked Tier 3 Belt Vendor (Mythic)
+42144,Unlocked Tier 3 Gloves Vendor (Mythic)
+42145,Unlocked Tier 3 Boots Vendor (Mythic)
+42146,Unlocked Tier 3 Ring Vendor (Mythic)
+44402,Ascended: More Dots!
+44403,Ascended: Many Whelps! Handle It!
+44404,Ascended: She Deep Breaths More
+44405,Ascended: Even More Dots!
+44406,Ascended: To Many Whelps! Handle It!
+44407,Ascended: She Deep Breaths A Lot More
+46718,Seasonal Collection: Unlock 1
+46719,Seasonal Collection: Unlock 2
+46720,Seasonal Collection: Unlock 3
+46721,Seasonal Collection: Unlock 4
+46722,Seasonal Collection: Unlock 5
+46723,Seasonal Collection: Unlock 6
+46724,Seasonal Collection: Unlock 7
+47001,Unlocked Tier 4 Chest Vendor (Normal)
+47002,Unlocked Tier 4 Leg Vendor (Normal)
+47003,Unlocked Tier 4 Helm Vendor (Normal)
+47004,Unlocked Tier 4 Shoulder Vendor (Normal)
+47005,Unlocked Tier 4 Gloves Vendor (Normal)
+47006,Unlocked Tier 4 Chest Vendor (Heroic)
+47007,Unlocked Tier 4 Leg Vendor (Heroic)
+47008,Unlocked Tier 4 Helm Vendor (Heroic)
+47009,Unlocked Tier 4 Shoulder Vendor (Heroic)
+47010,Unlocked Tier 4 Gloves Vendor (Heroic)
+47011,Unlocked Tier 4 Chest Vendor (Ascended)
+47012,Unlocked Tier 4 Leg Vendor (Ascended)
+47013,Unlocked Tier 4 Helm Vendor (Ascended)
+47014,Unlocked Tier 4 Shoulder Vendor (Ascended)
+47015,Unlocked Tier 4 Gloves Vendor (Ascended)
+47016,Unlocked Tier 4 Chest Vendor (Mythic)
+47017,Unlocked Tier 4 Leg Vendor (Mythic)
+47018,Unlocked Tier 4 Helm Vendor (Mythic)
+47019,Unlocked Tier 4 Shoulder Vendor (Mythic)
+47020,Unlocked Tier 4 Gloves Vendor (Mythic)
+47021,Unlocked Tier 5 Chest Vendor (Normal)
+47022,Unlocked Tier 5 Leg Vendor (Normal)
+47023,Unlocked Tier 5 Helm Vendor (Normal)
+47024,Unlocked Tier 5 Shoulder Vendor (Normal)
+47025,Unlocked Tier 5 Gloves Vendor (Normal)
+47026,Unlocked Tier 5 Chest Vendor (Heroic)
+47027,Unlocked Tier 5 Leg Vendor (Heroic)
+47028,Unlocked Tier 5 Helm Vendor (Heroic)
+47029,Unlocked Tier 5 Shoulder Vendor (Heroic)
+47030,Unlocked Tier 5 Gloves Vendor (Heroic)
+47031,Unlocked Tier 5 Chest Vendor (Ascended)
+47032,Unlocked Tier 5 Leg Vendor (Ascended)
+47033,Unlocked Tier 5 Helm Vendor (Ascended)
+47034,Unlocked Tier 5 Shoulder Vendor (Ascended)
+47035,Unlocked Tier 5 Gloves Vendor (Ascended)
+47036,Unlocked Tier 5 Chest Vendor (Mythic)
+47037,Unlocked Tier 5 Leg Vendor (Mythic)
+47038,Unlocked Tier 5 Helm Vendor (Mythic)
+47039,Unlocked Tier 5 Shoulder Vendor (Mythic)
+47040,Unlocked Tier 5 Gloves Vendor (Mythic)
+48301,Unlocked Tier 2.5 Neck Vendor (Normal)
+48302,Unlocked Tier 2.5 Cloak Vendor (Normal)
+48303,Unlocked Tier 2.5 Ring Vendor (Normal)
+48304,Unlocked Tier 2.5 Neck Vendor (Heroic)
+48305,Unlocked Tier 2.5 Cloak Vendor (Heroic)
+48306,Unlocked Tier 2.5 Ring Vendor (Heroic)
+48307,Unlocked Tier 2.5 Neck Vendor (Mythic)
+48308,Unlocked Tier 2.5 Cloak Vendor (Mythic)
+48309,Unlocked Tier 2.5 Ring Vendor (Mythic)
+48310,Unlocked Tier 2.5 Neck Vendor (Ascended)
+48311,Unlocked Tier 2.5 Cloak Vendor (Ascended)
+48312,Unlocked Tier 2.5 Ring Vendor (Ascended)
 51001,Mark of Mentorship (250)
 51002,Mark of Mentorship (500)
 51003,Mark of Mentorship (750)
