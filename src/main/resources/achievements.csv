@@ -736,6 +736,8 @@
 1114,Arathi Basin Honorable Kills
 1115,Warsong Gulch Honorable Kills
 1125,Bandage used most
+1126,The Enigmatic Explorer
+1127,Realm First! The Enigmatic Explorer
 1145,King of the Fire Festival
 1146,Gold spent on travel
 1147,Gold spent at barber shops
@@ -4713,6 +4715,7 @@
 9515,First Hand of Fate
 9516,First Scroll of Fortune
 9517,First Sealed Card
+9611,First Raider's Commendation
 9677,Homewrecker
 9720,Realm First! Conqueror of Blackwing Lair (Andorhal)
 9721,Realm First! Conqueror of Ruins of Ahn'Qiraj (Andorhal)
@@ -11017,6 +11020,7 @@
 20593,(TBC) - Completed Mythic: 38
 20594,(TBC) - Completed Mythic: 39
 20595,(TBC) - Completed Mythic: 40
+20999,Breaking the Sound Barrier
 21000,Normal: Insane Difficulty
 21001,Heroic: Insane Difficulty
 21002,Mythic: Insane Difficulty
@@ -11073,23 +11077,23 @@
 21053,Realm First! Heroic: On Top of the Mountain
 21054,Realm First! Mythic: On Top of the Mountain
 21055,Realm First! Ascended: On Top of the Mountain
-21056,Normal: D.D.C
-21057,Heroic: D.D.C
-21058,Mythic: D.D.C
-21059,Ascended: D.D.C
-21060,Realm First! Normal: D.D.C
-21061,Realm First! Heroic: D.D.C
-21062,Realm First! Mythic: D.D.C
-21063,Realm First! Ascended: D.D.C
-21064,SINSTALIS PLACEHOLDER ACHIEVEMENT
-21065,SINSTALIS PLACEHOLDER ACHIEVEMENT
-21066,SINSTALIS PLACEHOLDER ACHIEVEMENT
-21067,SINSTALIS PLACEHOLDER ACHIEVEMENT
-21068,SINSTALIS PLACEHOLDER ACHIEVEMENT
-21069,SINSTALIS PLACEHOLDER ACHIEVEMENT
+21056,Normal: The Infinite Reaver
+21057,Heroic: The Infinite Reaver
+21058,Mythic: The Infinite Reaver
+21059,Ascended: The Infinite Reaver
+21060,Realm First! Normal: The Infinite Reaver
+21061,Realm First! Heroic: The Infinite Reaver
+21062,Realm First! Mythic: The Infinite Reaver
+21063,Realm First! Ascended: The Infinite Reaver
+21064,Normal: Tempus Fugit
+21065,Heroic: Tempus Fugit
+21066,Mythic: Tempus Fugit
+21067,Ascended: Tempus Fugit
+21068,Realm First! Normal: Tempus Fugit
+21069,Realm First! Heroic: Tempus Fugit
 21070,SINSTALIS PLACEHOLDER ACHIEVEMENT
-21071,SINSTALIS PLACEHOLDER ACHIEVEMENT
-21072,SINSTALIS PLACEHOLDER ACHIEVEMENT
+21071,Realm First! Mythic: Tempus Fugit
+21072,Realm First! Ascended: Tempus Fugit
 21073,SINSTALIS PLACEHOLDER ACHIEVEMENT
 21074,SINSTALIS PLACEHOLDER ACHIEVEMENT
 21075,SINSTALIS PLACEHOLDER ACHIEVEMENT
@@ -12440,6 +12444,8 @@
 29411,Realm First! Nightmare Mode Mythic: Lady Sacrolash
 29412,Realm First! Nightmare Mode Mythic: M'uru
 29413,Realm First! Nightmare Mode Mythic: Kil'Jaeden
+32000,Vindictive Gladiator's Storm Dragon
+32001,Realm First! Vindictive Gladiator's Storm Dragon
 34230,Mythic: Patchwerk
 34231,Mythic: Grobbulus
 34232,Mythic: Gluth
@@ -12549,8 +12555,12 @@
 39998,Felforged Tier: 8
 39999,Felforged Tier: 9
 40000,Felforged Tier: 10
+40001,Achievement 43001
+40002,
 40006,Tier 1 Fel Challenge: Fleeting
 40007,Tier 2 Fel Challenge: Fleeting
+40008,The Cake is a Lie
+40009,
 40021,Tier 1 Fel Challenge: Slaughterhouse
 40022,Tier 1 Fel Challenge: Exterminator
 40023,Tier 1 Fel Challenge: Servant's Errand
@@ -13150,7 +13160,7 @@
 41096,Marks of Ascension (85000)
 41097,Marks of Ascension (90000)
 41098,Marks of Ascension (95000)
-41099,Marks of Ascension (100000)
+41099,Marks of Ascension (100000) 
 41100,Marks of Ascension (110000)
 41101,Marks of Ascension (120000)
 41102,Marks of Ascension (130000)
@@ -14110,6 +14120,13 @@
 42144,Unlocked Tier 3 Gloves Vendor (Mythic)
 42145,Unlocked Tier 3 Boots Vendor (Mythic)
 42146,Unlocked Tier 3 Ring Vendor (Mythic)
+43000,Achievement 43001
+43001,Achievement [43001]
+43002,TEST criteria Start_Event = 2
+43003,Achievement TEST
+44006,Deamus Example
+44007,
+44008,
 44402,Ascended: More Dots!
 44403,Ascended: Many Whelps! Handle It!
 44404,Ascended: She Deep Breaths More
@@ -17779,6 +17796,58 @@
 152068,Realm First! Prestige 8 Blood Elf Druid
 152069,Realm First! Prestige 9 Blood Elf Druid
 152070,Realm First! Prestige 10 Blood Elf Druid
+152071,Mysterious Cache
+152072,Mysterious Bone Pile
+152073,Mysterious Magic Tree
+152074,Mysterious Crystal
+152075,Mysterious Statue
+152076,Mysterious Bear Statue
+152077,Mysterious Divine Book
+152078,Mysterious Lightwell
+152079,Mysterious Pirate Cache
+152080,Mysterious Curse
+152081,Mysterious Spirit
+152082,Mysterious Flame Cache
+152083,Mysterious Seed
+152084,Mysterious Burning Stone
+152085,Mysterious Lantern
+152086,Mysterious Power
+152087,Mysterious Righteous Book
+152088,Mysterious Hammer
+152089,Mysterious Globe
+152090,Mysterious Weapon Box
+152091,Mysterious Crystal Ball
+152092,Mysterious Corpse
+152093,Mysterious Arcane Orb
+152094,Mysterious Artifact
+152095,Mysterious Blasphemy Book
+152096,Mysterious Barrel
+152097,Mysterious Body
+152098,Mysterious Cosmic Orb
+152099,Mysterious Mushroom
+152100,Mysterious Watering Can
+152101,Mysterious Flowers
+152102,Mysterious Box
+152103,Mysterious Burning Corpse
+152104,Mysterious Unstable Void
+152105,Mysterious Cauldron
+152106,Mysterious Water Orb
+152107,Mysterious Fire Orb
+152108,Mysterious Ring Of Fire
+152109,Mysterious Frozen Man
+152110,Mysterious Blade
+152111,Mysterious Weapon Rack
+152112,Mysterious Healing Book
+152113,Mysterious Prayer Book
+152114,Mysterious Arrow
+152115,Mysterious Footprint
+152116,Mysterious Arcanist Crystal
+152117,Mysterious Grizzly Statue
+152118,Mysterious Fel Crystal
+152119,Mysterious Sigil
+152120,Mysterious Red Crystal
+152121,Mysterious Swarm
+152122,Mysterious Relic
 224921,Realm First![Warrior] Ironman
 224922,Realm First![Warrior] Ironman - King of the Jungle
 224925,Realm First![Warrior] Hardcore
@@ -18307,6 +18376,10 @@
 254045,Lost Research
 254046,Realm First! Mystic Hunter
 254047,Realm First! Mystic Seeker
+254050,Realm First!The Enigmatic Explorer
+254051,Lost in Despair
+254052,Malestra Dusksoul
+254053,Stalker Ebonclaw
 319365,Realm First![Warrior] Ironman - High-Risk
 319366,Realm First![Paladin] Ironman - High-Risk
 319367,Realm First![Hunter] Ironman - High-Risk
@@ -19443,3 +19516,71 @@
 320854,Realm First! [Runemaster] Nightmare - D.E.H.T.A
 320855,Realm First! [Mastery] Nightmare - D.E.H.T.A
 320856,Realm First! [Conquest] Nightmare - D.E.H.T.A
+320857,[Warrior] Hardcore - MEGA Spellbind Roulette
+320858,[Paladin] Hardcore - MEGA Spellbind Roulette
+320859,[Hunter] Hardcore - MEGA Spellbind Roulette
+320860,[Rogue] Hardcore - MEGA Spellbind Roulette
+320861,[Priest] Hardcore - MEGA Spellbind Roulette
+320862,[Death Knight] Hardcore - MEGA Spellbind Roulette
+320863,[Shaman] Hardcore - MEGA Spellbind Roulette
+320864,[Mage] Hardcore - MEGA Spellbind Roulette
+320865,[Warlock] Hardcore - MEGA Spellbind Roulette
+320866,[Hero] Hardcore - MEGA Spellbind Roulette
+320867,[Druid] Hardcore - MEGA Spellbind Roulette
+320868,[Barbarian] Hardcore - MEGA Spellbind Roulette
+320869,[Witch Doctor] Hardcore - MEGA Spellbind Roulette
+320870,[Demon Hunter] Hardcore - MEGA Spellbind Roulette
+320871,[Witch Hunter] Hardcore - MEGA Spellbind Roulette
+320872,[Stormbringer] Hardcore - MEGA Spellbind Roulette
+320873,[Knight of Xoroth] Hardcore - MEGA Spellbind Roulette
+320874,[Guardian] Hardcore - MEGA Spellbind Roulette
+320875,[Monk] Hardcore - MEGA Spellbind Roulette
+320876,[Son of Arugal] Hardcore - MEGA Spellbind Roulette
+320877,[Ranger] Hardcore - MEGA Spellbind Roulette
+320878,[Chronomancer] Hardcore - MEGA Spellbind Roulette
+320879,[Necromancer] Hardcore - MEGA Spellbind Roulette
+320880,[Pyromancer] Hardcore - MEGA Spellbind Roulette
+320881,[Cultist] Hardcore - MEGA Spellbind Roulette
+320882,[Starcaller] Hardcore - MEGA Spellbind Roulette
+320883,[Sun Cleric] Hardcore - MEGA Spellbind Roulette
+320884,[Tinker] Hardcore - MEGA Spellbind Roulette
+320885,[Venomancer] Hardcore - MEGA Spellbind Roulette
+320886,[Reaper] Hardcore - MEGA Spellbind Roulette
+320887,[Primalist] Hardcore - MEGA Spellbind Roulette
+320888,[Runemaster] Hardcore - MEGA Spellbind Roulette
+320889,[Mastery] Hardcore - MEGA Spellbind Roulette
+320890,[Conquest] Hardcore - MEGA Spellbind Roulette
+320957,Realm First! [Warrior] Hardcore - MEGA Spellbind Roulette
+320958,Realm First! [Paladin] Hardcore - MEGA Spellbind Roulette
+320959,Realm First! [Hunter] Hardcore - MEGA Spellbind Roulette
+320960,Realm First! [Rogue] Hardcore - MEGA Spellbind Roulette
+320961,Realm First! [Priest] Hardcore - MEGA Spellbind Roulette
+320962,Realm First! [Death Knight] Hardcore - MEGA Spellbind Roulette
+320963,Realm First! [Shaman] Hardcore - MEGA Spellbind Roulette
+320964,Realm First! [Mage] Hardcore - MEGA Spellbind Roulette
+320965,Realm First! [Warlock] Hardcore - MEGA Spellbind Roulette
+320966,Realm First! [Hero] Hardcore - MEGA Spellbind Roulette
+320967,Realm First! [Druid] Hardcore - MEGA Spellbind Roulette
+320968,Realm First! [Barbarian] Hardcore - MEGA Spellbind Roulette
+320969,Realm First! [Witch Doctor] Hardcore - MEGA Spellbind Roulette
+320970,Realm First! [Demon Hunter] Hardcore - MEGA Spellbind Roulette
+320971,Realm First! [Witch Hunter] Hardcore - MEGA Spellbind Roulette
+320972,Realm First! [Stormbringer] Hardcore - MEGA Spellbind Roulette
+320973,Realm First! [Knight of Xoroth] Hardcore - MEGA Spellbind Roulette
+320974,Realm First! [Guardian] Hardcore - MEGA Spellbind Roulette
+320975,Realm First! [Monk] Hardcore - MEGA Spellbind Roulette
+320976,Realm First! [Son of Arugal] Hardcore - MEGA Spellbind Roulette
+320977,Realm First! [Ranger] Hardcore - MEGA Spellbind Roulette
+320978,Realm First! [Chronomancer] Hardcore - MEGA Spellbind Roulette
+320979,Realm First! [Necromancer] Hardcore - MEGA Spellbind Roulette
+320980,Realm First! [Pyromancer] Hardcore - MEGA Spellbind Roulette
+320981,Realm First! [Cultist] Hardcore - MEGA Spellbind Roulette
+320982,Realm First! [Starcaller] Hardcore - MEGA Spellbind Roulette
+320983,Realm First! [Sun Cleric] Hardcore - MEGA Spellbind Roulette
+320984,Realm First! [Tinker] Hardcore - MEGA Spellbind Roulette
+320985,Realm First! [Venomancer] Hardcore - MEGA Spellbind Roulette
+320986,Realm First! [Reaper] Hardcore - MEGA Spellbind Roulette
+320987,Realm First! [Primalist] Hardcore - MEGA Spellbind Roulette
+320988,Realm First! [Runemaster] Hardcore - MEGA Spellbind Roulette
+320989,Realm First! [Mastery] Hardcore - MEGA Spellbind Roulette
+320990,Realm First! [Conquest] Hardcore - MEGA Spellbind Roulette
