@@ -11,7 +11,7 @@ import wowchat.game.GamePackets
 import scala.collection.JavaConverters._
 import scala.reflect.runtime.universe.{TypeTag, typeOf}
 
-case class WowChatConfig(discord: DiscordConfig, wow: Wow, guildConfig: GuildConfig, channels: Seq[ChannelConfig], filters: Option[FiltersConfig], dashboard: GuildDashboardConfig)
+case class WowChatConfig(discord: DiscordConfig, wow: Wow, guildConfig: GuildConfig, channels: Seq[ChannelConfig], filters: Option[FiltersConfig], dashboard: GuildDashboardConfig, quirks: Quirks)
 case class DiscordConfig(token: String, enableDotCommands: Boolean, dotCommandsWhitelist: Set[String], enableCommandsChannels: Set[String], enableTagFailedNotifications: Boolean)
 case class Wow(locale: String, platform: Platform.Value, realmBuild: Option[Int], gameBuild: Option[Int], realmlist: RealmListConfig, account: Array[Byte], password: String, character: String, enableServerMotd: Boolean)
 case class RealmListConfig(name: String, host: String, port: Int)
@@ -22,6 +22,7 @@ case class WowChannelConfig(id: Option[Int], tp: Byte, channel: Option[String] =
 case class DiscordChannelConfig(channel: String, format: String, filters: Option[FiltersConfig])
 case class FiltersConfig(enabled: Boolean, patterns: Seq[String])
 case class GuildDashboardConfig(enabled: Boolean, channel: String)
+case class Quirks(sit: Boolean)
 
 object WowChatConfig extends GamePackets {
 
@@ -42,6 +43,7 @@ object WowChatConfig extends GamePackets {
     val channelsConf = config.getConfig("chat")
     val filtersConf = getConfigOpt(config, "filters")
     val guildDashboard = getConfigOpt(config, "guild-dashboard")
+    val quirks = getConfigOpt(config, "quirks")
 
     // we gotta load this first to initialize constants that change between versions :OMEGALUL:
     version = getOpt(wowConf, "version").getOrElse("1.12.1")
@@ -71,7 +73,8 @@ object WowChatConfig extends GamePackets {
       parseGuildConfig(guildConf),
       parseChannels(channelsConf),
       parseFilters(filtersConf),
-      parseGuildDashboardConfig(guildDashboard)
+      parseGuildDashboardConfig(guildDashboard),
+      parseQuirks(quirks)
     )
   }
 
@@ -204,6 +207,16 @@ object WowChatConfig extends GamePackets {
       GuildDashboardConfig(
         enabled = getOpt[Boolean](config, "channel").isDefined,
         channel = getOpt[String](config, "channel").getOrElse("")
+      )
+    })
+  }
+
+  private def parseQuirks(config: Option[Config]): Quirks = {
+    config.fold({
+      Quirks(sit = false)
+    })(config => {
+      Quirks(
+        sit = getOpt[Boolean](config, "sit").getOrElse(false)
       )
     })
   }

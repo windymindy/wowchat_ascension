@@ -3,8 +3,9 @@ package wowchat.game
 import java.nio.charset.Charset
 import java.security.MessageDigest
 
-import wowchat.common._
 import io.netty.buffer.{ByteBuf, PooledByteBufAllocator}
+
+import wowchat.common._
 
 import scala.util.Random
 
@@ -165,6 +166,154 @@ class GamePacketHandlerWotLK(realmId: Int, realmName: String, sessionKey: Array[
     } else {
       Some(ChatMessage(guid, tp, txt, channelName))
     }
+  }
+
+  override protected def parseWorldObjectUpdate(msg: Packet): WorldObjectUpdate = {
+    var create = Vector[WorldObjectUpdate.Object]()
+
+    val blockCount = msg.byteBuf.readIntLE
+    (0 until blockCount).foreach(
+      _ => {
+        val blockType = msg.byteBuf.readByte
+        blockType match {
+          case 0 => { // UPDATETYPE_VALUES
+            val guid = unpackGuid(msg.byteBuf)
+            parseWorldObjectUpdateFields(msg)
+          }
+          case 1 => { // UPDATETYPE_MOVEMENT
+            val guid = unpackGuid(msg.byteBuf)
+            parseWorldObjectUpdateMovement(msg)
+          }
+          case 2 | 3 => { // UPDATETYPE_CREATE_OBJECT, UPDATETYPE_CREATE_OBJECT2
+            val guid = unpackGuid(msg.byteBuf)
+            val type_ = msg.byteBuf.readByte
+            val movement = parseWorldObjectUpdateMovement(msg)
+            parseWorldObjectUpdateFields(msg)
+
+            val self_ = (movement.flags & 0x1) == 0x1 // UPDATEFLAG_SELF
+            create = create :+ WorldObjectUpdate.Object(guid, type_, self_, movement)
+          }
+          case 4 | 5 => { // UPDATETYPE_OUT_OF_RANGE_OBJECTS, UPDATETYPE_NEAR_OBJECTS
+            val count = msg.byteBuf.readIntLE
+            (0 until count).foreach(_ => { val guid = unpackGuid(msg.byteBuf) })
+          }
+          case unhandled => {
+            logger.error("Failed to parse world object update packet.")
+            return WorldObjectUpdate(Vector())
+          }
+        }
+      }
+    )
+    WorldObjectUpdate(create)
+  }
+
+  private def parseWorldObjectUpdateFields(msg: Packet): Unit = {
+    val count = msg.byteBuf.readByte
+    val counts = (0 until count).map(
+      _ => {
+        msg.byteBuf.readIntLE
+      }
+    )
+    counts.foreach(
+      counts_ => {
+        msg.byteBuf.skipBytes(4 * java.lang.Integer.bitCount(counts_))
+      }
+    )
+  }
+
+  private def parseWorldObjectUpdateMovement(msg: Packet): WorldObjectUpdate.Movement = {
+    var x: Float = 0
+    var y: Float = 0
+    var z: Float = 0
+
+    val flags = msg.byteBuf.readChar.reverseBytes
+    if ((flags & 0x20) == 0x20) { // UPDATEFLAG_LIVING
+      val flags_ = msg.byteBuf.readIntLE
+      val flags__ = msg.byteBuf.readChar.reverseBytes
+      msg.byteBuf.skipBytes(4)
+      x = msg.byteBuf.readFloatLE
+      y = msg.byteBuf.readFloatLE
+      z = msg.byteBuf.readFloatLE
+      msg.byteBuf.skipBytes(4)
+      if ((flags_ & 0x200) == 0x200) { // MOVEMENTFLAG_ONTRANSPORT
+        unpackGuid(msg.byteBuf)
+        msg.byteBuf.skipBytes(4 * 4)
+        msg.byteBuf.skipBytes(4)
+        msg.byteBuf.skipBytes(1)
+        if ((flags__ & 0x400) == 0x400) { // MOVEMENTFLAG2_INTERPOLATED_MOVEMENT
+          msg.byteBuf.skipBytes(4)
+        }
+      }
+      if (
+        (flags_ & 0x200000) == 0x200000 // MOVEMENTFLAG_SWIMMING
+        || (flags_ & 0x2000000) == 0x2000000 // MOVEMENTFLAG_FLYING
+        || (flags__ & 0x20) == 0x20 // MOVEMENTFLAG2_ALWAYS_ALLOW_PITCHING
+      ) {
+        msg.byteBuf.skipBytes(4)
+      }
+      msg.byteBuf.skipBytes(4)
+      if ((flags_ & 0x1000) == 0x1000) { // MOVEMENTFLAG_FALLING
+        msg.byteBuf.skipBytes(4 * 4)
+      }
+      if ((flags_ & 0x4000000) == 0x4000000) { // MOVEMENTFLAG_SPLINE_ELEVATION
+        msg.byteBuf.skipBytes(4)
+      }
+      msg.byteBuf.skipBytes(9 * 4)
+      if ((flags_ & 0x8000000) == 0x8000000) { // MOVEMENTFLAG_SPLINE_ENABLED
+        val flags___ = msg.byteBuf.readIntLE
+        if ((flags___ & 0x20000) == 0x20000) {
+          msg.byteBuf.skipBytes(4)
+        }
+        if ((flags___ & 0x10000) == 0x10000) {
+          msg.byteBuf.skipBytes(8)
+        }
+        if ((flags___ & 0x8000) == 0x8000) {
+          msg.byteBuf.skipBytes(3 * 4)
+        }
+        msg.byteBuf.skipBytes(3 * 4)
+        msg.byteBuf.skipBytes(2 * 4)
+        msg.byteBuf.skipBytes(2 * 4)
+        val splines = msg.byteBuf.readIntLE
+        (0 until splines).foreach(_ => { msg.byteBuf.skipBytes(3 * 4) })
+        msg.byteBuf.skipBytes(1)
+        msg.byteBuf.skipBytes(3 * 4)
+      }
+    } else {
+      if ((flags & 0x100) == 0x100) { // UPDATEFLAG_POSITION
+        unpackGuid(msg.byteBuf)
+        x = msg.byteBuf.readFloatLE
+        y = msg.byteBuf.readFloatLE
+        z = msg.byteBuf.readFloatLE
+        msg.byteBuf.skipBytes(4 * 4)
+        msg.byteBuf.skipBytes(4)
+      } else if ((flags & 0x40) == 0x40) { // UPDATEFLAG_STATIONARY_POSITION
+        x = msg.byteBuf.readFloatLE
+        y = msg.byteBuf.readFloatLE
+        z = msg.byteBuf.readFloatLE
+        msg.byteBuf.skipBytes(4)
+      }
+    }
+
+    if ((flags & 0x8) == 0x8) { // UPDATEFLAG_HIGHGUID
+      msg.byteBuf.skipBytes(4)
+    }
+    if ((flags & 0x10) == 0x10) { // UPDATEFLAG_LOWGUID
+      msg.byteBuf.skipBytes(4)
+    }
+    if ((flags & 0x4) == 0x4) { // UPDATEFLAG_HAS_TARGET
+      unpackGuid(msg.byteBuf)
+    }
+    if ((flags & 0x2) == 0x2) { // UPDATEFLAG_TRANSPORT
+      msg.byteBuf.skipBytes(4)
+    }
+    if ((flags & 0x80) == 0x80) { // UPDATEFLAG_VEHICLE
+      msg.byteBuf.skipBytes(2 * 4)
+    }
+    if ((flags & 0x200) == 0x200) { // UPDATEFLAG_ROTATION
+      msg.byteBuf.skipBytes(8)
+    }
+
+    WorldObjectUpdate.Movement(flags, x, y, z)
   }
 
   protected def handleAchievementEvent(guid: Long, achievementId: Int): Unit = {

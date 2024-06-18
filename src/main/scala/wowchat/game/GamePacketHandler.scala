@@ -23,6 +23,11 @@ case class NameQueryMessage(guid: Long, name: String, charClass: Byte)
 case class AuthChallengeMessage(sessionKey: Array[Byte], byteBuf: ByteBuf)
 case class CharEnumMessage(name: String, guid: Long, race: Byte, guildGuid: Long)
 case class GuildInfo(name: String, ranks: Map[Int, String])
+case class WorldObjectUpdate(create: Seq[WorldObjectUpdate.Object])
+object WorldObjectUpdate {
+  case class Object(guid: Long, type1: Byte, self1: Boolean, movement: Movement)
+  case class Movement(flags: Char, x: Float, y: Float, z: Float)
+}
 
 class GamePacketHandler(realmId: Int, realmName: String, sessionKey: Array[Byte], gameEventCallback: CommonConnectionCallback)
   extends ChannelInboundHandlerAdapter with GameCommandHandler with GamePackets with StrictLogging {
@@ -56,6 +61,9 @@ class GamePacketHandler(realmId: Int, realmName: String, sessionKey: Array[Byte]
   private val queuedChatMessages = new mutable.HashMap[Long, mutable.ListBuffer[ChatMessage]]
   private var wardenHandler: Option[WardenHandler] = None
   private var receivedCharEnum = false
+
+  private var triedToSit = false
+  private var worldPosition: Option[WorldObjectUpdate.Movement] = None
 
   override def channelInactive(ctx: ChannelHandlerContext): Unit = {
     executorService.shutdown()
@@ -271,6 +279,8 @@ class GamePacketHandler(realmId: Int, realmName: String, sessionKey: Array[Byte]
       case SMSG_WHO => handle_SMSG_WHO(msg)
       case SMSG_SERVER_MESSAGE => handle_SMSG_SERVER_MESSAGE(msg)
       case SMSG_INVALIDATE_PLAYER => handle_SMSG_INVALIDATE_PLAYER(msg)
+      case SMSG_INIT_WORLD_STATES => handle_SMSG_INIT_WORLD_STATES(msg)
+      case SMSG_UPDATE_OBJECT => handle_SMSG_UPDATE_OBJECT(msg)
 
       case SMSG_WARDEN_DATA => handle_SMSG_WARDEN_DATA(msg)
 
@@ -776,6 +786,59 @@ class GamePacketHandler(realmId: Int, realmName: String, sessionKey: Array[Byte]
 
   protected def parseInvalidatePlayer(msg: Packet): Long = {
     msg.byteBuf.readLongLE
+  }
+
+  private def handle_SMSG_INIT_WORLD_STATES(msg: Packet): Unit = {
+    if (!Global.config.quirks.sit) {
+      return
+    }
+
+    triedToSit = false;
+  }
+
+  private def handle_SMSG_UPDATE_OBJECT(msg: Packet): Unit = {
+    if (!Global.config.quirks.sit) {
+      return
+    }
+
+    if (triedToSit) {
+      return
+    }
+
+    val worldObjectUpdate = parseWorldObjectUpdate(msg)
+    worldObjectUpdate.create.find(_.self1).foreach(self_ => { worldPosition = Some(self_.movement) })
+    if (worldPosition.isEmpty) {
+      return
+    }
+
+    def closeTo(x: Float, y: Float, precision: Float): Boolean = {
+      if ((x - y).abs < precision) true else false
+    }
+
+    val position_ = worldPosition.get
+    val chair = worldObjectUpdate.create
+      .find(
+        i =>
+          ((i.type1 & 5) == 5 || (i.type1 & 7) == 7) // GAMEOBJECT_TYPE_GENERIC, GAMEOBJECT_TYPE_CHAIR
+          && closeTo(i.movement.x, position_.x, 1.0f)
+          && closeTo(i.movement.y, position_.y, 1.0f)
+          && closeTo(i.movement.z, position_.z, 1.0f)
+      )
+    if (chair.isEmpty) {
+      return
+    }
+    triedToSit = true
+    sendInteractWithObject(chair.get.guid)
+  }
+
+  protected def parseWorldObjectUpdate(msg: Packet): WorldObjectUpdate = {
+    WorldObjectUpdate(Vector())
+  }
+
+  private def sendInteractWithObject(guid: Long): Unit = {
+    val out = PooledByteBufAllocator.DEFAULT.buffer(8, 8)
+    out.writeLongLE(guid)
+    ctx.get.writeAndFlush(Packet(CMSG_GAMEOBJ_USE, out))
   }
 
   private def handle_SMSG_WARDEN_DATA(msg: Packet): Unit = {
