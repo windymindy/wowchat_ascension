@@ -6,7 +6,8 @@ import com.typesafe.scalalogging.StrictLogging
 import com.vdurmont.emoji.EmojiParser
 import net.dv8tion.jda.api.JDABuilder
 import net.dv8tion.jda.api.JDA.Status
-import net.dv8tion.jda.api.entities.{Activity, ChannelType, MessageType}
+import net.dv8tion.jda.api.EmbedBuilder
+import net.dv8tion.jda.api.entities.{Activity, ChannelType, Message, MessageEmbed, MessageType, TextChannel}
 import net.dv8tion.jda.api.entities.Activity.ActivityType
 import net.dv8tion.jda.api.events.{ShutdownEvent, StatusChangeEvent}
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent
@@ -18,6 +19,8 @@ import wowchat.game.GamePackets
 
 import scala.collection.JavaConverters._
 import scala.collection.mutable
+
+case class GuildDashboard(online: Boolean, guild: String, realm: String, members: Seq[(String, String, String)])
 
 class Discord(discordConnectionCallback: CommonConnectionCallback) extends ListenerAdapter
   with GamePackets with StrictLogging {
@@ -33,6 +36,11 @@ class Discord(discordConnectionCallback: CommonConnectionCallback) extends Liste
 
   private var lastStatus: Option[Activity] = None
   private var firstConnect = true
+
+  private var guildDashboardChannel: Option[TextChannel] = None
+  private var guildDashboardMessage: Option[Message] = None
+  private var guildDashboardMessageSending: Boolean = false
+  private var lastGuildDashboard: Option[GuildDashboard] = None
 
   def changeStatus(gameType: ActivityType, message: String): Unit = {
     lastStatus = Some(Activity.of(gameType, message))
@@ -116,6 +124,94 @@ class Discord(discordConnectionCallback: CommonConnectionCallback) extends Liste
       })
   }
 
+  def sendGuildDashboard(dashboard: GuildDashboard, timestamp: Long): Unit = {
+    if (guildDashboardChannel.isEmpty) {
+      return
+    }
+
+    if (guildDashboardMessage.isDefined) {
+      sendGuildDashboard_(dashboard, timestamp)
+      return
+    }
+
+    val title = s"${dashboard.guild} — ${dashboard.realm}"
+    guildDashboardChannel.get.getHistory.retrievePast(10).queue(
+      (messages) => {
+        guildDashboardMessage = messages.asScala.find(
+          message =>
+            message.getAuthor.getIdLong == jda.getSelfUser.getIdLong
+            && message.getEmbeds.size == 1
+            && title.equalsIgnoreCase(message.getEmbeds.get(0).getTitle)
+        )
+        sendGuildDashboard_(dashboard, timestamp)
+      }
+    )
+  }
+
+  def sendGuildDashboardDisconnected(timestamp: Long): Unit = {
+    if (lastGuildDashboard.isEmpty || !lastGuildDashboard.get.online) {
+      return
+    }
+    val dashboard = lastGuildDashboard.get.copy(online = false)
+    sendGuildDashboard(dashboard, timestamp)
+  }
+
+  private def sendGuildDashboard_(dashboard: GuildDashboard, timestamp: Long): Unit = {
+    if (lastGuildDashboard.isDefined && lastGuildDashboard.get.equals(dashboard)) {
+      return
+    }
+    lastGuildDashboard = Some(dashboard)
+
+    val title = s"${dashboard.guild} — ${dashboard.realm}"
+    val timestamp1 = timestamp / 1000L
+    val description =
+      if (dashboard.online)
+        s":green_circle: <t:$timestamp1:R>"
+      else
+        s":red_circle: <t:$timestamp1:R>"
+    val heading =
+      if (dashboard.online)
+        s"${dashboard.members.size} online"
+      else
+        s"${dashboard.members.size} were online"
+    val names = if (dashboard.members.nonEmpty) dashboard.members.map(i => i._1).mkString("\n") else "—"
+    val levels = if (dashboard.members.nonEmpty) dashboard.members.map(i => i._2).mkString("\n") else "—"
+    val areas = if (dashboard.members.nonEmpty) dashboard.members.map(i => i._3).mkString("\n") else "—"
+    val message = new EmbedBuilder()
+      .setTitle(title)
+      .setDescription(description)
+      .addField("", heading, false)
+      .addField("Name", names, true)
+      .addField("Level", levels, true)
+      .addField("Area", areas, true)
+      .build()
+
+    if (guildDashboardMessage.isDefined) {
+      guildDashboardMessage.get.editMessageEmbeds(java.util.Collections.singleton(message)).queue(
+        _ => {},
+        _ => {
+          logger.error("The guild dashboard message is gone.")
+          guildDashboardMessage = None
+          lastGuildDashboard = None
+        }
+      )
+    } else {
+      if (guildDashboardMessageSending) {
+        return
+      }
+      guildDashboardMessageSending = true
+      guildDashboardChannel.get.sendMessageEmbeds(message).queue(
+        message => {
+          guildDashboardMessageSending = false
+          guildDashboardMessage = Some(message)
+        },
+        _ => {
+          lastGuildDashboard = None
+        }
+      )
+    }
+  }
+
   override def onStatusChange(event: StatusChangeEvent): Unit = {
     event.getNewStatus match {
       case Status.CONNECTED =>
@@ -126,6 +222,9 @@ class Discord(discordConnectionCallback: CommonConnectionCallback) extends Liste
         Global.discordToWow.clear
         Global.wowToDiscord.clear
         Global.guildEventsToDiscord.clear
+        guildDashboardChannel = None
+        guildDashboardMessage = None
+        guildDashboardMessageSending = false
 
         // getNext seq of needed channels from config
         val configChannels = Global.config.channels.map(channelConfig => {
@@ -190,6 +289,15 @@ class Discord(discordConnectionCallback: CommonConnectionCallback) extends Liste
                 Global.guildEventsToDiscord.addBinding(notificationKey, channel)
             }
         })
+
+        if (Global.config.dashboard.enabled) {
+          guildDashboardChannel = discordTextChannels.find(
+            channel => {
+              Global.config.dashboard.channel.equalsIgnoreCase(channel.getName) ||
+              Global.config.dashboard.channel == channel.getId
+            }
+          )
+        }
 
         if (Global.discordToWow.nonEmpty || Global.wowToDiscord.nonEmpty) {
           if (firstConnect) {

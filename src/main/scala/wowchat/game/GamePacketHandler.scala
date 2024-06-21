@@ -10,6 +10,7 @@ import com.typesafe.scalalogging.StrictLogging
 import io.netty.buffer.{ByteBuf, PooledByteBufAllocator}
 import io.netty.channel.{ChannelFuture, ChannelHandlerContext, ChannelInboundHandlerAdapter}
 import wowchat.commands.{CommandHandler, WhoResponse}
+import wowchat.discord.GuildDashboard
 
 import scala.collection.mutable
 import scala.collection.mutable.ListBuffer
@@ -127,6 +128,26 @@ class GamePacketHandler(realmId: Int, realmName: String, sessionKey: Array[Byte]
 
   protected def updateGuildiesOnline: Unit = {
     Global.discord.changeGuildStatus(getGuildiesOnlineMessage(true))
+  }
+
+  protected def updateGuildDashboard: Unit = {
+    if (!Global.config.dashboard.enabled) {
+      return
+    }
+    if (guildInfo == null) {
+      return
+    }
+    val members = guildRoster.valuesIterator
+      .filter(guildMember => guildMember.isOnline && !guildMember.name.equalsIgnoreCase(Global.config.wow.character))
+      .toSeq
+      .sortBy(_.name)
+      .map(
+        guildMember => {
+          (guildMember.name, guildMember.level.toString, GameResources.AREA.getOrElse(guildMember.zoneId, "Unknown Zone"))
+        }
+      )
+    val dashboard = GuildDashboard(true, guildInfo.name, realmName, members)
+    Global.discord.sendGuildDashboard(dashboard, lastRequestedGuildRoster)
   }
 
   protected def queryGuildName: Unit = {
@@ -531,6 +552,7 @@ class GamePacketHandler(realmId: Int, realmName: String, sessionKey: Array[Byte]
     guildRoster.clear
     guildRoster ++= parseGuildRoster(msg)
     updateGuildiesOnline
+    updateGuildDashboard
   }
 
   protected def parseGuildRoster(msg: Packet): Map[Long, GuildMember] = {

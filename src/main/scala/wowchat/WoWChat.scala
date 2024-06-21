@@ -13,7 +13,7 @@ import scala.io.Source
 
 object WoWChat extends StrictLogging {
 
-  private val RELEASE = "v1.3.8"
+  private val RELEASE = "v2.2.1"
 
   def main(args: Array[String]): Unit = {
     logger.info(s"Running WoWChat - $RELEASE")
@@ -65,6 +65,7 @@ object WoWChat extends StrictLogging {
       def doReconnect: Unit = {
         Global.group.shutdownGracefully()
         Global.discord.changeRealmStatus("Connecting...")
+        Global.discord.sendGuildDashboardDisconnected(System.currentTimeMillis())
         val delay = reconnectDelay.getNext
         logger.info(s"Disconnected from server! Reconnecting in $delay seconds...")
 
