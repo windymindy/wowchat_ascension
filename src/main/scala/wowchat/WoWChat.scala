@@ -25,11 +25,13 @@ object WoWChat extends StrictLogging {
     }
     Global.config = WowChatConfig(confFile)
 
+    /*
     try {
       checkForNewVersion
     } catch {
       case e: Exception => logger.error("Failed to check for a new version!", e)
     }
+    */
 
     val gameConnectionController: CommonConnectionCallback = new CommonConnectionCallback {
 
@@ -82,7 +84,9 @@ object WoWChat extends StrictLogging {
 
   private def checkForNewVersion = {
     // This is JSON, but I really just didn't want to import a full blown JSON library for one string.
-    val data = Source.fromURL("https://api.github.com/repos/fjaros/wowchat/releases/latest").mkString
+    val request = Source.fromURL("https://api.github.com/repos/fjaros/wowchat/releases/latest")
+    val data = request.mkString
+    request.close
     val regex = "\"tag_name\":\"(.+?)\",".r
     val repoTagName = regex
       .findFirstMatchIn(data)
