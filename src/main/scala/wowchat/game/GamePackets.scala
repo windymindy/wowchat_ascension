@@ -24,6 +24,7 @@ trait GamePackets {
   val SMSG_MESSAGECHAT = 0x96
   val CMSG_JOIN_CHANNEL = 0x97
   val SMSG_CHANNEL_NOTIFY = 0x99
+  val SMSG_CHAT_PLAYER_NOT_FOUND = 0x02A9
 
   val SMSG_UPDATE_OBJECT = 0xA9
 
@@ -55,6 +56,7 @@ trait GamePackets {
     lazy val CHAT_MSG_OFFICER = if (WowChatConfig.getExpansion == WowExpansion.Vanilla) 0x04.toByte else 0x05.toByte
     lazy val CHAT_MSG_YELL = if (WowChatConfig.getExpansion == WowExpansion.Vanilla) 0x05.toByte else 0x06.toByte
     lazy val CHAT_MSG_WHISPER = if (WowChatConfig.getExpansion == WowExpansion.Vanilla) 0x06.toByte else 0x07.toByte
+    lazy val CHAT_MSG_WHISPER_INFORM = if (WowChatConfig.getExpansion == WowExpansion.Vanilla) 0x07.toByte else 0x09.toByte
     lazy val CHAT_MSG_EMOTE = if (WowChatConfig.getExpansion == WowExpansion.Vanilla) 0x08.toByte else 0x0A.toByte
     lazy val CHAT_MSG_TEXT_EMOTE = if (WowChatConfig.getExpansion == WowExpansion.Vanilla) 0x09.toByte else 0x0B.toByte
     lazy val CHAT_MSG_CHANNEL = if (WowChatConfig.getExpansion == WowExpansion.Vanilla) 0x0E.toByte else 0x11.toByte
@@ -64,6 +66,7 @@ trait GamePackets {
     lazy val CHAT_MSG_CHANNEL_LIST = if (WowChatConfig.getExpansion == WowExpansion.Vanilla) 0x11.toByte else 0x14.toByte
     lazy val CHAT_MSG_CHANNEL_NOTICE = if (WowChatConfig.getExpansion == WowExpansion.Vanilla) 0x12.toByte else 0x15.toByte
     lazy val CHAT_MSG_CHANNEL_NOTICE_USER = if (WowChatConfig.getExpansion == WowExpansion.Vanilla) 0x13.toByte else 0x16.toByte
+    lazy val CHAT_MSG_IGNORED = if (WowChatConfig.getExpansion == WowExpansion.Vanilla) 0x16.toByte else 0x19.toByte
 
     lazy val CHAT_MSG_ACHIEVEMENT = if (WowChatConfig.getExpansion == WowExpansion.MoP) 0x2E.toByte else 0x30.toByte
     lazy val CHAT_MSG_GUILD_ACHIEVEMENT = if (WowChatConfig.getExpansion == WowExpansion.MoP) 0x2F.toByte else 0x31.toByte
@@ -77,6 +80,7 @@ trait GamePackets {
         case "yell" => CHAT_MSG_YELL
         case "emote" => CHAT_MSG_EMOTE
         case "whisper" => CHAT_MSG_WHISPER
+        case "whispering" => CHAT_MSG_WHISPER_INFORM
         case "channel" | "custom" => CHAT_MSG_CHANNEL
         case _ => -1
       }).toByte
@@ -89,6 +93,7 @@ trait GamePackets {
         case CHAT_MSG_OFFICER => "Officer"
         case CHAT_MSG_YELL => "Yell"
         case CHAT_MSG_WHISPER => "Whisper"
+        case CHAT_MSG_WHISPER_INFORM => "Whispering"
         case CHAT_MSG_EMOTE | CHAT_MSG_TEXT_EMOTE => "Emote"
         case CHAT_MSG_CHANNEL => "Channel"
         case CHAT_MSG_SYSTEM => "System"

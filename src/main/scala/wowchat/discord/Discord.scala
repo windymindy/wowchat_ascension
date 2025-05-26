@@ -55,7 +55,7 @@ class Discord(discordConnectionCallback: CommonConnectionCallback) extends Liste
     changeStatus(ActivityType.DEFAULT, message)
   }
 
-  def sendMessageFromWow(from: Option[String], message: String, wowType: Byte, wowChannel: Option[String]): Unit = {
+  def sendMessageFromWow(from: Option[String], message: String, wowType: Byte, wowChannel: Option[String], format: Option[String]): Unit = {
     Global.wowToDiscord.get((wowType, wowChannel.map(_.toLowerCase))).foreach(discordChannels => {
       val parsedLinks = messageResolver.resolveEmojis(messageResolver.stripColorCoding(messageResolver.stripTextureCoding(messageResolver.resolveLinks(message))))
 
@@ -71,8 +71,7 @@ class Discord(discordConnectionCallback: CommonConnectionCallback) extends Liste
             .replace("_", "\\_")
             .replace("~", "\\~")
 
-          val formatted = channelConfig
-            .format
+          val formatted = format.getOrElse(channelConfig.format)
             .replace("%time", Global.getTime)
             .replace("%user", from.getOrElse(""))
             .replace("%message", parsedResolvedTags)
@@ -358,11 +357,12 @@ class Discord(discordConnectionCallback: CommonConnectionCallback) extends Liste
       Global.discordToWow
         .get(channelName)
         .fold(Global.discordToWow.get(channelId))(Some(_))
-        .foreach(_.foreach(channelConfig => {
-          val finalMessages = if (shouldSendDirectly(message)) {
-            Seq(message)
+        .foreach(_.foreach(channelConfig_ => {
+          val (finalMessages, channelConfig) = if (shouldSendDirectly(message)) {
+            (Seq(message), channelConfig_)
           } else {
-            splitUpMessage(channelConfig.format, effectiveName, message)
+            val (message_, channelConfig) = preprocessMessage(message, channelConfig_)
+            (splitUpMessage(channelConfig.format, effectiveName, message_), channelConfig)
           }
 
           finalMessages.foreach(finalMessage => {
@@ -408,6 +408,27 @@ class Discord(discordConnectionCallback: CommonConnectionCallback) extends Liste
 
   def sanitizeMessage(message: String): String = {
     EmojiParser.parseToAliases(message, EmojiParser.FitzpatrickAction.REMOVE)
+  }
+
+  def preprocessMessage(message: String, channelConfig: WowChannelConfig): (String, WowChannelConfig) = {
+    if (channelConfig.tp != ChatEvents.CHAT_MSG_WHISPER) {
+      return (message, channelConfig)
+    }
+    if (!message.regionMatches(true, 0, "/w ", 0, "/w ".length)) {
+      return ("", channelConfig)
+    }
+    val message1 = message.substring("/w ".length)
+    val firstSpace = message1.indexOf(' ')
+    if (firstSpace == -1) {
+      return ("", channelConfig)
+    }
+    val target = message1.substring(0, firstSpace)
+    if (target.length < 3 || target.length > 12 || !target.matches("[a-zA-Z]+") || target.equalsIgnoreCase(Global.config.wow.character)) {
+      return ("", channelConfig)
+    }
+    val message2 = message1.substring(firstSpace + 1)
+    val channelConfig_ = channelConfig.copy(channel = Some(target))
+    (message2, channelConfig_)
   }
 
   def splitUpMessage(format: String, name: String, message: String): Seq[String] = {

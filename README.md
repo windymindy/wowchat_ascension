@@ -90,7 +90,7 @@ Even though this bot does not do anything malicious, some servers may not like a
      * **direction**: How do you want to relay each channel, put either
      **wow_to_discord**, **discord_to_wow**, or **both**.
      * **wow** section:
-       * In type put one of, **Say**, **Guild**, **Officer**, **Emote**, **Yell**, **System**, **Whisper**, **Channel**. This is the type of chat the Bot will read for this section.
+       * In type put one of, **Say**, **Guild**, **Officer**, **Channel**, **System**, **Emote**, **Yell**, **Whisper**, **Whispering**. This is the type of chat the Bot will read for this section.
          * If you put **type=Channel**, you also must provide a **channel=name of channel** value.
        * In format put how you want to display the message, supported replacable values are **%time**, **%user**, **%message**, and **%channel** if above type is **Channel**.
        * **filters**: See filters section. If a channel configuration has this section, it will override the global filters and use these instead for this channel.

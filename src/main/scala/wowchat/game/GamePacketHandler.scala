@@ -18,7 +18,7 @@ import scala.util.Random
 
 case class Player(name: String, charClass: Byte)
 case class GuildMember(name: String, isOnline: Boolean, charClass: Byte, level: Byte, zoneId: Int, lastLogoff: Float)
-case class ChatMessage(guid: Long, tp: Byte, message: String, channel: Option[String] = None)
+case class ChatMessage(guid: Long, tp: Byte, message: String, channel: Option[String] = None, format: Option[String] = None)
 case class NameQueryMessage(guid: Long, name: String, charClass: Byte)
 case class AuthChallengeMessage(sessionKey: Array[Byte], byteBuf: ByteBuf)
 case class CharEnumMessage(name: String, guid: Long, race: Byte, guildGuid: Long)
@@ -71,7 +71,7 @@ class GamePacketHandler(realmId: Int, realmName: String, sessionKey: Array[Byte]
     gameEventCallback.disconnected
     Global.game = None
     if (inWorld) {
-      Global.discord.sendMessageFromWow(None, "Disconnected from server!", ChatEvents.CHAT_MSG_SYSTEM, None)
+      Global.discord.sendMessageFromWow(None, "Disconnected from server!", ChatEvents.CHAT_MSG_SYSTEM, None, None)
     }
     super.channelInactive(ctx)
   }
@@ -274,6 +274,7 @@ class GamePacketHandler(realmId: Int, realmName: String, sessionKey: Array[Byte]
       case SMSG_GUILD_EVENT => handle_SMSG_GUILD_EVENT(msg)
       case SMSG_GUILD_ROSTER => handle_SMSG_GUILD_ROSTER(msg)
       case SMSG_MESSAGECHAT => handle_SMSG_MESSAGECHAT(msg)
+      case SMSG_CHAT_PLAYER_NOT_FOUND => handle_SMSG_CHAT_PLAYER_NOT_FOUND(msg)
       case SMSG_CHANNEL_NOTIFY => handle_SMSG_CHANNEL_NOTIFY(msg)
       case SMSG_NOTIFICATION => handle_SMSG_NOTIFICATION(msg)
       case SMSG_WHO => handle_SMSG_WHO(msg)
@@ -358,7 +359,7 @@ class GamePacketHandler(realmId: Int, realmName: String, sessionKey: Array[Byte]
       .remove(nameQueryMessage.guid)
       .foreach(messages => {
         messages.foreach(message => {
-          Global.discord.sendMessageFromWow(Some(nameQueryMessage.name), message.message, message.tp, message.channel)
+          Global.discord.sendMessageFromWow(Some(nameQueryMessage.name), message.message, message.tp, message.channel, message.format)
         })
         playerRoster += nameQueryMessage.guid -> Player(nameQueryMessage.name, nameQueryMessage.charClass)
     })
@@ -596,9 +597,22 @@ class GamePacketHandler(realmId: Int, realmName: String, sessionKey: Array[Byte]
     parseChatMessage(msg).foreach(sendChatMessage)
   }
 
+  protected def handle_SMSG_CHAT_PLAYER_NOT_FOUND(msg: Packet): Unit = {
+    logger.debug(s"RECV chat player not found: ${ByteUtils.toHexString(msg.byteBuf, true, true)}")
+    parseChatPlayerNotFound(msg).foreach(target => {
+      Global.discord.sendMessageFromWow(
+        Some(target),
+        "",
+        ChatEvents.CHAT_MSG_WHISPER_INFORM,
+        None,
+        Some("No player named '%user' is currently playing.")
+      )
+    })
+  }
+
   protected def sendChatMessage(chatMessage: ChatMessage): Unit = {
     if (chatMessage.guid == 0) {
-      Global.discord.sendMessageFromWow(None, chatMessage.message, chatMessage.tp, None)
+      Global.discord.sendMessageFromWow(None, chatMessage.message, chatMessage.tp, None, chatMessage.format)
     } else {
       playerRoster.get(chatMessage.guid).fold({
         queuedChatMessages.get(chatMessage.guid).fold({
@@ -606,7 +620,7 @@ class GamePacketHandler(realmId: Int, realmName: String, sessionKey: Array[Byte]
           sendNameQuery(chatMessage.guid)
         })(_ += chatMessage)
       })(name => {
-        Global.discord.sendMessageFromWow(Some(name.name), chatMessage.message, chatMessage.tp, chatMessage.channel)
+        Global.discord.sendMessageFromWow(Some(name.name), chatMessage.message, chatMessage.tp, chatMessage.channel, chatMessage.format)
       })
     }
   }
@@ -651,6 +665,10 @@ class GamePacketHandler(realmId: Int, realmName: String, sessionKey: Array[Byte]
     val txt = msg.byteBuf.readCharSequence(txtLen - 1, Charset.forName("UTF-8")).toString
 
     Some(ChatMessage(guid, tp, txt, channelName))
+  }
+
+  protected def parseChatPlayerNotFound(msg: Packet): Option[String] = {
+    Some(msg.readString)
   }
 
   private def handle_SMSG_CHANNEL_NOTIFY(msg: Packet): Unit = {
@@ -793,7 +811,7 @@ class GamePacketHandler(realmId: Int, realmName: String, sessionKey: Array[Byte]
       return
     }
 
-    triedToSit = false;
+    triedToSit = false
   }
 
   private def handle_SMSG_UPDATE_OBJECT(msg: Packet): Unit = {

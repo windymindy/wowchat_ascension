@@ -135,6 +135,13 @@ class GamePacketHandlerWotLK(realmId: Int, realmName: String, sessionKey: Array[
       return None
     }
 
+    if (tp == ChatEvents.CHAT_MSG_IGNORED) {
+      if (!Global.wowToDiscord.contains((ChatEvents.CHAT_MSG_WHISPER_INFORM, None))) {
+        return None
+      }
+      return Some(ChatMessage(guid, ChatEvents.CHAT_MSG_WHISPER_INFORM, "is ignoring you", None, Some("%user %message.")))
+    }
+
     msg.byteBuf.skipBytes(4)
 
     if (msg.id == SMSG_GM_MESSAGECHAT) {
@@ -149,7 +156,7 @@ class GamePacketHandlerWotLK(realmId: Int, realmName: String, sessionKey: Array[
     }
 
     // ignore if from an unhandled channel - unless it is a guild achievement message
-    if (tp != ChatEvents.CHAT_MSG_GUILD_ACHIEVEMENT && !Global.wowToDiscord.contains((tp, channelName.map(_.toLowerCase)))) {
+    if (tp != ChatEvents.CHAT_MSG_GUILD_ACHIEVEMENT && tp != ChatEvents.CHAT_MSG_SYSTEM && !Global.wowToDiscord.contains((tp, channelName.map(_.toLowerCase)))) {
       return None
     }
 
@@ -162,10 +169,25 @@ class GamePacketHandlerWotLK(realmId: Int, realmName: String, sessionKey: Array[
 
     if (tp == ChatEvents.CHAT_MSG_GUILD_ACHIEVEMENT) {
       handleAchievementEvent(guid, msg.byteBuf.readIntLE)
-      None
-    } else {
-      Some(ChatMessage(guid, tp, txt, channelName))
+      return None
     }
+
+    if (tp == ChatEvents.CHAT_MSG_SYSTEM) {
+      val txt_ = txt.toLowerCase
+      if (
+        (
+          txt_.contains("is away from keyboard")
+          || txt_.contains("does not wish to be disturbed")
+        )
+        && Global.wowToDiscord.contains((ChatEvents.CHAT_MSG_WHISPER_INFORM, None))
+      ) {
+        return Some(ChatMessage(0, ChatEvents.CHAT_MSG_WHISPER_INFORM, txt, None, Some("%message.")))
+      } else if (!Global.wowToDiscord.contains((tp, channelName.map(_.toLowerCase)))) {
+        return None
+      }
+    }
+
+    Some(ChatMessage(guid, tp, txt, channelName))
   }
 
   override protected def parseWorldObjectUpdate(msg: Packet): WorldObjectUpdate = {
