@@ -7,7 +7,8 @@ import wowchat.discord.Discord
 import wowchat.game.GameConnector
 import wowchat.realm.{RealmConnectionCallback, RealmConnector}
 import com.typesafe.scalalogging.StrictLogging
-import io.netty.channel.nio.NioEventLoopGroup
+import io.netty.channel.MultiThreadIoEventLoopGroup
+import io.netty.channel.nio.NioIoHandler
 
 import scala.io.Source
 
@@ -39,7 +40,7 @@ object WoWChat extends StrictLogging {
       private val reconnectDelay = new ReconnectDelay
 
       override def connect: Unit = {
-        Global.group = new NioEventLoopGroup
+        Global.group = new MultiThreadIoEventLoopGroup(NioIoHandler.newFactory())
 
         val realmConnector = new RealmConnector(new RealmConnectionCallback {
           override def success(host: String, port: Int, realmName: String, realmId: Int, sessionKey: Array[Byte]): Unit = {

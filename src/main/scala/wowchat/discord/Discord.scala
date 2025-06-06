@@ -6,13 +6,16 @@ import com.typesafe.scalalogging.StrictLogging
 import com.vdurmont.emoji.EmojiParser
 import net.dv8tion.jda.api.JDABuilder
 import net.dv8tion.jda.api.JDA.Status
-import net.dv8tion.jda.api.EmbedBuilder
-import net.dv8tion.jda.api.entities.{Activity, ChannelType, Message, MessageEmbed, MessageType, TextChannel}
+import net.dv8tion.jda.api.entities.channel.concrete.TextChannel
+import net.dv8tion.jda.api.entities.{Activity, Message, MessageType}
+import net.dv8tion.jda.api.entities.channel.ChannelType
 import net.dv8tion.jda.api.entities.Activity.ActivityType
-import net.dv8tion.jda.api.events.{ShutdownEvent, StatusChangeEvent}
+import net.dv8tion.jda.api.events.StatusChangeEvent
+import net.dv8tion.jda.api.events.session.ShutdownEvent
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent
 import net.dv8tion.jda.api.hooks.ListenerAdapter
 import net.dv8tion.jda.api.requests.{CloseCode, GatewayIntent}
+import net.dv8tion.jda.api.EmbedBuilder
 import net.dv8tion.jda.api.utils.MemberCachePolicy
 import net.dv8tion.jda.api.utils.cache.CacheFlag
 import wowchat.game.GamePackets
@@ -26,9 +29,10 @@ class Discord(discordConnectionCallback: CommonConnectionCallback) extends Liste
   with GamePackets with StrictLogging {
 
   private val jda = JDABuilder
-    .createDefault(Global.config.discord.token, GatewayIntent.GUILD_MESSAGES, GatewayIntent.GUILD_MEMBERS, GatewayIntent.GUILD_PRESENCES, GatewayIntent.GUILD_EMOJIS)
+    .createDefault(Global.config.discord.token, GatewayIntent.GUILD_MESSAGES, GatewayIntent.MESSAGE_CONTENT, GatewayIntent.GUILD_EXPRESSIONS, GatewayIntent.GUILD_MEMBERS, GatewayIntent.GUILD_PRESENCES)
     .setMemberCachePolicy(MemberCachePolicy.ALL)
     .disableCache(CacheFlag.VOICE_STATE)
+    .disableCache(CacheFlag.SCHEDULED_EVENTS)
     .addEventListeners(this)
     .build
 
@@ -52,7 +56,7 @@ class Discord(discordConnectionCallback: CommonConnectionCallback) extends Liste
   }
 
   def changeRealmStatus(message: String): Unit = {
-    changeStatus(ActivityType.DEFAULT, message)
+    changeStatus(ActivityType.CUSTOM_STATUS, message)
   }
 
   def sendMessageFromWow(from: Option[String], message: String, wowType: Byte, wowChannel: Option[String], format: Option[String]): Unit = {
