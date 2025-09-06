@@ -2,7 +2,7 @@ package wowchat.realm
 
 import wowchat.common._
 import com.typesafe.scalalogging.StrictLogging
-import io.netty.buffer.{ByteBuf, PooledByteBufAllocator}
+import io.netty.buffer.{ByteBuf, PooledByteBufAllocator, Unpooled}
 import io.netty.channel.{ChannelHandlerContext, ChannelInboundHandlerAdapter}
 
 private[realm] case class RealmList(name: String, address: String, realmId: Byte)
@@ -69,6 +69,7 @@ class RealmPacketHandler(realmConnectionCallback: RealmConnectionCallback)
     //  need to add a separate expansion enumeration element, but the checks are all over the place.
     handshake = new HandshakeAscension
 
+    val version_ = "0025_3851_11B0_5968.".getBytes("utf-8") // todo put into settings
     val version = WowChatConfig.getVersion.split("\\.").map(_.toByte)
     val platformString = Global.config.wow.platform match {
       case Platform.Windows => "Win"
@@ -79,29 +80,49 @@ class RealmPacketHandler(realmConnectionCallback: RealmConnectionCallback)
     val password = Global.config.wow.password.getBytes("utf-8")
     val (password_encrypted, password_encrypted_tag) = handshake.encrypt_password(password)
 
-    val data = PooledByteBufAllocator.DEFAULT.buffer(351, 423)
-    data.writeByte(8) // protocol version
-    data.writeShortLE(348 + password.length) // size
-    data.writeIntLE(ByteUtils.stringToInt("WoW"))
-    data.writeByte(version(0))
-    data.writeByte(version(1))
-    data.writeByte(version(2))
-    data.writeShortLE(WowChatConfig.getRealmBuild)
-    data.writeIntLE(ByteUtils.stringToInt("x86"))
-    data.writeIntLE(ByteUtils.stringToInt(platformString))
-    data.writeIntLE(ByteUtils.stringToInt(localeString))
-    data.writeIntLE(0)
-    data.writeByte(127)
-    data.writeByte(0)
-    data.writeByte(0)
-    data.writeByte(1)
-    data.writeBytes(login)
-    data.writeZero(255 - login.length) // todo check configuration input length before starting
-    data.writeBytes(handshake.key_public)
-    data.writeBytes(handshake.random_nonce)
-    data.writeBytes(password_encrypted_tag)
-    data.writeIntLE(password.length)
-    data.writeBytes(password_encrypted)
+    val data_1_ = new Array[Byte](605 + password.length)
+    val data_1 = Unpooled.wrappedBuffer(data_1_).resetReaderIndex.resetWriterIndex
+    data_1.writeBytes(version_)
+    data_1.writeZero(256 - version_.length)
+    data_1.writeIntLE(ByteUtils.stringToInt("WoW"))
+    data_1.writeByte(version(0))
+    data_1.writeByte(version(1))
+    data_1.writeByte(version(2))
+    data_1.writeShortLE(WowChatConfig.getRealmBuild)
+    data_1.writeIntLE(ByteUtils.stringToInt("x86"))
+    data_1.writeIntLE(ByteUtils.stringToInt(platformString))
+    data_1.writeIntLE(ByteUtils.stringToInt(localeString))
+    data_1.writeIntLE(180) // ?
+    data_1.writeByte(127)
+    data_1.writeByte(0)
+    data_1.writeByte(0)
+    data_1.writeByte(1)
+    data_1.writeBytes(login)
+    data_1.writeZero(256 - login.length) // todo check configuration input length before starting
+    data_1.writeBytes(handshake.key_public)
+    data_1.writeBytes(handshake.random_nonce_1)
+    data_1.writeBytes(password_encrypted_tag)
+    data_1.writeIntLE(password.length)
+    data_1.writeBytes(password_encrypted)
+
+    val data_2_ = new Array[Byte](8)
+    val data_2 = Unpooled.wrappedBuffer(data_2_).resetReaderIndex.resetWriterIndex
+    data_2.writeByte(RealmPackets.CMD_AUTH_LOGON_CHALLENGE)
+    data_2.writeByte(8) // protocol version
+    data_2.writeShortLE(605 + 16 + 4 + password.length)
+    data_2.writeBytes(java.util.HexFormat.of.parseHex("fcf4f4e6"))
+
+    val data_1__ = data_1_.dropRight(4) // been feeling extra fancy? or maybe just a bug?
+    val (data_3, data_3_tag) = handshake.encrypt_packet(data_1__, data_2_)
+    val mask = 0xed.toByte
+    val data_4 = data_3.map(v => (v ^ mask).toByte)
+
+    val data = PooledByteBufAllocator.DEFAULT.buffer(625 + 72, 1024)
+    data.writeBytes(data_2.skipBytes(1))
+    data.writeBytes(data_3_tag)
+    data.writeBytes(data_4)
+    data.writeBytes(data_1_.takeRight(4))
+
     ctx.writeAndFlush(Packet(RealmPackets.CMD_AUTH_LOGON_CHALLENGE, data))
 
     super.channelActive(ctx)
