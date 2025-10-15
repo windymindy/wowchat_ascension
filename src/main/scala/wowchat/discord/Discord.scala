@@ -7,14 +7,14 @@ import com.vdurmont.emoji.EmojiParser
 import net.dv8tion.jda.api.JDABuilder
 import net.dv8tion.jda.api.JDA.Status
 import net.dv8tion.jda.api.entities.channel.concrete.TextChannel
-import net.dv8tion.jda.api.entities.{Activity, Message, MessageType}
+import net.dv8tion.jda.api.entities.{Activity, Message, MessageEmbed, MessageType}
 import net.dv8tion.jda.api.entities.channel.ChannelType
 import net.dv8tion.jda.api.entities.Activity.ActivityType
 import net.dv8tion.jda.api.events.StatusChangeEvent
 import net.dv8tion.jda.api.events.session.ShutdownEvent
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent
 import net.dv8tion.jda.api.hooks.ListenerAdapter
-import net.dv8tion.jda.api.requests.{CloseCode, GatewayIntent}
+import net.dv8tion.jda.api.requests.{CloseCode, GatewayIntent, RestAction}
 import net.dv8tion.jda.api.EmbedBuilder
 import net.dv8tion.jda.api.utils.MemberCachePolicy
 import net.dv8tion.jda.api.utils.cache.CacheFlag
@@ -41,10 +41,7 @@ class Discord(discordConnectionCallback: CommonConnectionCallback) extends Liste
   private var lastStatus: Option[Activity] = None
   private var firstConnect = true
 
-  private var guildDashboardChannel: Option[TextChannel] = None
-  private var guildDashboardMessage: Option[Message] = None
-  private var guildDashboardMessageSending: Boolean = false
-  private var lastGuildDashboard: Option[GuildDashboard] = None
+  private var guildDashboard = new GuildDashboard_
 
   def changeStatus(gameType: ActivityType, message: String): Unit = {
     lastStatus = Some(Activity.of(gameType, message))
@@ -128,91 +125,11 @@ class Discord(discordConnectionCallback: CommonConnectionCallback) extends Liste
   }
 
   def sendGuildDashboard(dashboard: GuildDashboard, timestamp: Long): Unit = {
-    if (guildDashboardChannel.isEmpty) {
-      return
-    }
-
-    if (guildDashboardMessage.isDefined) {
-      sendGuildDashboard_(dashboard, timestamp)
-      return
-    }
-
-    val title = s"${dashboard.guild} — ${dashboard.realm}"
-    guildDashboardChannel.get.getHistory.retrievePast(10).queue(
-      (messages) => {
-        guildDashboardMessage = messages.asScala.find(
-          message =>
-            message.getAuthor.getIdLong == jda.getSelfUser.getIdLong
-            && message.getEmbeds.size == 1
-            && title.equalsIgnoreCase(message.getEmbeds.get(0).getTitle)
-        )
-        sendGuildDashboard_(dashboard, timestamp)
-      }
-    )
+    guildDashboard.send(dashboard, timestamp)
   }
 
   def sendGuildDashboardDisconnected(timestamp: Long): Unit = {
-    if (lastGuildDashboard.isEmpty || !lastGuildDashboard.get.online) {
-      return
-    }
-    val dashboard = lastGuildDashboard.get.copy(online = false)
-    sendGuildDashboard(dashboard, timestamp)
-  }
-
-  private def sendGuildDashboard_(dashboard: GuildDashboard, timestamp: Long): Unit = {
-    if (lastGuildDashboard.isDefined && lastGuildDashboard.get.equals(dashboard)) {
-      return
-    }
-    lastGuildDashboard = Some(dashboard)
-
-    val title = s"${dashboard.guild} — ${dashboard.realm}"
-    val timestamp1 = timestamp / 1000L
-    val description =
-      if (dashboard.online)
-        s":green_circle: <t:$timestamp1:R>"
-      else
-        s":red_circle: <t:$timestamp1:R>"
-    val heading =
-      if (dashboard.online)
-        s"${dashboard.members.size} online"
-      else
-        s"${dashboard.members.size} were online"
-    val names = if (dashboard.members.nonEmpty) dashboard.members.map(i => i._1).mkString("\n") else "—"
-    val levels = if (dashboard.members.nonEmpty) dashboard.members.map(i => i._2).mkString("\n") else "—"
-    val areas = if (dashboard.members.nonEmpty) dashboard.members.map(i => i._3).mkString("\n") else "—"
-    val message = new EmbedBuilder()
-      .setTitle(title)
-      .setDescription(description)
-      .addField("", heading, false)
-      .addField("Name", names, true)
-      .addField("Level", levels, true)
-      .addField("Area", areas, true)
-      .build()
-
-    if (guildDashboardMessage.isDefined) {
-      guildDashboardMessage.get.editMessageEmbeds(java.util.Collections.singleton(message)).queue(
-        _ => {},
-        _ => {
-          logger.error("The guild dashboard message is gone.")
-          guildDashboardMessage = None
-          lastGuildDashboard = None
-        }
-      )
-    } else {
-      if (guildDashboardMessageSending) {
-        return
-      }
-      guildDashboardMessageSending = true
-      guildDashboardChannel.get.sendMessageEmbeds(message).queue(
-        message => {
-          guildDashboardMessageSending = false
-          guildDashboardMessage = Some(message)
-        },
-        _ => {
-          lastGuildDashboard = None
-        }
-      )
-    }
+    guildDashboard.sendDisconnected(timestamp)
   }
 
   override def onStatusChange(event: StatusChangeEvent): Unit = {
@@ -225,9 +142,7 @@ class Discord(discordConnectionCallback: CommonConnectionCallback) extends Liste
         Global.discordToWow.clear
         Global.wowToDiscord.clear
         Global.guildEventsToDiscord.clear
-        guildDashboardChannel = None
-        guildDashboardMessage = None
-        guildDashboardMessageSending = false
+        guildDashboard.clear()
 
         // getNext seq of needed channels from config
         val configChannels = Global.config.channels.map(channelConfig => {
@@ -294,7 +209,7 @@ class Discord(discordConnectionCallback: CommonConnectionCallback) extends Liste
         })
 
         if (Global.config.dashboard.enabled) {
-          guildDashboardChannel = discordTextChannels.find(
+          guildDashboard.channel = discordTextChannels.find(
             channel => {
               Global.config.dashboard.channel.equalsIgnoreCase(channel.getName) ||
               Global.config.dashboard.channel == channel.getId
@@ -474,5 +389,267 @@ class Discord(discordConnectionCallback: CommonConnectionCallback) extends Liste
           formatted
         }
       })
+  }
+
+  private class GuildDashboard_ {
+
+    var channel: Option[TextChannel] = None
+    private var published: Option[Vector[Message]] = None
+    private var last: Option[GuildDashboard] = None
+    private var pending: Option[(GuildDashboard, Long)] = None
+    private var sending: Boolean = false
+
+    def clear(): Unit = {
+      channel = None
+      published = None
+      sending = false
+    }
+
+    def send(dashboard: GuildDashboard, timestamp: Long): Unit = {
+      if (channel.isEmpty) {
+        return
+      }
+
+      if (published.isEmpty) {
+        if (!throttle_(dashboard, timestamp)) {
+          return
+        }
+        findPublished(dashboard, checkThrottled, checkThrottled)
+        return
+      }
+
+      if (last.isDefined && last.get.equals(dashboard)) {
+        return
+      }
+      if (!throttle(dashboard, timestamp)) {
+        return
+      }
+      publish(
+        dashboard, timestamp,
+        () => {
+          last = Some(dashboard)
+          checkThrottled()
+        },
+        () => {
+          published = None
+          checkThrottled()
+        }
+      )
+    }
+
+    def sendDisconnected(timestamp: Long): Unit = {
+      if (last.isEmpty || !last.get.online) {
+        return
+      }
+      val dashboard = last.get.copy(online = false)
+      sendGuildDashboard(dashboard, timestamp)
+    }
+
+    private def throttle(dashboard: GuildDashboard, timestamp: Long): Boolean = {
+      if (sending) {
+        pending = Some(dashboard, timestamp)
+        return false
+      }
+      sending = true
+      true
+    }
+
+    private def throttle_(dashboard: GuildDashboard, timestamp: Long): Boolean = {
+      pending = Some(dashboard, timestamp)
+      val result = !sending
+      sending = true
+      result
+    }
+
+    private def checkThrottled(): Unit = {
+      sending = false
+      if (pending.isEmpty) {
+        return
+      }
+      val (dashboard, timestamp) = pending.get
+      pending = None
+      send(dashboard, timestamp)
+    }
+
+    private def findPublished(dashboard: GuildDashboard, done: () => Unit, failed: () => Unit): Unit = {
+      val title = s"${dashboard.guild} — ${dashboard.realm}"
+      channel.get.getHistory.retrievePast(10).queue(
+        (messages: java.util.List[Message]) => {
+          val result = messages.asScala
+            .reverse
+            .dropWhile(
+              message =>
+                message.getAuthor.getIdLong != jda.getSelfUser.getIdLong
+                  || message.getEmbeds.size != 1
+                  || !title.equalsIgnoreCase(message.getEmbeds.get(0).getTitle)
+            ).takeWhile(
+            message =>
+              message.getAuthor.getIdLong == jda.getSelfUser.getIdLong
+                && message.getEmbeds.size == 1
+                && (title.equalsIgnoreCase(message.getEmbeds.get(0).getTitle) || message.getEmbeds.get(0).getTitle == null)
+                && message.getEmbeds.get(0).getDescription.nonEmpty
+          ).toVector
+          published = Some(result)
+          done()
+        },
+        (error: Throwable) => {
+          logger.error("Failed to send the guild dashboard:", error)
+          failed()
+        }
+      )
+    }
+
+    private def publish(dashboard: GuildDashboard, timestamp: Long, done: () => Unit, failed: () => Unit): Unit = {
+      val messages = published.get
+      val messages_ = format(dashboard, timestamp, messages.size)
+      if (messages.size == messages_.size) {
+        val edit = messages.zip(messages_).map(
+          (i) => {
+            val message = i._1
+            val message_ = i._2
+            message.editMessageEmbeds(message_)
+          }
+        )
+        new Actions().queue(
+          edit,
+          done,
+          (error) => {
+            logger.error("Failed to send the guild dashboard:", error)
+            failed()
+          }
+        )
+      } else {
+        published = None
+        val delete_ = messages.map(i => i.delete())
+        val send_ = () => {
+          val send_ = messages_.map(message_ => channel.get.sendMessageEmbeds(message_))
+          new Actions().queue(
+            send_,
+            done,
+            (error) => {
+              logger.error("Failed to send the guild dashboard:", error)
+              failed()
+            }
+          )
+        }
+        if (!delete_.isEmpty) {
+          new Actions().queue(
+            delete_,
+            send_,
+            (_) => {
+              send_()
+            }
+          )
+        } else {
+          send_()
+        }
+      }
+    }
+
+    private def format(value: GuildDashboard, timestamp: Long, previous: Int): Seq[MessageEmbed] = {
+      val group = 13
+      val block = 5
+
+      def pad1(value: String, width: Int): String = {
+        value.padTo(width, '\u00a0')
+      }
+
+      def pad2(value: String, width: Int): String = {
+        value.padTo(width, '\u3164')
+      }
+
+      def color_pad(value: String, width: Int): String = {
+        if (value.length < 2)
+          return value.padTo(width, '\u00a0')
+        // https://gist.github.com/kkrypt0nn/a02506f3712ff2d1c8ca7c9e0aed7c06
+        // https://message.style/app/tools/colored-text
+        val colors = Vector(
+          /*"30",*/ "31", "32", "33", "34", "35", "36", "37",
+          /*"40;30",*/ "40;31", "40;32", "40;33", "40;34", "40;35", "40;36", "40;37",
+          "41;30", /*"41;31", "41;32", "41;33", "41;34", "41;35", "41;36",*/ "41;37",
+          /*"42;30", "42;31", "42;32", "42;33", "42;34", "42;35", "42;36", "42;37",*/
+          /*"43;30", "43;31", "43;32", "43;33", "43;34", "43;35", "43;36", "43;37",*/
+          /*"44;30", "44;31", "44;32", "44;33", "44;34", "44;35", "44;36", "44;37",*/
+          /*"45;30", "45;31", "45;32", "45;33", "45;34", "45;35", "45;36", "45;37",*/
+          "46;30", "46;31", /*"46;32", "46;33", "46;34",*/ "46;35", /*"46;36",*/ "46;37",
+          "47;30", "47;31", "47;32", "47;33", "47;34", "47;35", "47;36", /*"47;37"*/
+        )
+        val color = colors((value(0) + value(value.length - 1) + value.length) % colors.length)
+        "\u001b[" + color + "m" + value + "\u001b[0m" + "".padTo(width - value.length, '\u00a0')
+      }
+
+      val title = s"${value.guild} — ${value.realm}"
+      var description =
+        if (value.online)
+          s":green_circle: ${value.members.size} online"
+        else
+          s":red_circle: ${value.members.size} were online"
+      description = pad2(description, 28) + s"<t:${timestamp / 1000L}:R>"
+      val members_header = pad2("", 3) + "**Name**" + pad2("", 3) + "**Level**" + pad2("", 3) + "**Area**"
+      val members = value.members.grouped(group).padTo(1, Seq(("—", "", ""))).map(
+        i => {
+          // name 12 + color 12 + space 1 + level 3 + area 24 = 52
+          val members = i
+            .map(i => color_pad(i._1.take(12), 13) + pad1(i._2.take(3), 3) + pad1(i._3.take(24), 24))
+            .padTo(group, "\u3164")
+            .mkString("\n")
+          s"```ansi\n${members}\n```"
+        }
+      ).grouped(block).toSeq
+      var result = Vector.empty[MessageEmbed]
+      members.take(1).foreach(
+        (members) => {
+          val result_ = new EmbedBuilder()
+            .setTitle(title)
+            .setDescription(description + "\n\n" + members_header + "\n")
+          members.foreach((members) => {
+            result_.appendDescription(members)
+          })
+          result = result :+ result_.build()
+        }
+      )
+      members.drop(1).foreach(
+        (members) => {
+          val result_ = new EmbedBuilder()
+          members.foreach((members) => {
+            result_.appendDescription(members)
+          })
+          result = result :+ result_.build()
+        }
+      )
+      result.padTo(previous, new EmbedBuilder().setDescription(pad2("", 1)).build())
+    }
+  }
+
+  private class Actions {
+
+    private var instance: AnyRef = _
+
+    def queue[T](actions: Seq[RestAction[T]], done: () => Unit, failed: (Throwable) => Unit): Unit = {
+      val instance_ = new AnyRef
+      instance = instance_
+      var count = actions.size
+      actions.foreach(
+        (i) => {
+          i.queue(
+            (_: T) => {
+              if (instance == instance_) {
+                count = count - 1
+                if (count <= 0) {
+                  instance = null
+                  done()
+                }
+              }
+            },
+            (error: Throwable) => {
+              if (instance == instance_) {
+                instance = null
+                failed(error)
+              }
+            }
+          )
+        }
+      )
+    }
   }
 }
