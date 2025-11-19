@@ -28,6 +28,7 @@ class GamePacketHandlerWotLK(realmId: Int, realmName: String, sessionKey: Array[
     0x09, 0xFA, 0x13, 0xB8, 0x42, 0x01, 0xDD, 0xC4, 0x31, 0x6E, 0x31, 0x0B, 0xCA, 0x5F, 0x7B, 0x7B,
     0x1C, 0x3E, 0x9E, 0xE1, 0x93, 0xC8, 0x8D
   ).map(_.toByte)
+  //override protected val addonInfo = java.util.HexFormat.of.parseHex("9e020000789c75d2c14ec3300cc6f1f0145c780fce744853a5e542c319b9c9476a3571aa341d6cd7bdd19e107103c93dff2c5bfacb8fc6982ef1f54a357cbcf889714686b4f7de3ce4afa793f9e71542ba6cbe7111d53aaa23ea3a9565875b4bf864a4605938d3a20db10496a82e38508204aa1a953c523b95b86b0edf4dc1578c5b74a5a455c1a33d4ca4173ada61ab675c744c9765d265e3143a9259d55ed6055e3fd837e4a1f8196d2f8f255f8b2a6fc44105f75b54bfe738c3925084d6db9519fa13b84a01c3cc29ed310bea5fbbdf9ee30fe33bc901")
 
   override protected def parseAuthChallenge(msg: Packet): AuthChallengeMessage = {
     val account = Global.config.wow.account.getBytes("utf-8")
@@ -38,6 +39,7 @@ class GamePacketHandlerWotLK(realmId: Int, realmName: String, sessionKey: Array[
     val out = PooledByteBufAllocator.DEFAULT.buffer(200, 400)
     out.writeShortLE(0)
     out.writeIntLE(WowChatConfig.getGameBuild)
+    //out.writeIntLE(12344)
     out.writeIntLE(0)
     out.writeBytes(account)
     out.writeByte(0)
@@ -47,6 +49,7 @@ class GamePacketHandlerWotLK(realmId: Int, realmName: String, sessionKey: Array[
     out.writeIntLE(0) // wotlk
     out.writeIntLE(realmId) // wotlk
     out.writeLongLE(3) // wotlk
+    //out.writeLongLE(2)
 
     val md = MessageDigest.getInstance("SHA1")
     md.update(account)
