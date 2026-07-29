@@ -12,7 +12,7 @@ import scala.util.Random
 class GamePacketHandlerWotLK(realmId: Int, realmName: String, sessionKey: Array[Byte], gameEventCallback: CommonConnectionCallback)
   extends GamePacketHandlerTBC(realmId, realmName, sessionKey, gameEventCallback) with GamePacketsWotLK {
 
-  override protected val addonInfo: Array[Byte] = Array(
+  /*override protected val addonInfo: Array[Byte] = Array(
     0x9E, 0x02, 0x00, 0x00, 0x78, 0x9C, 0x75, 0xD2, 0xC1, 0x6A, 0xC3, 0x30, 0x0C, 0xC6, 0x71, 0xEF,
     0x29, 0x76, 0xE9, 0x9B, 0xEC, 0xB4, 0xB4, 0x50, 0xC2, 0xEA, 0xCB, 0xE2, 0x9E, 0x8B, 0x62, 0x7F,
     0x4B, 0x44, 0x6C, 0x39, 0x38, 0x4E, 0xB7, 0xF6, 0x3D, 0xFA, 0xBE, 0x65, 0xB7, 0x0D, 0x94, 0xF3,
@@ -27,8 +27,8 @@ class GamePacketHandlerWotLK(realmId: Int, realmName: String, sessionKey: Array[
     0xE2, 0xA0, 0x82, 0xFB, 0x2D, 0xAA, 0xDF, 0x73, 0x9C, 0x60, 0x49, 0x68, 0x80, 0xD6, 0xDB, 0xE5,
     0x09, 0xFA, 0x13, 0xB8, 0x42, 0x01, 0xDD, 0xC4, 0x31, 0x6E, 0x31, 0x0B, 0xCA, 0x5F, 0x7B, 0x7B,
     0x1C, 0x3E, 0x9E, 0xE1, 0x93, 0xC8, 0x8D
-  ).map(_.toByte)
-  //override protected val addonInfo = java.util.HexFormat.of.parseHex("9e020000789c75d2c14ec3300cc6f1f0145c780fce744853a5e542c319b9c9476a3571aa341d6cd7bdd19e107103c93dff2c5bfacb8fc6982ef1f54a357cbcf889714686b4f7de3ce4afa793f9e71542ba6cbe7111d53aaa23ea3a9565875b4bf864a4605938d3a20db10496a82e38508204aa1a953c523b95b86b0edf4dc1578c5b74a5a455c1a33d4ca4173ada61ab675c744c9765d265e3143a9259d55ed6055e3fd837e4a1f8196d2f8f255f8b2a6fc44105f75b54bfe738c3925084d6db9519fa13b84a01c3cc29ed310bea5fbbdf9ee30fe33bc901")
+  ).map(_.toByte)*/
+  override protected val addonInfo = java.util.HexFormat.of.parseHex("9e020000789c75d2c14ec3300cc6f1f0145c780fce744853a5e542c319b9c9476a3571aa341d6cd7bdd19e107103c93dff2c5bfacb8fc6982ef1f54a357cbcf889714686b4f7de3ce4afa793f9e71542ba6cbe7111d53aaa23ea3a9565875b4bf864a4605938d3a20db10496a82e38508204aa1a953c523b95b86b0edf4dc1578c5b74a5a455c1a33d4ca4173ada61ab675c744c9765d265e3143a9259d55ed6055e3fd837e4a1f8196d2f8f255f8b2a6fc44105f75b54bfe738c3925084d6db9519fa13b84a01c3cc29ed310bea5fbbdf9ee30fe33bc901")
 
   override protected def parseAuthChallenge(msg: Packet): AuthChallengeMessage = {
     val account = Global.config.wow.account.getBytes("utf-8")

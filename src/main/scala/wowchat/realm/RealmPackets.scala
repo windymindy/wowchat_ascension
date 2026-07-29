@@ -27,7 +27,8 @@ object RealmPackets {
     val WOW_FAIL_EXPIRED = 0x14
     val WOW_FAIL_NO_GAME_ACCOUNT = 0x15
     val WOW_FAIL_CHARGEBACK = 0x16
-    val WOW_FAIL_INTERNET_GAME_ROOM_WITHOUT_BNET = 0x17
+    //val WOW_FAIL_INTERNET_GAME_ROOM_WITHOUT_BNET = 0x17
+    val WOW_FAIL_NEW_DEVICE = 0x17
     val WOW_FAIL_GAME_ACCOUNT_LOCKED = 0x18
     val WOW_FAIL_UNLOCKABLE_LOCK = 0x19
     val WOW_FAIL_CONVERSION_REQUIRED = 0x20
@@ -47,6 +48,7 @@ object RealmPackets {
         case WOW_FAIL_VERSION_INVALID | WOW_FAIL_VERSION_UPDATE => "Invalid game version for this server!"
         case WOW_FAIL_SUSPENDED => "Your account has been suspended!"
         case WOW_FAIL_FAIL_NOACCESS => "Login failed! You do not have access to this server!"
+        case WOW_FAIL_NEW_DEVICE => "Approve new device login! Please check your email inbox for a message from Ascension and click the verification link to complete the process."
         case x => f"Failed to login to realm server! Error code: $x%02X"
       }
     }

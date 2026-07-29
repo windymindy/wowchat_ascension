@@ -343,7 +343,9 @@ trait GamePackets {
 
     def getId(channel: String) = {
       channel.takeWhile(_ != ' ').toLowerCase match {
+        case "ascension" => GENERAL
         case "general" => GENERAL
+        case "newcomers" => TRADE
         case "trade" => TRADE
         case "localdefense" => LOCAL_DEFENSE
         case "worlddefense" => WORLD_DEFENSE
